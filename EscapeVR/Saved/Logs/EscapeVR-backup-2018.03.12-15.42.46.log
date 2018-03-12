@@ -1,0 +1,1700 @@
+﻿Log file open, 03/12/18 14:27:40
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: EscapeVR
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-70864414) SRandInit(-70864414).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.185234
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Binaries/Win64/UE4Editor-EscapeVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.12-19.27.42:672][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.12-19.27.42:672][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.12-19.27.42:688][  0]LogInit: Computer: DESKTOP-5EK2DIL
+[2018.03.12-19.27.42:688][  0]LogInit: User: samfo
+[2018.03.12-19.27.42:688][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.12-19.27.42:688][  0]LogInit: High frequency timer resolution =2.742186 MHz
+[2018.03.12-19.27.42:688][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.03.12-19.27.42:688][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.12-19.27.42:688][  0]LogMemory: Process Physical Memory: 281.02 MB used, 281.02 MB peak
+[2018.03.12-19.27.42:688][  0]LogMemory: Process Virtual Memory: 276.51 MB used, 276.51 MB peak
+[2018.03.12-19.27.42:688][  0]LogMemory: Physical Memory: 9952.14 MB used,  6304.81 MB free, 16256.96 MB total
+[2018.03.12-19.27.42:688][  0]LogMemory: Virtual Memory: 741.31 MB used,  6304.81 MB free, 134217728.00 MB total
+[2018.03.12-19.27.43:375][  0]LogInit: Using OS detected language (en-US).
+[2018.03.12-19.27.43:375][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.12-19.27.43:380][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.12-19.27.43:869][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.12-19.27.44:133][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.12-19.27.44:179][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.03.12-19.27.44:179][  0]LogD3D11RHI:       8081/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.03.12-19.27.44:189][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.03.12-19.27.44:189][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.03.12-19.27.44:191][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.12-19.27.44:191][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.12-19.27.44:191][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.12-19.27.44:200][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.12-19.27.44:201][  0]LogD3D11RHI:     GPU DeviceId: 0x1ba1 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.12-19.27.44:201][  0]LogWindows: EnumDisplayDevices:
+[2018.03.12-19.27.44:201][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.03.12-19.27.44:201][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.03.12-19.27.44:201][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.03.12-19.27.44:201][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.12-19.27.44:201][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.03.12-19.27.44:201][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.12-19.27.44:201][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.12-19.27.44:201][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.12-19.27.44:202][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.03.12-19.27.44:202][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.12-19.27.44:202][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.12-19.27.44:202][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2018.03.12-19.27.44:237][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.12-19.27.44:298][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.12-19.27.44:348][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Intermediate/Shaders/WorkingDirectory/18440/).
+[2018.03.12-19.27.44:348][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/samfo/AppData/Local/Temp/UnrealShaderWorkingDir/0B339D09466C41A53AB2F6A917E4F40B/'.
+[2018.03.12-19.27.44:348][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.12-19.27.45:287][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.12-19.27.45:343][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.12-19.27.45:399][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.12-19.27.45:453][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.12-19.27.45:509][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.12-19.27.45:564][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.12-19.27.45:619][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.12-19.27.45:674][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.12-19.27.45:722][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.12-19.27.45:776][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.12-19.27.45:828][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.12-19.27.45:881][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.12-19.27.45:934][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.12-19.27.45:985][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.12-19.27.46:096][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.12-19.27.46:096][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.12-19.27.46:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.12-19.27.46:191][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.12-19.27.46:283][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.12-19.27.46:310][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.12-19.27.46:364][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.12-19.27.46:416][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.12-19.27.46:468][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.12-19.27.46:520][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.12-19.27.46:520][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.12-19.27.47:061][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.12-19.27.47:144][  0]LogDerivedDataCache: Loaded boot cache 0.08s 78MB C:/Users/samfo/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.12-19.27.47:144][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/samfo/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.12-19.27.47:144][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.12-19.27.47:144][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.12-19.27.47:144][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.12-19.27.47:144][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.12-19.27.47:159][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.12-19.27.47:171][  0]LogDerivedDataCache: Using Local data cache path C:/Users/samfo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.12-19.27.47:181][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.12-19.27.47:182][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.12-19.27.47:182][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.12-19.27.47:182][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.12-19.27.47:556][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.12-19.27.47:929][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.12-19.27.47:975][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.12-19.27.47:975][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.12-19.27.47:975][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.12-19.27.47:975][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.12-19.27.47:975][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.12-19.27.48:010][  0]LogNetVersion: EscapeVR , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1782577536)
+[2018.03.12-19.27.48:195][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2018.03.12-19.27.48:714][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.067194 seconds
+[2018.03.12-19.27.48:720][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.12-19.27.48:720][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.03.12-19.27.48:720][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.12-19.27.48:775][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.12-19.27.51:610][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.12-19.27.51:656][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.12-19.27.52:483][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.12-19.27.52:929][  0]SourceControl: Source control is disabled
+[2018.03.12-19.27.52:929][  0]SourceControl: Source control is disabled
+[2018.03.12-19.27.52:984][  0]SourceControl: Source control is disabled
+[2018.03.12-19.27.53:037][  0]SourceControl: Source control is disabled
+[2018.03.12-19.27.53:892][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.12-19.27.54:178][  0]LogOcInput: OculusInput pre-init called
+[2018.03.12-19.27.54:508][  0]LogEngine: Initializing Engine...
+[2018.03.12-19.27.54:510][  0]LogHMD: Oculus plugin initialized. Version: 4.18.3-3832480+++UE4+Release-4.18, OVRPlugin: 1.19.0
+[2018.03.12-19.27.54:713][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.12-19.27.54:713][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.12-19.27.54:850][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.12-19.27.54:883][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.03.12-19.27.54:932][  0]LogInit: FAudioDevice initialized.
+[2018.03.12-19.27.54:988][  0]LogDerivedDataCache: Saved boot cache 0.06s 78MB C:/Users/samfo/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.12-19.27.55:005][  0]LogInit: Texture streaming: Enabled
+[2018.03.12-19.27.55:109][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.12-19.27.55:247][  0]LogInit: Transaction tracking system initialized
+[2018.03.12-19.27.55:572][  0]BlueprintLog: New page: Editor Load
+[2018.03.12-19.27.56:495][  0]LocalizationService: Localization service is disabled
+[2018.03.12-19.27.57:269][  0]LogConsoleResponse: Display: 
+[2018.03.12-19.27.57:462][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.12-19.27.57:462][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.12-19.27.57:462][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.12-19.27.57:468][  0]LogFileCache: Scanning file cache for directory 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/' took 0.01s
+[2018.03.12-19.27.58:740][  0]SourceControl: Source control is disabled
+[2018.03.12-19.27.58:740][  0]Cmd: MAP LOAD FILE="../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.12-19.27.58:740][  0]LightingResults: New page: Lighting Build
+[2018.03.12-19.27.58:784][  0]MapCheck: New page: Map Check
+[2018.03.12-19.27.58:784][  0]LightingResults: New page: Lighting Build
+[2018.03.12-19.27.58:977][  0]LogAIModule: Creating AISystem for world Hospital
+[2018.03.12-19.27.58:986][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.12-19.27.58:996][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.12-19.27.59:046][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49.764ms to complete.
+[2018.03.12-19.27.59:046][  0]LogFileHelpers: Loading map 'Hospital' took 0.306
+[2018.03.12-19.27.59:270][  0]LogCollectionManager: Loaded 0 collections in 0.002209 seconds
+[2018.03.12-19.27.59:355][  0]LogFileCache: Scanning file cache for directory 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Collections/' took 0.01s
+[2018.03.12-19.27.59:355][  0]LogFileCache: Scanning file cache for directory 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Developers/samfo/Collections/' took 0.01s
+[2018.03.12-19.27.59:355][  0]LogFileCache: Scanning file cache for directory 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Collections/' took 0.01s
+[2018.03.12-19.27.59:355][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.12-19.27.59:364][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2365 classes and 523 folders.
+[2018.03.12-19.27.59:435][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.03.12-19.27.59:477][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.03.12-19.27.59:591][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.03.12-19.27.59:591][  0]LogLoad: (Engine Initialization) Total time: 20.34 seconds
+[2018.03.12-19.27.59:592][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.12-19.27.59:592][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.12-19.27.59:617][  0]LogOcInput: OculusInput is initialized
+[2018.03.12-19.27.59:635][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.12-19.27.59:636][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.12-19.27.59:640][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.12-19.27.59:642][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.12-19.27.59:736][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.12-19.27.59:755][  1]LogAssetRegistry: Asset discovery search completed in 11.5814 seconds
+[2018.03.12-19.27.59:758][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.12-19.27.59:758][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000089 seconds (updated 0 objects)
+[2018.03.12-19.27.59:787][  2]LogRenderer: Reallocating scene render targets to support 804x360 Format 10 NumSamples 1 (Frame:1).
+[2018.03.12-19.28.01:821][108]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:110).
+[2018.03.12-19.28.39:283][342]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/creepy_girl/Animation-test/ThirdPersonIdle.ThirdPersonIdle
+[2018.03.12-19.28.39:285][342]LogAnimationCompression: Recompressing (AnimSequence /Game/creepy_girl/Animation-test/ThirdPersonIdle.ThirdPersonIdle) using current/default (AnimCompress_RemoveLinearKeys_8) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.03.12-19.28.43:718][342]LogTexture: Display: Building textures: T_body_material_BaseColor (AutoDXT, 2048X2048)
+[2018.03.12-19.28.43:718][342]LogTexture: Display: Building textures: T_body_material_Normal (BC5, 2048X2048)
+[2018.03.12-19.28.43:718][342]LogTexture: Display: Building textures: T_pins_material_Normal (BC5, 2048X2048)
+[2018.03.12-19.28.43:718][342]LogTexture: Display: Building textures: T_pins_material_BaseColor (AutoDXT, 2048X2048)
+[2018.03.12-19.28.43:718][342]LogTexture: Display: Building textures: T_pins_material_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2018.03.12-19.28.43:718][342]LogTexture: Display: Building textures: T_body_material_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2018.03.12-19.28.43:718][342]LogTexture: Display: Building textures: T_teeth_material_Normal (BC5, 2048X2048)
+[2018.03.12-19.28.43:718][342]LogTexture: Display: Building textures: T_teeth_material_BaseColor (AutoDXT, 2048X2048)
+[2018.03.12-19.28.43:718][342]LogTexture: Display: Building textures: T_teeth_material_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2018.03.12-19.28.43:718][342]LogMaterial: Missing cached shader map for material M_body, compiling. 
+[2018.03.12-19.28.44:914][342]LogMaterial: Missing cached shader map for material M_pins, compiling. 
+[2018.03.12-19.28.45:089][342]LogMaterial: Missing cached shader map for material M_teeth, compiling. 
+[2018.03.12-19.28.50:596][638]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.03.12-19.28.50:610][638]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2018.03.12-19.28.54:988][897]LogTemp: Repeating last play command: VR Preview
+[2018.03.12-19.28.55:060][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-19.28.55:060][897]LogHMD: Initializing OVRPlugin session
+[2018.03.12-19.28.55:107][897]PIE: New page: PIE session: Hospital (Mar 12, 2018, 9:28:55 AM)
+[2018.03.12-19.28.55:108][897]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.12-19.28.55:115][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007817s)
+[2018.03.12-19.28.55:116][897]LogAIModule: Creating AISystem for world Hospital
+[2018.03.12-19.28.55:117][897]LogPlayLevel: PIE: World Init took: (0.001239s)
+[2018.03.12-19.28.55:117][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.009601s)
+[2018.03.12-19.28.55:179][897]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-19.28.55:196][897]LogInit: FAudioDevice initialized.
+[2018.03.12-19.28.55:303][897]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.12-19.28.55:346][897]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/EscapeVR.EscapeVRGameMode'
+[2018.03.12-19.28.55:347][897]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-19.28.55:353][897]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-14.28.55
+[2018.03.12-19.28.55:354][897]LogWorld: Bringing up level for play took: 0.005071
+[2018.03.12-19.28.55:434][897]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
+[2018.03.12-19.28.55:442][897]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital -0.537
+[2018.03.12-19.28.55:456][897]LogRenderer: Reallocating scene render targets to support 2720x1600 Format 10 NumSamples 1 (Frame:1).
+[2018.03.12-19.28.55:456][897]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.12-19.29.32:591][679]LogEditorViewport: Clicking on Actor (LMB): Pawn_Blueprint_C (Pawn_Blueprint)
+[2018.03.12-19.29.38:270][938]LogSlate: Took 0.000314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.12-19.29.56:402][911]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.03.12-19.30.03:187][317]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (ThirdPersonIdle)
+[2018.03.12-19.30.38:793][438]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.12-19.30.39:117][438]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
+[2018.03.12-19.30.39:777][438]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.12-19.30.49:466][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pawn_Blueprint" FILE="../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Pawn_Blueprint.uasset" SILENT=true
+[2018.03.12-19.30.49:495][  4]LogSavePackage: Save=18.86ms
+[2018.03.12-19.30.49:495][  4]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Pawn_Blueprint43E09D004E242EFBB7222089C098A253.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Pawn_Blueprint.uasset'
+[2018.03.12-19.30.49:499][  4]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Pawn_Blueprint.uasset
+[2018.03.12-19.30.54:748][295]BlueprintLog: New page: Compile Pawn_Blueprint
+[2018.03.12-19.30.56:522][378]LogTemp: Repeating last play command: VR Preview
+[2018.03.12-19.30.56:545][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-19.30.56:545][378]LogHMD: Initializing OVRPlugin session
+[2018.03.12-19.30.56:578][378]PIE: New page: PIE session: Hospital (Mar 12, 2018, 9:30:56 AM)
+[2018.03.12-19.30.56:579][378]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.12-19.30.56:585][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006708s)
+[2018.03.12-19.30.56:586][378]LogAIModule: Creating AISystem for world Hospital
+[2018.03.12-19.30.56:587][378]LogPlayLevel: PIE: World Init took: (0.001284s)
+[2018.03.12-19.30.56:587][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.008401s)
+[2018.03.12-19.30.56:667][378]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-19.30.56:676][378]LogInit: FAudioDevice initialized.
+[2018.03.12-19.30.56:779][378]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.12-19.30.56:810][378]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-19.30.56:814][378]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-14.30.56
+[2018.03.12-19.30.56:814][378]LogWorld: Bringing up level for play took: 0.003341
+[2018.03.12-19.30.56:827][378]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 0.848
+[2018.03.12-19.30.56:832][378]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.12-19.30.56:832][378]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.12-19.31.19:160][544]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (ThirdPersonIdle)
+[2018.03.12-19.31.26:482][978]LogTemp: Repeating last play command: VR Preview
+[2018.03.12-19.31.26:506][978]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-19.31.26:507][978]LogHMD: Initializing OVRPlugin session
+[2018.03.12-19.31.26:542][978]PIE: New page: PIE session: Hospital (Mar 12, 2018, 9:31:26 AM)
+[2018.03.12-19.31.26:542][978]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.12-19.31.26:548][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005318s)
+[2018.03.12-19.31.26:548][978]LogAIModule: Creating AISystem for world Hospital
+[2018.03.12-19.31.26:548][978]LogPlayLevel: PIE: World Init took: (0.000765s)
+[2018.03.12-19.31.26:549][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.006459s)
+[2018.03.12-19.31.26:597][978]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-19.31.26:607][978]LogInit: FAudioDevice initialized.
+[2018.03.12-19.31.26:706][978]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.12-19.31.26:742][978]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-19.31.26:745][978]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-14.31.26
+[2018.03.12-19.31.26:746][978]LogWorld: Bringing up level for play took: 0.002444
+[2018.03.12-19.31.26:762][978]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 0.784
+[2018.03.12-19.31.26:765][978]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.12-19.31.26:765][978]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.12-19.31.51:703][168]Set new viewmode: Unlit
+[2018.03.12-19.32.24:266][281]LogTemp: Repeating last play command: VR Preview
+[2018.03.12-19.32.24:281][281]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-19.32.24:281][281]LogHMD: Initializing OVRPlugin session
+[2018.03.12-19.32.24:312][281]PIE: New page: PIE session: Hospital (Mar 12, 2018, 9:32:24 AM)
+[2018.03.12-19.32.24:312][281]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.12-19.32.24:317][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005646s)
+[2018.03.12-19.32.24:318][281]LogAIModule: Creating AISystem for world Hospital
+[2018.03.12-19.32.24:318][281]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2018.03.12-19.32.24:319][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.006983s)
+[2018.03.12-19.32.24:366][281]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-19.32.24:377][281]LogInit: FAudioDevice initialized.
+[2018.03.12-19.32.24:433][281]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.12-19.32.24:468][281]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-19.32.24:470][281]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-14.32.24
+[2018.03.12-19.32.24:471][281]LogWorld: Bringing up level for play took: 0.002138
+[2018.03.12-19.32.24:485][281]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 0.506
+[2018.03.12-19.32.48:295][984]LogTemp: Repeating last play command: VR Preview
+[2018.03.12-19.32.48:312][984]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-19.32.48:312][984]LogHMD: Initializing OVRPlugin session
+[2018.03.12-19.32.48:343][984]PIE: New page: PIE session: Hospital (Mar 12, 2018, 9:32:48 AM)
+[2018.03.12-19.32.48:344][984]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.12-19.32.48:349][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005423s)
+[2018.03.12-19.32.48:350][984]LogAIModule: Creating AISystem for world Hospital
+[2018.03.12-19.32.48:350][984]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2018.03.12-19.32.48:350][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.006586s)
+[2018.03.12-19.32.48:399][984]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-19.32.48:409][984]LogInit: FAudioDevice initialized.
+[2018.03.12-19.32.48:517][984]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.12-19.32.48:555][984]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-19.32.48:557][984]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-14.32.48
+[2018.03.12-19.32.48:557][984]LogWorld: Bringing up level for play took: 0.001485
+[2018.03.12-19.32.48:568][984]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 0.59
+[2018.03.12-19.32.48:575][984]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.12-19.32.48:575][984]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.12-19.33.04:266][704]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/creepy_girl/Animation-test/ThirdPersonRun.ThirdPersonRun
+[2018.03.12-19.33.04:266][704]LogAnimationCompression: Recompressing (AnimSequence /Game/creepy_girl/Animation-test/ThirdPersonRun.ThirdPersonRun) using current/default (AnimCompress_RemoveLinearKeys_6) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.03.12-19.33.06:623][837]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/creepy_girl/Animation-test/ThirdPersonWalk.ThirdPersonWalk
+[2018.03.12-19.33.06:624][837]LogAnimationCompression: Recompressing (AnimSequence /Game/creepy_girl/Animation-test/ThirdPersonWalk.ThirdPersonWalk) using current/default (AnimCompress_RemoveLinearKeys_3) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.03.12-19.33.10:293][ 48]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (ThirdPersonRun)
+[2018.03.12-19.33.12:845][197]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (ThirdPersonWalk)
+[2018.03.12-19.33.16:066][385]LogTemp: Repeating last play command: VR Preview
+[2018.03.12-19.33.16:081][385]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-19.33.16:081][385]LogHMD: Initializing OVRPlugin session
+[2018.03.12-19.33.16:119][385]PIE: New page: PIE session: Hospital (Mar 12, 2018, 9:33:16 AM)
+[2018.03.12-19.33.16:119][385]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.12-19.33.16:124][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005002s)
+[2018.03.12-19.33.16:125][385]LogAIModule: Creating AISystem for world Hospital
+[2018.03.12-19.33.16:125][385]LogPlayLevel: PIE: World Init took: (0.000937s)
+[2018.03.12-19.33.16:125][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.006331s)
+[2018.03.12-19.33.16:179][385]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-19.33.16:189][385]LogInit: FAudioDevice initialized.
+[2018.03.12-19.33.16:288][385]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.12-19.33.16:322][385]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-19.33.16:325][385]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-14.33.16
+[2018.03.12-19.33.16:326][385]LogWorld: Bringing up level for play took: 0.002884
+[2018.03.12-19.33.16:341][385]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 0.363
+[2018.03.12-19.33.16:345][385]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.12-19.33.16:345][385]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.12-19.33.56:694][269]Set new viewmode: Wireframe
+[2018.03.12-19.33.57:561][308]Set new viewmode: Wireframe
+[2018.03.12-19.33.57:984][327]Set new viewmode: Unlit
+[2018.03.12-19.34.07:299][858]LogSlate: Took 0.005007 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.03.12-19.35.13:675][473]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (ThirdPersonRun)
+[2018.03.12-19.35.40:182][ 41]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.12-19.36.13:222][501]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.03.12-19.36.13:528][501]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.03.12-19.36.13:588][501]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.03.12-19.36.13:811][501]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.12-19.36.13:995][501]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0008 seconds. Added 1 classes and 0 folders.
+[2018.03.12-19.36.14:001][501]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.03.12-19.41.05:982][382]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\samfo\Downloads\317448__cornersting__poke1.wav)
+[2018.03.12-19.41.06:001][382]LogAudioDerivedData: Display: Building compressed audio format OGG wave 317448__cornersting__poke1...
+[2018.03.12-19.41.06:033][382]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/317448__cornersting__poke1.317448__cornersting__poke1.
+[2018.03.12-19.41.08:027][405]LogSavePackage: Save=37.30ms
+[2018.03.12-19.41.08:028][405]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Hospital_Auto17444B80E4F7107826CD9E7AF18E09D35.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Autosaves/Game/Maps/Hospital_Auto1.umap'
+[2018.03.12-19.41.08:030][405]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Autosaves/Game/Maps/Hospital_Auto1.umap
+[2018.03.12-19.41.08:034][405]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Hospital' took 0.071
+[2018.03.12-19.41.08:035][405]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.071
+[2018.03.12-19.41.08:037][405]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Audio/317448__cornersting__poke1] ([1] browsable assets)...
+[2018.03.12-19.41.08:043][405]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Audio/317448__cornersting__poke1.317448__cornersting__poke1]
+[2018.03.12-19.41.08:043][405]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/317448__cornersting__poke1]
+[2018.03.12-19.41.08:053][405]LogSavePackage: Save=7.85ms
+[2018.03.12-19.41.08:053][405]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/317448__cornersting__poke1_Auto1D4D8B19A405FAD5833D54D9E71D37FD3.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Autosaves/Game/Audio/317448__cornersting__poke1_Auto1.uasset'
+[2018.03.12-19.41.08:056][405]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Autosaves/Game/Audio/317448__cornersting__poke1_Auto1.uasset
+[2018.03.12-19.41.08:056][405]LogFileHelpers: Auto-saving content packages took 0.020
+[2018.03.12-19.41.20:218][132]LogLinker: Warning: Can't find file '/Game/Audio/317448__cornersting__poke1'
+[2018.03.12-19.41.20:218][132]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Audio/317448__cornersting__poke1.317448__cornersting__poke1'
+[2018.03.12-19.41.20:244][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/FootTap" FILE="../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Audio/FootTap.uasset" SILENT=true
+[2018.03.12-19.41.20:254][132]LogSavePackage: Save=8.25ms
+[2018.03.12-19.41.20:254][132]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/FootTap6D2D4F2946277BEA82B21B8516CBC947.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Audio/FootTap.uasset'
+[2018.03.12-19.41.20:258][132]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Audio/FootTap.uasset
+[2018.03.12-19.47.02:102][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.12-19.47.03:008][944]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.12-19.47.16:568][728]LogMaterial: Missing cached shader map for material M_CobbleStone_Smooth, compiling. 
+[2018.03.12-19.47.30:385][531]LogMaterial: Missing cached shader map for material M_Wood_Floor_Walnut_Worn, compiling. 
+[2018.03.12-19.47.34:169][738]LogMaterial: Missing cached shader map for material M_Wood_Oak, compiling. 
+[2018.03.12-19.48.10:964][913]Cmd: TRANSACTION UNDO
+[2018.03.12-19.48.10:964][913]LogEditorTransaction: Undo Move Actors
+[2018.03.12-19.48.11:085][913]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.03.12-19.48.32:172][163]LogActorFactory: Actor Factory created Wall_400x300
+[2018.03.12-19.48.33:852][263]LogActorFactory: Actor Factory created Wall_400x300
+[2018.03.12-19.49.13:501][622]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.03.12-19.49.14:545][682]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2018.03.12-19.49.18:509][916]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.12-19.49.19:329][962]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x301)
+[2018.03.12-19.49.46:779][586]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.03.12-19.49.47:474][625]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x308)
+[2018.03.12-19.49.50:705][814]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x306)
+[2018.03.12-19.50.08:793][882]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x308)
+[2018.03.12-19.50.09:414][916]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x308)
+[2018.03.12-19.50.41:132][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x306)
+[2018.03.12-19.51.10:295][524]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.12-19.51.10:748][548]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.12-19.51.10:881][556]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.12-19.51.25:851][425]LogTemp: Repeating last play command: VR Preview
+[2018.03.12-19.51.25:868][425]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-19.51.25:869][425]LogHMD: Initializing OVRPlugin session
+[2018.03.12-19.51.25:904][425]PIE: New page: PIE session: Hospital (Mar 12, 2018, 9:51:25 AM)
+[2018.03.12-19.51.25:904][425]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.12-19.51.25:912][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007625s)
+[2018.03.12-19.51.25:913][425]LogAIModule: Creating AISystem for world Hospital
+[2018.03.12-19.51.25:913][425]LogPlayLevel: PIE: World Init took: (0.001429s)
+[2018.03.12-19.51.25:914][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.009970s)
+[2018.03.12-19.51.25:967][425]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-19.51.25:978][425]LogInit: FAudioDevice initialized.
+[2018.03.12-19.51.26:075][425]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.12-19.51.26:171][425]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-19.51.26:175][425]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-14.51.26
+[2018.03.12-19.51.26:177][425]LogWorld: Bringing up level for play took: 0.004799
+[2018.03.12-19.51.26:196][425]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 0.217
+[2018.03.12-19.51.26:200][425]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.12-19.51.26:200][425]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.12-19.52.32:223][640]LogActorFactory: Actor Factory created Floor_400x400
+[2018.03.12-19.52.33:064][690]LogActorFactory: Actor Factory created Floor_400x400
+[2018.03.12-19.52.44:621][376]Cmd: TRANSACTION UNDO
+[2018.03.12-19.52.44:621][376]LogEditorTransaction: Undo Scale Actors
+[2018.03.12-19.52.44:738][376]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.03.12-19.52.45:265][406]Cmd: TRANSACTION UNDO
+[2018.03.12-19.52.45:265][406]LogEditorTransaction: Undo Move Actors
+[2018.03.12-19.52.45:384][406]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.03.12-19.52.46:002][443]Cmd: TRANSACTION UNDO
+[2018.03.12-19.52.46:003][443]LogEditorTransaction: Undo Create Actors
+[2018.03.12-19.52.46:121][443]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.03.12-19.52.46:775][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.12-19.52.55:263][873]LogEditorViewport: Clicking Background
+[2018.03.12-19.52.58:062][962]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.12-19.53.04:733][349]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.12-19.53.11:768][769]LogTemp: Repeating last play command: VR Preview
+[2018.03.12-19.53.11:784][769]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-19.53.11:784][769]LogHMD: Initializing OVRPlugin session
+[2018.03.12-19.53.11:819][769]PIE: New page: PIE session: Hospital (Mar 12, 2018, 9:53:11 AM)
+[2018.03.12-19.53.11:820][769]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.12-19.53.11:828][769]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008417s)
+[2018.03.12-19.53.11:830][769]LogAIModule: Creating AISystem for world Hospital
+[2018.03.12-19.53.11:830][769]LogPlayLevel: PIE: World Init took: (0.001750s)
+[2018.03.12-19.53.11:831][769]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.011155s)
+[2018.03.12-19.53.11:880][769]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-19.53.11:890][769]LogInit: FAudioDevice initialized.
+[2018.03.12-19.53.11:987][769]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.12-19.53.12:019][769]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-19.53.12:022][769]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-14.53.12
+[2018.03.12-19.53.12:024][769]LogWorld: Bringing up level for play took: 0.003759
+[2018.03.12-19.53.12:043][769]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 0.065
+[2018.03.12-19.53.12:047][769]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.12-19.53.12:048][769]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.12-19.53.17:347][ 96]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.12-19.53.51:648][135]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x310)
+[2018.03.12-19.54.37:850][772]LogMaterial: Missing cached shader map for material M_CobbleStone_Pebble, compiling. 
+[2018.03.12-19.54.47:840][341]LogMaterial: Missing cached shader map for material M_Brick_Clay_Old, compiling. 
+[2018.03.12-19.54.59:347][998]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x308)
+[2018.03.12-19.55.02:240][162]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x307)
+[2018.03.12-19.55.19:706][172]LogMaterial: Missing cached shader map for material M_CobbleStone_Rough, compiling. 
+[2018.03.12-19.55.26:419][524]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2018.03.12-19.56.05:462][798]LogMaterial: Missing cached shader map for material M_Brick_Cut_Stone, compiling. 
+[2018.03.12-19.56.53:339][579]Cmd: TRANSACTION UNDO
+[2018.03.12-19.56.53:339][579]LogEditorTransaction: Undo Move Actors
+[2018.03.12-19.56.53:448][579]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.03.12-19.57.07:588][415]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.12-19.57.09:231][512]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cieling)
+[2018.03.12-19.57.10:112][561]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cieling)
+[2018.03.12-19.57.16:811][953]LogMaterial: Missing cached shader map for material M_Metal_Rust, compiling. 
+[2018.03.12-19.57.39:251][245]MapCheck: New page: Map Check
+[2018.03.12-19.57.39:268][245]LightingResults: New page: Lighting Build - Mar 12, 2018, 9:57:39 AM
+[2018.03.12-19.57.39:320][245]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.12-19.57.39:422][245]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.12-19.57.39:434][245]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.12-19.57.40:471][245]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.12-19.57.40:472][245]LogSwarmInterface: [TryOpenConnection] Local Process ID is 18440
+[2018.03.12-19.57.42:958][245]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.12-19.57.42:959][245]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.12-19.57.42:959][245]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.12-19.57.42:959][245]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.12-19.57.42:959][245]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.12-19.57.42:959][245]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.12-19.57.43:147][245]LogEditorBuildUtils: Build time 0:03
+[2018.03.12-19.57.43:158][245]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Cut_Stone, compiling. 
+[2018.03.12-19.57.43:165][245]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Cut_Stone, compiling. 
+[2018.03.12-19.57.43:248][247]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Floor_Walnut_Worn, compiling. 
+[2018.03.12-19.57.43:256][247]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Floor_Walnut_Worn, compiling. 
+[2018.03.12-19.57.46:639][343]Job is a success!
+[2018.03.12-19.57.46:700][344]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.007s
+[2018.03.12-19.57.46:700][344]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.12-19.57.46:700][344]LogVolumetricLightmapImport:      BrickData 50x5x5 = 0.0Mb
+[2018.03.12-19.57.46:700][344]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.12-19.57.46:700][344]LogVolumetricLightmapImport:          0: 10.0% covering 100.0% of volume
+[2018.03.12-19.57.46:700][344]LogVolumetricLightmapImport:          1: 10.0% covering 1.6% of volume
+[2018.03.12-19.57.46:700][344]LogVolumetricLightmapImport:          2: 80.0% covering 0.2% of volume
+[2018.03.12-19.57.46:793][344]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2018.03.12-19.57.46:793][344]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2018.03.12-19.57.46:793][344]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.03.12-19.57.46:793][344]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.03.12-19.57.46:794][344]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2018.03.12-19.57.46:794][344]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 512X128)
+[2018.03.12-19.57.46:816][344]Lightmass on DESKTOP-5EK2DIL: 1.73 sec total, 195 ms importing, 21 ms setup, 394 ms photons, 629 ms processing, 0 ms extra exporting [15/15 mappings]. Threads: 4.24 sec total, 1.85 sec processing.
+[2018.03.12-19.57.46:844][344]LogStaticLightingSystem: Illumination: 7.54 sec (56 ms encoding lightmaps, 20 ms encoding shadowmaps)
+[2018.03.12-19.57.46:844][344]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.12-19.57.46:844][344]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.12-19.57.46:970][344]DumpUnbuiltLightIteractions
+[2018.03.12-19.57.46:970][344]Lights with unbuilt interactions: 0
+[2018.03.12-19.57.46:970][344]
+[2018.03.12-19.57.46:970][344]Primitives with unbuilt interactions: 0
+[2018.03.12-19.57.47:015][345]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.12-19.57.47:015][345]MapCheck: New page: Hospital - Mar 12, 2018, 9:57:47 AM
+[2018.03.12-19.57.47:089][345]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 73.984ms to complete.
+[2018.03.12-19.59.06:671][ 79]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2018.03.12-19.59.07:438][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x301)
+[2018.03.12-19.59.08:755][198]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2018.03.12-19.59.24:286][118]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2018.03.12-19.59.25:913][213]Cmd: DELETE
+[2018.03.12-19.59.25:913][213]Cmd: ACTOR DELETE
+[2018.03.12-19.59.25:915][213]LogEditorActor: Deleted Actor: PointLight
+[2018.03.12-19.59.25:931][213]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.03.12-19.59.34:902][749]MapCheck: New page: Map Check
+[2018.03.12-19.59.34:916][749]LightingResults: New page: Lighting Build - Mar 12, 2018, 9:59:34 AM
+[2018.03.12-19.59.34:930][749]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.12-19.59.34:933][749]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.12-19.59.34:934][749]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.12-19.59.34:943][749]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.12-19.59.34:943][749]LogSwarmInterface: [TryOpenConnection] Local Process ID is 18440
+[2018.03.12-19.59.39:464][749]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.12-19.59.39:464][749]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.12-19.59.39:464][749]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.12-19.59.39:465][749]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.12-19.59.39:465][749]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.12-19.59.39:465][749]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.12-19.59.39:607][749]LogEditorBuildUtils: Build time 0:04
+[2018.03.12-19.59.41:149][811]Job is a success!
+[2018.03.12-19.59.41:203][812]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.005s
+[2018.03.12-19.59.41:203][812]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.12-19.59.41:203][812]LogVolumetricLightmapImport:      BrickData 50x5x5 = 0.0Mb
+[2018.03.12-19.59.41:203][812]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.12-19.59.41:203][812]LogVolumetricLightmapImport:          0: 10.0% covering 100.0% of volume
+[2018.03.12-19.59.41:203][812]LogVolumetricLightmapImport:          1: 10.0% covering 1.6% of volume
+[2018.03.12-19.59.41:203][812]LogVolumetricLightmapImport:          2: 80.0% covering 0.2% of volume
+[2018.03.12-19.59.41:307][812]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2018.03.12-19.59.41:308][812]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2018.03.12-19.59.41:308][812]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.03.12-19.59.41:308][812]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.03.12-19.59.41:308][812]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (BGRA8, 32X32)
+[2018.03.12-19.59.41:308][812]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 1024X128)
+[2018.03.12-19.59.41:334][812]Lightmass on DESKTOP-5EK2DIL: 1.22 sec total, 151 ms importing, 22 ms setup, 392 ms photons, 620 ms processing, 0 ms extra exporting [15/15 mappings]. Threads: 4.18 sec total, 2.03 sec processing.
+[2018.03.12-19.59.41:342][812]LogStaticLightingSystem: Illumination: 6.40 sec (55 ms encoding lightmaps, 35 ms encoding shadowmaps)
+[2018.03.12-19.59.41:343][812]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.12-19.59.41:343][812]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.12-19.59.41:474][812]DumpUnbuiltLightIteractions
+[2018.03.12-19.59.41:475][812]Lights with unbuilt interactions: 0
+[2018.03.12-19.59.41:475][812]
+[2018.03.12-19.59.41:475][812]Primitives with unbuilt interactions: 0
+[2018.03.12-19.59.41:514][813]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.12-19.59.41:514][813]MapCheck: New page: Hospital - Mar 12, 2018, 9:59:41 AM
+[2018.03.12-19.59.41:578][813]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.65ms to complete.
+[2018.03.12-19.59.45:123][ 25]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2018.03.12-19.59.46:137][ 83]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2018.03.12-20.00.15:934][845]LogTemp: Repeating last play command: VR Preview
+[2018.03.12-20.00.15:949][845]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-20.00.15:950][845]LogHMD: Initializing OVRPlugin session
+[2018.03.12-20.00.15:980][845]PIE: New page: PIE session: Hospital (Mar 12, 2018, 10:00:15 AM)
+[2018.03.12-20.00.15:980][845]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.12-20.00.15:984][845]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003707s)
+[2018.03.12-20.00.15:985][845]LogAIModule: Creating AISystem for world Hospital
+[2018.03.12-20.00.15:985][845]LogPlayLevel: PIE: World Init took: (0.001184s)
+[2018.03.12-20.00.15:986][845]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.005924s)
+[2018.03.12-20.00.16:035][845]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-20.00.16:045][845]LogInit: FAudioDevice initialized.
+[2018.03.12-20.00.16:157][845]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.12-20.00.16:251][845]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-20.00.16:260][845]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-15.00.16
+[2018.03.12-20.00.16:262][845]LogWorld: Bringing up level for play took: 0.009676
+[2018.03.12-20.00.16:282][845]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 0.303
+[2018.03.12-20.00.16:286][845]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.12-20.00.16:286][845]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.12-20.00.19:444][ 39]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2018.03.12-20.00.21:737][173]Cmd: DELETE
+[2018.03.12-20.00.21:737][173]Cmd: ACTOR DELETE
+[2018.03.12-20.00.21:739][173]LogEditorActor: Deleted Actor: DirectionalLight
+[2018.03.12-20.00.21:755][173]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.03.12-20.00.56:467][221]MapCheck: New page: Map Check
+[2018.03.12-20.00.56:479][221]LightingResults: New page: Lighting Build - Mar 12, 2018, 10:00:56 AM
+[2018.03.12-20.00.56:494][221]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.12-20.00.56:498][221]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.12-20.00.56:498][221]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.12-20.00.56:499][221]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.12-20.00.56:499][221]LogSwarmInterface: [TryOpenConnection] Local Process ID is 18440
+[2018.03.12-20.01.01:012][221]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.12-20.01.01:012][221]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.12-20.01.01:012][221]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.12-20.01.01:012][221]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.12-20.01.01:012][221]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.12-20.01.01:012][221]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.12-20.01.01:151][221]LogEditorBuildUtils: Build time 0:04
+[2018.03.12-20.01.02:781][280]Job is a success!
+[2018.03.12-20.01.02:843][282]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.006s
+[2018.03.12-20.01.02:843][282]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.12-20.01.02:843][282]LogVolumetricLightmapImport:      BrickData 50x5x5 = 0.0Mb
+[2018.03.12-20.01.02:843][282]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.12-20.01.02:843][282]LogVolumetricLightmapImport:          0: 10.0% covering 100.0% of volume
+[2018.03.12-20.01.02:843][282]LogVolumetricLightmapImport:          1: 10.0% covering 1.6% of volume
+[2018.03.12-20.01.02:844][282]LogVolumetricLightmapImport:          2: 80.0% covering 0.2% of volume
+[2018.03.12-20.01.02:975][282]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2018.03.12-20.01.02:975][282]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2018.03.12-20.01.02:975][282]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.03.12-20.01.02:976][282]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.03.12-20.01.02:976][282]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 32X32)
+[2018.03.12-20.01.02:976][282]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 512X128)
+[2018.03.12-20.01.03:007][282]Lightmass on DESKTOP-5EK2DIL: 1.35 sec total, 150 ms importing, 16 ms setup, 392 ms photons, 759 ms processing, 0 ms extra exporting [15/15 mappings]. Threads: 5.15 sec total, 2.26 sec processing.
+[2018.03.12-20.01.03:019][282]LogStaticLightingSystem: Illumination: 6.51 sec (93 ms encoding lightmaps, 21 ms encoding shadowmaps)
+[2018.03.12-20.01.03:019][282]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.12-20.01.03:019][282]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.12-20.01.04:037][282]DumpUnbuiltLightIteractions
+[2018.03.12-20.01.04:037][282]Lights with unbuilt interactions: 0
+[2018.03.12-20.01.04:037][282]
+[2018.03.12-20.01.04:037][282]Primitives with unbuilt interactions: 0
+[2018.03.12-20.01.04:078][283]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.12-20.01.04:079][283]MapCheck: New page: Hospital - Mar 12, 2018, 10:01:04 AM
+[2018.03.12-20.01.04:142][283]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.036ms to complete.
+[2018.03.12-20.01.48:106][886]MapCheck: New page: Map Check
+[2018.03.12-20.01.48:127][886]LightingResults: New page: Lighting Build - Mar 12, 2018, 10:01:48 AM
+[2018.03.12-20.01.48:138][886]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.12-20.01.48:142][886]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.12-20.01.48:142][886]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.12-20.01.48:143][886]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.12-20.01.48:143][886]LogSwarmInterface: [TryOpenConnection] Local Process ID is 18440
+[2018.03.12-20.01.52:658][886]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.12-20.01.52:659][886]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.12-20.01.52:659][886]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.12-20.01.52:659][886]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.12-20.01.52:659][886]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.12-20.01.52:659][886]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.12-20.01.52:798][886]LogEditorBuildUtils: Build time 0:04
+[2018.03.12-20.01.54:436][948]Job is a success!
+[2018.03.12-20.01.54:497][949]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.006s
+[2018.03.12-20.01.54:497][949]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.12-20.01.54:497][949]LogVolumetricLightmapImport:      BrickData 50x5x5 = 0.0Mb
+[2018.03.12-20.01.54:498][949]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.12-20.01.54:498][949]LogVolumetricLightmapImport:          0: 10.0% covering 100.0% of volume
+[2018.03.12-20.01.54:498][949]LogVolumetricLightmapImport:          1: 10.0% covering 1.6% of volume
+[2018.03.12-20.01.54:498][949]LogVolumetricLightmapImport:          2: 80.0% covering 0.2% of volume
+[2018.03.12-20.01.54:652][949]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2018.03.12-20.01.54:652][949]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2018.03.12-20.01.54:653][949]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.03.12-20.01.54:653][949]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.03.12-20.01.54:653][949]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 32X32)
+[2018.03.12-20.01.54:653][949]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (BGRA8, 1024X128)
+[2018.03.12-20.01.54:686][949]Lightmass on DESKTOP-5EK2DIL: 1.39 sec total, 151 ms importing, 22 ms setup, 391 ms photons, 785 ms processing, 0 ms extra exporting [15/15 mappings]. Threads: 5.34 sec total, 2.40 sec processing.
+[2018.03.12-20.01.54:694][949]LogStaticLightingSystem: Illumination: 6.54 sec (101 ms encoding lightmaps, 37 ms encoding shadowmaps)
+[2018.03.12-20.01.54:694][949]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.12-20.01.54:695][949]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.12-20.01.54:696][949]DumpUnbuiltLightIteractions
+[2018.03.12-20.01.54:697][949]Lights with unbuilt interactions: 0
+[2018.03.12-20.01.54:697][949]
+[2018.03.12-20.01.54:697][949]Primitives with unbuilt interactions: 0
+[2018.03.12-20.01.54:735][950]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.12-20.01.54:735][950]MapCheck: New page: Hospital - Mar 12, 2018, 10:01:54 AM
+[2018.03.12-20.01.54:796][950]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.728ms to complete.
+[2018.03.12-20.01.55:544][993]LogTemp: Repeating last play command: VR Preview
+[2018.03.12-20.01.55:561][993]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-20.01.55:561][993]LogHMD: Initializing OVRPlugin session
+[2018.03.12-20.01.55:591][993]PIE: New page: PIE session: Hospital (Mar 12, 2018, 10:01:55 AM)
+[2018.03.12-20.01.55:591][993]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.12-20.01.55:594][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003075s)
+[2018.03.12-20.01.55:595][993]LogAIModule: Creating AISystem for world Hospital
+[2018.03.12-20.01.55:595][993]LogPlayLevel: PIE: World Init took: (0.000818s)
+[2018.03.12-20.01.55:595][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.004481s)
+[2018.03.12-20.01.55:646][993]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-20.01.55:656][993]LogInit: FAudioDevice initialized.
+[2018.03.12-20.01.55:762][993]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.12-20.01.55:797][993]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-20.01.55:800][993]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-15.01.55
+[2018.03.12-20.01.55:800][993]LogWorld: Bringing up level for play took: 0.002495
+[2018.03.12-20.01.55:818][993]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital -0.16
+[2018.03.12-20.01.55:825][993]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.12-20.01.55:825][993]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.12-20.03.10:872][485]LogSavePackage: Save=143.61ms
+[2018.03.12-20.03.10:872][485]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Hospital_Auto2A9B65F4A4486FC06B75D46988D9DB0C3.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Autosaves/Game/Maps/Hospital_Auto2.umap'
+[2018.03.12-20.03.10:875][485]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Autosaves/Game/Maps/Hospital_Auto2.umap
+[2018.03.12-20.03.10:880][485]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Hospital' took 0.178
+[2018.03.12-20.03.10:881][485]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.178
+[2018.03.12-20.03.10:883][485]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Hospital_BuiltData] ([1] browsable assets)...
+[2018.03.12-20.03.10:883][485]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Hospital_BuiltData]
+[2018.03.12-20.03.10:901][485]LogSavePackage: Save=11.01ms
+[2018.03.12-20.03.10:901][485]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Hospital_BuiltData_Auto204ECB5334FB6695D23923AB95356BF0F.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Autosaves/Game/Maps/Hospital_BuiltData_Auto2.uasset'
+[2018.03.12-20.03.10:907][485]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Autosaves/Game/Maps/Hospital_BuiltData_Auto2.uasset
+[2018.03.12-20.03.10:908][485]LogFileHelpers: Auto-saving content packages took 0.025
+[2018.03.12-20.03.11:513][521]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2018.03.12-20.03.41:225][189]LogMaterial: Missing cached shader map for material M_Lamp, compiling. 
+[2018.03.12-20.03.41:284][189]LogActorFactory: Actor Factory created SM_Lamp_Wall
+[2018.03.12-20.03.42:620][265]LogActorFactory: Actor Factory created SM_Lamp_Wall
+[2018.03.12-20.04.04:844][582]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.12-20.04.05:839][641]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Wall)
+[2018.03.12-20.04.07:327][727]Cmd: DELETE
+[2018.03.12-20.04.07:327][727]Cmd: ACTOR DELETE
+[2018.03.12-20.04.07:328][727]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.12-20.04.07:344][727]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.03.12-20.04.07:781][753]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Wall2)
+[2018.03.12-20.04.28:314][973]LogEditorViewport: Clicking on Component (LMB): PointLightComponent (LightComponent0)
+[2018.03.12-20.04.31:363][153]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2018.03.12-20.04.32:865][239]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2018.03.12-20.04.33:282][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Wall2)
+[2018.03.12-20.04.34:282][320]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.12-20.04.35:435][388]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Wall2)
+[2018.03.12-20.04.58:801][779]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2018.03.12-20.04.59:730][832]Cmd: DELETE
+[2018.03.12-20.04.59:730][832]Cmd: ACTOR DELETE
+[2018.03.12-20.04.59:732][832]LogEditorActor: Deleted Actor: PointLight
+[2018.03.12-20.04.59:749][832]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.03.12-20.05.02:473][994]LogTemp: Repeating last play command: VR Preview
+[2018.03.12-20.05.02:489][994]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-20.05.02:490][994]LogHMD: Initializing OVRPlugin session
+[2018.03.12-20.05.02:527][994]PIE: New page: PIE session: Hospital (Mar 12, 2018, 10:05:02 AM)
+[2018.03.12-20.05.02:528][994]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.12-20.05.02:548][994]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019909s)
+[2018.03.12-20.05.02:549][994]LogAIModule: Creating AISystem for world Hospital
+[2018.03.12-20.05.02:549][994]LogPlayLevel: PIE: World Init took: (0.001334s)
+[2018.03.12-20.05.02:550][994]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.022178s)
+[2018.03.12-20.05.02:596][994]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-20.05.02:606][994]LogInit: FAudioDevice initialized.
+[2018.03.12-20.05.02:705][994]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.12-20.05.02:738][994]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-20.05.02:742][994]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-15.05.02
+[2018.03.12-20.05.02:743][994]LogWorld: Bringing up level for play took: 0.004113
+[2018.03.12-20.05.02:760][994]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 0.782
+[2018.03.12-20.05.02:765][994]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.12-20.05.02:765][994]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.12-20.05.45:696][161]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cieling)
+[2018.03.12-20.05.51:441][497]MapCheck: New page: Map Check
+[2018.03.12-20.05.51:468][497]Cmd: MAP REBUILD ALLVISIBLE
+[2018.03.12-20.05.51:469][497]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.03.12-20.05.51:570][497]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.03.12-20.05.51:582][497]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Brick_Cut_Stone, compiling. 
+[2018.03.12-20.05.51:588][497]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2018.03.12-20.05.51:597][497]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_pins, compiling. 
+[2018.03.12-20.05.51:605][497]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_teeth, compiling. 
+[2018.03.12-20.05.51:615][497]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_body, compiling. 
+[2018.03.12-20.05.51:623][497]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.03.12-20.05.51:633][497]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Worn, compiling. 
+[2018.03.12-20.05.51:643][497]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Lamp, compiling. 
+[2018.03.12-20.05.52:488][497]TextureStreamingBuild: Display: Compiling optional shaders took 0.932 seconds.
+[2018.03.12-20.05.52:537][497]LogLevel: Display: Export Material TexCoord Scales took 0.048 seconds.
+[2018.03.12-20.05.52:547][497]TextureStreamingBuild: Display: Build Texture Streaming took 0.009 seconds.
+[2018.03.12-20.05.52:562][497]LightingResults: New page: Lighting Build - Mar 12, 2018, 10:05:52 AM
+[2018.03.12-20.05.52:569][497]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.12-20.05.52:575][497]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.12-20.05.52:575][497]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.12-20.05.52:576][497]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.12-20.05.52:576][497]LogSwarmInterface: [TryOpenConnection] Local Process ID is 18440
+[2018.03.12-20.05.57:088][497]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.12-20.05.57:097][497]LogStaticLightingSystem: Warning: Failed to build lighting!!! Lighting build canceled.
+[2018.03.12-20.05.57:122][497]LogEditorBuildUtils: Build time 0:05
+[2018.03.12-20.06.04:422][922]MapCheck: New page: Map Check
+[2018.03.12-20.06.04:435][922]LightingResults: New page: Lighting Build - Mar 12, 2018, 10:06:04 AM
+[2018.03.12-20.06.04:450][922]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.12-20.06.04:454][922]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.12-20.06.04:454][922]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.12-20.06.04:454][922]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.12-20.06.04:455][922]LogSwarmInterface: [TryOpenConnection] Local Process ID is 18440
+[2018.03.12-20.06.08:965][922]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.12-20.06.08:965][922]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.12-20.06.08:966][922]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.12-20.06.08:966][922]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.12-20.06.08:966][922]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.12-20.06.08:966][922]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.12-20.06.09:124][922]LogEditorBuildUtils: Build time 0:04
+[2018.03.12-20.06.09:143][922]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Lamp, compiling. 
+[2018.03.12-20.06.09:150][922]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Lamp, compiling. 
+[2018.03.12-20.06.11:554][991]Job is a success!
+[2018.03.12-20.06.11:612][992]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.005s
+[2018.03.12-20.06.11:612][992]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.12-20.06.11:612][992]LogVolumetricLightmapImport:      BrickData 50x5x5 = 0.0Mb
+[2018.03.12-20.06.11:612][992]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.12-20.06.11:612][992]LogVolumetricLightmapImport:          0: 10.0% covering 100.0% of volume
+[2018.03.12-20.06.11:613][992]LogVolumetricLightmapImport:          1: 10.0% covering 1.6% of volume
+[2018.03.12-20.06.11:613][992]LogVolumetricLightmapImport:          2: 80.0% covering 0.2% of volume
+[2018.03.12-20.06.11:769][992]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2018.03.12-20.06.11:770][992]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2018.03.12-20.06.11:770][992]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.03.12-20.06.11:770][992]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.03.12-20.06.11:770][992]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 32X32)
+[2018.03.12-20.06.11:770][992]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (BGRA8, 1024X128)
+[2018.03.12-20.06.11:805][992]Lightmass on DESKTOP-5EK2DIL: 1.41 sec total, 152 ms importing, 17 ms setup, 390 ms photons, 805 ms processing, 0 ms extra exporting [16/16 mappings]. Threads: 5.47 sec total, 2.48 sec processing.
+[2018.03.12-20.06.11:814][992]LogStaticLightingSystem: Illumination: 7.35 sec (99 ms encoding lightmaps, 41 ms encoding shadowmaps)
+[2018.03.12-20.06.11:814][992]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.12-20.06.11:814][992]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.12-20.06.11:815][992]DumpUnbuiltLightIteractions
+[2018.03.12-20.06.11:816][992]Lights with unbuilt interactions: 0
+[2018.03.12-20.06.11:816][992]
+[2018.03.12-20.06.11:816][992]Primitives with unbuilt interactions: 0
+[2018.03.12-20.06.11:856][993]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.12-20.06.11:857][993]MapCheck: New page: Hospital - Mar 12, 2018, 10:06:11 AM
+[2018.03.12-20.06.11:921][993]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.001ms to complete.
+[2018.03.12-20.06.13:216][ 70]LogTemp: Repeating last play command: VR Preview
+[2018.03.12-20.06.13:232][ 70]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-20.06.13:233][ 70]LogHMD: Initializing OVRPlugin session
+[2018.03.12-20.06.13:267][ 70]PIE: New page: PIE session: Hospital (Mar 12, 2018, 10:06:13 AM)
+[2018.03.12-20.06.13:267][ 70]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.12-20.06.13:270][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002900s)
+[2018.03.12-20.06.13:271][ 70]LogAIModule: Creating AISystem for world Hospital
+[2018.03.12-20.06.13:271][ 70]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2018.03.12-20.06.13:272][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.004371s)
+[2018.03.12-20.06.13:319][ 70]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-20.06.13:330][ 70]LogInit: FAudioDevice initialized.
+[2018.03.12-20.06.13:428][ 70]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.12-20.06.13:464][ 70]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-20.06.13:467][ 70]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-15.06.13
+[2018.03.12-20.06.13:468][ 70]LogWorld: Bringing up level for play took: 0.002750
+[2018.03.12-20.06.13:481][ 70]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital -0.498
+[2018.03.12-20.06.13:486][ 70]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.12-20.06.13:486][ 70]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.12-20.09.16:741][387]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 C:\Users\samfo\Downloads\117782__burning-mir__ambient-sounds-14.mp3)
+[2018.03.12-20.09.26:551][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/AmbientSound" FILE="../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Audio/AmbientSound.uasset" SILENT=true
+[2018.03.12-20.09.26:559][898]LogSavePackage: Save=5.36ms
+[2018.03.12-20.09.26:559][898]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/AmbientSound4F028FBC42CF2AD280BD469E5B3AFBB0.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Audio/AmbientSound.uasset'
+[2018.03.12-20.09.26:564][898]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Audio/AmbientSound.uasset
+[2018.03.12-20.10.18:847][793]LogTemp: Repeating last play command: VR Preview
+[2018.03.12-20.10.18:864][793]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-20.10.18:864][793]LogHMD: Initializing OVRPlugin session
+[2018.03.12-20.10.18:895][793]PIE: New page: PIE session: Hospital (Mar 12, 2018, 10:10:18 AM)
+[2018.03.12-20.10.18:895][793]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.12-20.10.18:900][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004436s)
+[2018.03.12-20.10.18:901][793]LogAIModule: Creating AISystem for world Hospital
+[2018.03.12-20.10.18:901][793]LogPlayLevel: PIE: World Init took: (0.001281s)
+[2018.03.12-20.10.18:902][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.006589s)
+[2018.03.12-20.10.18:950][793]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-20.10.18:961][793]LogInit: FAudioDevice initialized.
+[2018.03.12-20.10.19:061][793]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.12-20.10.19:093][793]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-20.10.19:149][793]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-15.10.19
+[2018.03.12-20.10.19:150][793]LogWorld: Bringing up level for play took: 0.055748
+[2018.03.12-20.10.19:172][793]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 1.193
+[2018.03.12-20.10.19:176][793]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.12-20.10.19:176][793]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.12-20.10.30:325][404]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.12-20.10.31:094][446]LogEditorViewport: Clicking on Actor (LMB): AudioVolume (AudioVolume)
+[2018.03.12-20.14.28:604][158]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 C:\Users\samfo\Downloads\117782__burning-mir__ambient-sounds-14.mp3)
+[2018.03.12-20.14.35:185][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/AmbientSound" FILE="../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Audio/AmbientSound.uasset" SILENT=true
+[2018.03.12-20.14.35:198][468]LogSavePackage: Save=8.99ms
+[2018.03.12-20.14.35:198][468]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/AmbientSoundFA9F20BC430958DFC9780D99D41010F0.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Audio/AmbientSound.uasset'
+[2018.03.12-20.14.35:203][468]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Audio/AmbientSound.uasset
+[2018.03.12-20.14.47:005][120]Cmd: DELETE
+[2018.03.12-20.14.47:005][120]Cmd: ACTOR DELETE
+[2018.03.12-20.14.47:008][120]LogEditorActor: Deleted Actor: AudioVolume
+[2018.03.12-20.14.47:029][120]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2018.03.12-20.15.13:981][759]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\samfo\Downloads\117782_burning-mir_ambient-sounds-14.wav)
+[2018.03.12-20.15.14:089][759]LogAudioDerivedData: Display: Building compressed audio format OGG wave 117782_burning-mir_ambient-sounds-14...
+[2018.03.12-20.15.16:136][759]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/117782_burning-mir_ambient-sounds-14.117782_burning-mir_ambient-sounds-14.
+[2018.03.12-20.15.22:871][ 83]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Audio/117782_burning-mir_ambient-sounds-14.117782_burning-mir_ambient-sounds-14'
+[2018.03.12-20.15.22:913][ 83]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/AmbientSound" FILE="../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Audio/AmbientSound.uasset" SILENT=true
+[2018.03.12-20.15.22:944][ 83]LogSavePackage: Save=27.55ms
+[2018.03.12-20.15.22:944][ 83]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/AmbientSound6D33FDBE4150AC69444DE78E6D7AB1D9.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Audio/AmbientSound.uasset'
+[2018.03.12-20.15.22:947][ 83]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Audio/AmbientSound.uasset
+[2018.03.12-20.16.01:351][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/AmbientSound_Cue" FILE="../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Audio/AmbientSound_Cue.uasset" SILENT=true
+[2018.03.12-20.16.01:367][316]LogSavePackage: Save=10.15ms
+[2018.03.12-20.16.01:367][316]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/AmbientSound_CueD33CBEA6457B4AC6BF67719D5173F010.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Audio/AmbientSound_Cue.uasset'
+[2018.03.12-20.16.01:373][316]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Audio/AmbientSound_Cue.uasset
+[2018.03.12-20.17.33:171][ 10]LogTemp: Repeating last play command: VR Preview
+[2018.03.12-20.17.33:188][ 10]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-20.17.33:188][ 10]LogHMD: Initializing OVRPlugin session
+[2018.03.12-20.17.33:219][ 10]PIE: New page: PIE session: Hospital (Mar 12, 2018, 10:17:33 AM)
+[2018.03.12-20.17.33:219][ 10]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.12-20.17.33:222][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003170s)
+[2018.03.12-20.17.33:223][ 10]LogAIModule: Creating AISystem for world Hospital
+[2018.03.12-20.17.33:224][ 10]LogPlayLevel: PIE: World Init took: (0.001110s)
+[2018.03.12-20.17.33:224][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.004898s)
+[2018.03.12-20.17.33:288][ 10]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-20.17.33:297][ 10]LogInit: FAudioDevice initialized.
+[2018.03.12-20.17.33:393][ 10]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.12-20.17.33:422][ 10]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-20.17.33:424][ 10]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-15.17.33
+[2018.03.12-20.17.33:425][ 10]LogWorld: Bringing up level for play took: 0.002581
+[2018.03.12-20.17.33:431][ 10]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital -0.548
+[2018.03.12-20.17.33:435][ 10]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.12-20.17.33:435][ 10]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.12-20.17.49:776][904]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.12-20.18.07:756][970]LogTemp: Repeating last play command: VR Preview
+[2018.03.12-20.18.07:771][970]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-20.18.07:771][970]LogHMD: Initializing OVRPlugin session
+[2018.03.12-20.18.07:808][970]PIE: New page: PIE session: Hospital (Mar 12, 2018, 10:18:07 AM)
+[2018.03.12-20.18.07:808][970]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.12-20.18.07:813][970]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004426s)
+[2018.03.12-20.18.07:814][970]LogAIModule: Creating AISystem for world Hospital
+[2018.03.12-20.18.07:814][970]LogPlayLevel: PIE: World Init took: (0.001178s)
+[2018.03.12-20.18.07:815][970]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.006449s)
+[2018.03.12-20.18.07:867][970]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-20.18.07:878][970]LogInit: FAudioDevice initialized.
+[2018.03.12-20.18.07:973][970]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.12-20.18.08:004][970]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-20.18.08:008][970]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-15.18.08
+[2018.03.12-20.18.08:009][970]LogWorld: Bringing up level for play took: 0.003558
+[2018.03.12-20.18.08:019][970]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 0.04
+[2018.03.12-20.18.08:024][970]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.12-20.18.08:024][970]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.12-20.18.33:658][578]LogTemp: Repeating last play command: VR Preview
+[2018.03.12-20.18.33:680][578]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-20.18.33:680][578]LogHMD: Initializing OVRPlugin session
+[2018.03.12-20.18.33:711][578]PIE: New page: PIE session: Hospital (Mar 12, 2018, 10:18:33 AM)
+[2018.03.12-20.18.33:711][578]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.12-20.18.33:714][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003429s)
+[2018.03.12-20.18.33:715][578]LogAIModule: Creating AISystem for world Hospital
+[2018.03.12-20.18.33:716][578]LogPlayLevel: PIE: World Init took: (0.001257s)
+[2018.03.12-20.18.33:716][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.005441s)
+[2018.03.12-20.18.33:763][578]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-20.18.33:773][578]LogInit: FAudioDevice initialized.
+[2018.03.12-20.18.33:865][578]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.12-20.18.33:893][578]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-20.18.33:897][578]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-15.18.33
+[2018.03.12-20.18.33:898][578]LogWorld: Bringing up level for play took: 0.003569
+[2018.03.12-20.18.33:907][578]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital -0.072
+[2018.03.12-20.18.33:910][578]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.12-20.18.33:910][578]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.12-20.18.56:669][581]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-20.18.58:752][595]LogTemp: Repeating last play command: VR Preview
+[2018.03.12-20.18.58:771][595]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-20.18.58:771][595]LogHMD: Initializing OVRPlugin session
+[2018.03.12-20.18.58:805][595]PIE: New page: PIE session: Hospital (Mar 12, 2018, 10:18:58 AM)
+[2018.03.12-20.18.58:805][595]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.12-20.18.58:808][595]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002797s)
+[2018.03.12-20.18.58:809][595]LogAIModule: Creating AISystem for world Hospital
+[2018.03.12-20.18.58:809][595]LogPlayLevel: PIE: World Init took: (0.001068s)
+[2018.03.12-20.18.58:809][595]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.004538s)
+[2018.03.12-20.18.58:857][595]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-20.18.58:868][595]LogInit: FAudioDevice initialized.
+[2018.03.12-20.18.58:959][595]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.12-20.18.58:992][595]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-20.18.58:996][595]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-15.18.58
+[2018.03.12-20.18.58:997][595]LogWorld: Bringing up level for play took: 0.003812
+[2018.03.12-20.18.59:009][595]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 1.03
+[2018.03.12-20.18.59:013][595]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.12-20.18.59:013][595]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.12-20.19.13:513][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cieling)
+[2018.03.12-20.19.21:583][890]MapCheck: New page: Map Check
+[2018.03.12-20.19.21:600][890]Cmd: MAP REBUILD ALLVISIBLE
+[2018.03.12-20.19.21:600][890]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.03.12-20.19.21:635][890]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.03.12-20.19.21:643][890]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Brick_Cut_Stone, compiling. 
+[2018.03.12-20.19.21:648][890]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2018.03.12-20.19.21:656][890]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_pins, compiling. 
+[2018.03.12-20.19.21:663][890]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_teeth, compiling. 
+[2018.03.12-20.19.21:669][890]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_body, compiling. 
+[2018.03.12-20.19.21:678][890]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.03.12-20.19.21:687][890]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Worn, compiling. 
+[2018.03.12-20.19.21:697][890]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Lamp, compiling. 
+[2018.03.12-20.19.22:580][890]TextureStreamingBuild: Display: Compiling optional shaders took 0.950 seconds.
+[2018.03.12-20.19.22:590][890]LogLevel: Display: Export Material TexCoord Scales took 0.009 seconds.
+[2018.03.12-20.19.22:596][890]TextureStreamingBuild: Display: Build Texture Streaming took 0.007 seconds.
+[2018.03.12-20.19.22:611][890]LightingResults: New page: Lighting Build - Mar 12, 2018, 10:19:22 AM
+[2018.03.12-20.19.22:619][890]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.12-20.19.22:625][890]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.12-20.19.22:625][890]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.12-20.19.22:626][890]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.12-20.19.22:627][890]LogSwarmInterface: [TryOpenConnection] Local Process ID is 18440
+[2018.03.12-20.19.27:138][890]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.12-20.19.27:150][890]LogStaticLightingSystem: Warning: Failed to build lighting!!! Lighting build canceled.
+[2018.03.12-20.19.27:177][890]LogEditorBuildUtils: Build time 0:05
+[2018.03.12-20.19.27:603][911]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x307)
+[2018.03.12-20.19.31:375][133]MapCheck: New page: Map Check
+[2018.03.12-20.19.31:392][133]LightingResults: New page: Lighting Build - Mar 12, 2018, 10:19:31 AM
+[2018.03.12-20.19.31:406][133]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.12-20.19.31:412][133]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.12-20.19.31:412][133]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.12-20.19.31:413][133]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.12-20.19.31:413][133]LogSwarmInterface: [TryOpenConnection] Local Process ID is 18440
+[2018.03.12-20.19.35:932][133]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.12-20.19.35:932][133]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.12-20.19.35:932][133]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.12-20.19.35:932][133]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.12-20.19.35:932][133]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.12-20.19.35:932][133]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.12-20.19.36:077][133]LogEditorBuildUtils: Build time 0:04
+[2018.03.12-20.19.37:899][211]Job is a success!
+[2018.03.12-20.19.37:962][213]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.006s
+[2018.03.12-20.19.37:963][213]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.12-20.19.37:963][213]LogVolumetricLightmapImport:      BrickData 50x5x5 = 0.0Mb
+[2018.03.12-20.19.37:963][213]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.12-20.19.37:963][213]LogVolumetricLightmapImport:          0: 10.0% covering 100.0% of volume
+[2018.03.12-20.19.37:963][213]LogVolumetricLightmapImport:          1: 10.0% covering 1.6% of volume
+[2018.03.12-20.19.37:963][213]LogVolumetricLightmapImport:          2: 80.0% covering 0.2% of volume
+[2018.03.12-20.19.38:117][213]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2018.03.12-20.19.38:117][213]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2018.03.12-20.19.38:117][213]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.03.12-20.19.38:117][213]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.03.12-20.19.38:117][213]LogTexture: Display: Building textures: ShadowMapTexture2D_13 (G8, 32X32)
+[2018.03.12-20.19.38:118][213]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (BGRA8, 1024X128)
+[2018.03.12-20.19.38:155][213]Lightmass on DESKTOP-5EK2DIL: 1.52 sec total, 199 ms importing, 21 ms setup, 391 ms photons, 871 ms processing, 0 ms extra exporting [16/16 mappings]. Threads: 5.94 sec total, 2.77 sec processing.
+[2018.03.12-20.19.38:163][213]LogStaticLightingSystem: Illumination: 6.74 sec (97 ms encoding lightmaps, 38 ms encoding shadowmaps)
+[2018.03.12-20.19.38:164][213]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.12-20.19.38:164][213]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.12-20.19.38:165][213]DumpUnbuiltLightIteractions
+[2018.03.12-20.19.38:165][213]Lights with unbuilt interactions: 0
+[2018.03.12-20.19.38:165][213]
+[2018.03.12-20.19.38:165][213]Primitives with unbuilt interactions: 0
+[2018.03.12-20.19.38:205][214]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.12-20.19.38:205][214]MapCheck: New page: Hospital - Mar 12, 2018, 10:19:38 AM
+[2018.03.12-20.19.38:278][214]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 72.397ms to complete.
+[2018.03.12-20.19.39:301][275]LogTemp: Repeating last play command: VR Preview
+[2018.03.12-20.19.39:327][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-20.19.39:327][275]LogHMD: Initializing OVRPlugin session
+[2018.03.12-20.19.39:367][275]PIE: New page: PIE session: Hospital (Mar 12, 2018, 10:19:39 AM)
+[2018.03.12-20.19.39:367][275]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.12-20.19.39:372][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004100s)
+[2018.03.12-20.19.39:373][275]LogAIModule: Creating AISystem for world Hospital
+[2018.03.12-20.19.39:373][275]LogPlayLevel: PIE: World Init took: (0.001385s)
+[2018.03.12-20.19.39:374][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.006470s)
+[2018.03.12-20.19.39:429][275]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-20.19.39:440][275]LogInit: FAudioDevice initialized.
+[2018.03.12-20.19.39:540][275]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.12-20.19.39:574][275]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-20.19.39:578][275]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-15.19.39
+[2018.03.12-20.19.39:579][275]LogWorld: Bringing up level for play took: 0.004065
+[2018.03.12-20.19.39:595][275]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital -0.384
+[2018.03.12-20.19.39:599][275]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.12-20.19.39:599][275]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.12-20.21.02:042][ 47]LogSavePackage: Save=182.50ms
+[2018.03.12-20.21.02:042][ 47]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Hospital_Auto3E6661E0C4C922FF705C65FA972423C26.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Autosaves/Game/Maps/Hospital_Auto3.umap'
+[2018.03.12-20.21.02:044][ 47]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Autosaves/Game/Maps/Hospital_Auto3.umap
+[2018.03.12-20.21.02:048][ 47]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Hospital' took 0.217
+[2018.03.12-20.21.02:048][ 47]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.217
+[2018.03.12-20.21.02:050][ 47]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Hospital_BuiltData] ([1] browsable assets)...
+[2018.03.12-20.21.02:050][ 47]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Hospital_BuiltData]
+[2018.03.12-20.21.02:070][ 47]LogSavePackage: Save=10.84ms
+[2018.03.12-20.21.02:070][ 47]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Hospital_BuiltData_Auto3B02959864AEDF9FC928C6BB4969A2612.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Autosaves/Game/Maps/Hospital_BuiltData_Auto3.uasset'
+[2018.03.12-20.21.02:072][ 47]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Autosaves/Game/Maps/Hospital_BuiltData_Auto3.uasset
+[2018.03.12-20.21.02:073][ 47]LogFileHelpers: Auto-saving content packages took 0.024
+[2018.03.12-20.22.38:526][330]LogTemp: Repeating last play command: VR Preview
+[2018.03.12-20.22.38:542][330]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-20.22.38:543][330]LogHMD: Initializing OVRPlugin session
+[2018.03.12-20.22.38:577][330]PIE: New page: PIE session: Hospital (Mar 12, 2018, 10:22:38 AM)
+[2018.03.12-20.22.38:577][330]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.12-20.22.38:599][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021123s)
+[2018.03.12-20.22.38:600][330]LogAIModule: Creating AISystem for world Hospital
+[2018.03.12-20.22.38:600][330]LogPlayLevel: PIE: World Init took: (0.001453s)
+[2018.03.12-20.22.38:601][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.023562s)
+[2018.03.12-20.22.38:649][330]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-20.22.38:663][330]LogInit: FAudioDevice initialized.
+[2018.03.12-20.22.38:760][330]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.12-20.22.38:791][330]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-20.22.38:794][330]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-15.22.38
+[2018.03.12-20.22.38:794][330]LogWorld: Bringing up level for play took: 0.002783
+[2018.03.12-20.22.38:801][330]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 0.823
+[2018.03.12-20.22.38:805][330]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.12-20.22.38:805][330]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.12-20.23.11:117][895]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Floor)
+[2018.03.12-20.23.14:480][ 94]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2018.03.12-20.23.30:576][ 51]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2018.03.12-20.23.39:838][602]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2018.03.12-20.23.46:355][990]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x305)
+[2018.03.12-20.23.48:072][ 89]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2018.03.12-20.24.12:307][537]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2018.03.12-20.24.26:503][379]LogTemp: Repeating last play command: VR Preview
+[2018.03.12-20.24.26:527][379]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-20.24.26:527][379]LogHMD: Initializing OVRPlugin session
+[2018.03.12-20.24.26:561][379]PIE: New page: PIE session: Hospital (Mar 12, 2018, 10:24:26 AM)
+[2018.03.12-20.24.26:562][379]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.12-20.24.26:567][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005420s)
+[2018.03.12-20.24.26:568][379]LogAIModule: Creating AISystem for world Hospital
+[2018.03.12-20.24.26:569][379]LogPlayLevel: PIE: World Init took: (0.001213s)
+[2018.03.12-20.24.26:569][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.007432s)
+[2018.03.12-20.24.26:621][379]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-20.24.26:631][379]LogInit: FAudioDevice initialized.
+[2018.03.12-20.24.26:727][379]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.12-20.24.26:757][379]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-20.24.26:760][379]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-15.24.26
+[2018.03.12-20.24.26:761][379]LogWorld: Bringing up level for play took: 0.002650
+[2018.03.12-20.24.26:771][379]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 0.793
+[2018.03.12-20.24.26:776][379]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.12-20.24.26:776][379]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.12-20.25.10:349][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x308)
+[2018.03.12-20.25.11:095][643]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2018.03.12-20.25.24:093][408]MapCheck: New page: Map Check
+[2018.03.12-20.25.24:108][408]LightingResults: New page: Lighting Build - Mar 12, 2018, 10:25:24 AM
+[2018.03.12-20.25.24:119][408]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.12-20.25.24:122][408]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.12-20.25.24:122][408]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.12-20.25.24:124][408]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.12-20.25.24:124][408]LogSwarmInterface: [TryOpenConnection] Local Process ID is 18440
+[2018.03.12-20.25.28:651][408]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.12-20.25.28:652][408]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.12-20.25.28:652][408]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.12-20.25.28:652][408]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.12-20.25.28:653][408]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.12-20.25.28:653][408]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.12-20.25.28:837][408]LogEditorBuildUtils: Build time 0:04
+[2018.03.12-20.25.30:531][482]Job is a success!
+[2018.03.12-20.25.30:593][483]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.006s
+[2018.03.12-20.25.30:593][483]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.12-20.25.30:593][483]LogVolumetricLightmapImport:      BrickData 50x5x5 = 0.0Mb
+[2018.03.12-20.25.30:593][483]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.12-20.25.30:593][483]LogVolumetricLightmapImport:          0: 10.0% covering 100.0% of volume
+[2018.03.12-20.25.30:594][483]LogVolumetricLightmapImport:          1: 10.0% covering 1.6% of volume
+[2018.03.12-20.25.30:594][483]LogVolumetricLightmapImport:          2: 80.0% covering 0.2% of volume
+[2018.03.12-20.25.30:754][483]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2018.03.12-20.25.30:754][483]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2018.03.12-20.25.30:754][483]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.03.12-20.25.30:755][483]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.03.12-20.25.30:755][483]LogTexture: Display: Building textures: ShadowMapTexture2D_15 (G8, 32X32)
+[2018.03.12-20.25.30:755][483]LogTexture: Display: Building textures: ShadowMapTexture2D_14 (BGRA8, 1024X128)
+[2018.03.12-20.25.30:788][483]Lightmass on DESKTOP-5EK2DIL: 1.42 sec total, 147 ms importing, 23 ms setup, 388 ms photons, 828 ms processing, 0 ms extra exporting [16/16 mappings]. Threads: 5.63 sec total, 2.87 sec processing.
+[2018.03.12-20.25.30:801][483]LogStaticLightingSystem: Illumination: 6.66 sec (105 ms encoding lightmaps, 38 ms encoding shadowmaps)
+[2018.03.12-20.25.30:801][483]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.12-20.25.30:801][483]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.12-20.25.30:803][483]DumpUnbuiltLightIteractions
+[2018.03.12-20.25.30:803][483]Lights with unbuilt interactions: 0
+[2018.03.12-20.25.30:803][483]
+[2018.03.12-20.25.30:803][483]Primitives with unbuilt interactions: 0
+[2018.03.12-20.25.30:840][484]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.12-20.25.30:841][484]MapCheck: New page: Hospital - Mar 12, 2018, 10:25:30 AM
+[2018.03.12-20.25.30:903][484]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.189ms to complete.
+[2018.03.12-20.26.08:878][804]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SkeletalMeshActor1)
+[2018.03.12-20.26.18:599][383]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.12-20.26.36:452][447]MapCheck: New page: Map Check
+[2018.03.12-20.26.36:467][447]LightingResults: New page: Lighting Build - Mar 12, 2018, 10:26:36 AM
+[2018.03.12-20.26.36:477][447]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.12-20.26.36:481][447]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.12-20.26.36:482][447]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.12-20.26.36:483][447]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.12-20.26.36:483][447]LogSwarmInterface: [TryOpenConnection] Local Process ID is 18440
+[2018.03.12-20.26.41:009][447]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.12-20.26.41:010][447]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.12-20.26.41:010][447]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.12-20.26.41:010][447]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.12-20.26.41:010][447]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.12-20.26.41:011][447]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.12-20.26.41:171][447]LogEditorBuildUtils: Build time 0:04
+[2018.03.12-20.26.42:888][525]Job is a success!
+[2018.03.12-20.26.42:946][527]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.006s
+[2018.03.12-20.26.42:946][527]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.12-20.26.42:946][527]LogVolumetricLightmapImport:      BrickData 50x5x5 = 0.0Mb
+[2018.03.12-20.26.42:946][527]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.12-20.26.42:947][527]LogVolumetricLightmapImport:          0: 10.0% covering 100.0% of volume
+[2018.03.12-20.26.42:947][527]LogVolumetricLightmapImport:          1: 10.0% covering 1.6% of volume
+[2018.03.12-20.26.42:947][527]LogVolumetricLightmapImport:          2: 80.0% covering 0.2% of volume
+[2018.03.12-20.26.43:103][527]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2018.03.12-20.26.43:103][527]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.03.12-20.26.43:103][527]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2018.03.12-20.26.43:103][527]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.03.12-20.26.43:103][527]LogTexture: Display: Building textures: ShadowMapTexture2D_17 (G8, 32X32)
+[2018.03.12-20.26.43:103][527]LogTexture: Display: Building textures: ShadowMapTexture2D_16 (BGRA8, 1024X128)
+[2018.03.12-20.26.43:137][527]Lightmass on DESKTOP-5EK2DIL: 1.49 sec total, 153 ms importing, 22 ms setup, 396 ms photons, 877 ms processing, 0 ms extra exporting [16/16 mappings]. Threads: 5.98 sec total, 2.93 sec processing.
+[2018.03.12-20.26.43:146][527]LogStaticLightingSystem: Illumination: 6.65 sec (105 ms encoding lightmaps, 32 ms encoding shadowmaps)
+[2018.03.12-20.26.43:146][527]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.12-20.26.43:146][527]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.12-20.26.43:147][527]DumpUnbuiltLightIteractions
+[2018.03.12-20.26.43:148][527]Lights with unbuilt interactions: 0
+[2018.03.12-20.26.43:148][527]
+[2018.03.12-20.26.43:148][527]Primitives with unbuilt interactions: 0
+[2018.03.12-20.26.43:191][528]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.12-20.26.43:191][528]MapCheck: New page: Hospital - Mar 12, 2018, 10:26:43 AM
+[2018.03.12-20.26.43:252][528]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.661ms to complete.
+[2018.03.12-20.26.44:396][596]LogTemp: Repeating last play command: VR Preview
+[2018.03.12-20.26.44:412][596]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-20.26.44:412][596]LogHMD: Initializing OVRPlugin session
+[2018.03.12-20.26.44:441][596]PIE: New page: PIE session: Hospital (Mar 12, 2018, 10:26:44 AM)
+[2018.03.12-20.26.44:442][596]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.12-20.26.44:447][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004570s)
+[2018.03.12-20.26.44:448][596]LogAIModule: Creating AISystem for world Hospital
+[2018.03.12-20.26.44:448][596]LogPlayLevel: PIE: World Init took: (0.001296s)
+[2018.03.12-20.26.44:449][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.006720s)
+[2018.03.12-20.26.44:495][596]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-20.26.44:505][596]LogInit: FAudioDevice initialized.
+[2018.03.12-20.26.44:596][596]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.12-20.26.44:634][596]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-20.26.44:636][596]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-15.26.44
+[2018.03.12-20.26.44:637][596]LogWorld: Bringing up level for play took: 0.002750
+[2018.03.12-20.26.44:643][596]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 0.665
+[2018.03.12-20.26.44:647][596]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.12-20.26.44:647][596]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.12-20.27.12:403][997]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.12-20.27.21:210][517]MapCheck: New page: Map Check
+[2018.03.12-20.27.21:225][517]LightingResults: New page: Lighting Build - Mar 12, 2018, 10:27:21 AM
+[2018.03.12-20.27.21:236][517]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.12-20.27.21:244][517]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.12-20.27.21:244][517]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.12-20.27.21:245][517]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.12-20.27.21:246][517]LogSwarmInterface: [TryOpenConnection] Local Process ID is 18440
+[2018.03.12-20.27.25:765][517]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.12-20.27.25:766][517]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.12-20.27.25:767][517]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.12-20.27.25:767][517]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.12-20.27.25:768][517]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.12-20.27.25:768][517]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.12-20.27.25:951][517]LogEditorBuildUtils: Build time 0:04
+[2018.03.12-20.27.28:194][625]Job is a success!
+[2018.03.12-20.27.28:253][626]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.006s
+[2018.03.12-20.27.28:253][626]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.12-20.27.28:253][626]LogVolumetricLightmapImport:      BrickData 50x5x5 = 0.0Mb
+[2018.03.12-20.27.28:253][626]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.12-20.27.28:254][626]LogVolumetricLightmapImport:          0: 10.0% covering 100.0% of volume
+[2018.03.12-20.27.28:254][626]LogVolumetricLightmapImport:          1: 10.0% covering 1.6% of volume
+[2018.03.12-20.27.28:254][626]LogVolumetricLightmapImport:          2: 80.0% covering 0.2% of volume
+[2018.03.12-20.27.28:417][626]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2018.03.12-20.27.28:418][626]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2018.03.12-20.27.28:418][626]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.03.12-20.27.28:418][626]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.03.12-20.27.28:418][626]LogTexture: Display: Building textures: ShadowMapTexture2D_19 (G8, 32X32)
+[2018.03.12-20.27.28:418][626]LogTexture: Display: Building textures: ShadowMapTexture2D_18 (BGRA8, 1024X128)
+[2018.03.12-20.27.28:449][626]Lightmass on DESKTOP-5EK2DIL: 1.46 sec total, 168 ms importing, 16 ms setup, 400 ms photons, 829 ms processing, 0 ms extra exporting [16/16 mappings]. Threads: 5.64 sec total, 2.87 sec processing.
+[2018.03.12-20.27.28:460][626]LogStaticLightingSystem: Illumination: 7.21 sec (111 ms encoding lightmaps, 34 ms encoding shadowmaps)
+[2018.03.12-20.27.28:460][626]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.12-20.27.28:460][626]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.12-20.27.28:462][626]DumpUnbuiltLightIteractions
+[2018.03.12-20.27.28:463][626]Lights with unbuilt interactions: 0
+[2018.03.12-20.27.28:463][626]
+[2018.03.12-20.27.28:463][626]Primitives with unbuilt interactions: 0
+[2018.03.12-20.27.28:503][627]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.12-20.27.28:503][627]MapCheck: New page: Hospital - Mar 12, 2018, 10:27:28 AM
+[2018.03.12-20.27.28:563][627]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.706ms to complete.
+[2018.03.12-20.28.06:558][904]LogTemp: Repeating last play command: VR Preview
+[2018.03.12-20.28.06:575][904]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-20.28.06:575][904]LogHMD: Initializing OVRPlugin session
+[2018.03.12-20.28.06:606][904]PIE: New page: PIE session: Hospital (Mar 12, 2018, 10:28:06 AM)
+[2018.03.12-20.28.06:607][904]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.12-20.28.06:611][904]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003826s)
+[2018.03.12-20.28.06:612][904]LogAIModule: Creating AISystem for world Hospital
+[2018.03.12-20.28.06:612][904]LogPlayLevel: PIE: World Init took: (0.001167s)
+[2018.03.12-20.28.06:612][904]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.005679s)
+[2018.03.12-20.28.06:658][904]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-20.28.06:667][904]LogInit: FAudioDevice initialized.
+[2018.03.12-20.28.06:761][904]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.12-20.28.06:790][904]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-20.28.06:795][904]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-15.28.06
+[2018.03.12-20.28.06:796][904]LogWorld: Bringing up level for play took: 0.003917
+[2018.03.12-20.28.06:803][904]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 0.824
+[2018.03.12-20.28.06:806][904]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.12-20.28.06:806][904]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.12-20.32.34:954][614]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.03.12-20.32.34:962][614]Candidate modules for hot reload:
+[2018.03.12-20.32.34:962][614]  EscapeVR
+[2018.03.12-20.32.34:962][614]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe EscapeVR -ModuleWithSuffix EscapeVR 3399 Win64 Development -editorrecompile -canskiplink "C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/EscapeVR.uproject" ]
+[2018.03.12-20.32.34:966][614]Warning: Starting HotReload took  0.0s.
+[2018.03.12-20.32.39:854][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Hospital" FILE="../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.12-20.32.40:042][734]LogSavePackage: Save=163.66ms
+[2018.03.12-20.32.40:043][734]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Hospital175462734C1C2F458DE8E790FB4919BE.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital.umap'
+[2018.03.12-20.32.40:050][734]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital.umap
+[2018.03.12-20.32.40:084][734]LogFileHelpers: Saving map 'Hospital' took 0.305
+[2018.03.12-20.32.40:087][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Hospital_BuiltData" FILE="../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital_BuiltData.uasset" SILENT=true
+[2018.03.12-20.32.40:137][734]LogSavePackage: Save=39.86ms
+[2018.03.12-20.32.40:137][734]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Hospital_BuiltDataF88BDAFE4F0DEDB1981B7780C167F77E.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital_BuiltData.uasset'
+[2018.03.12-20.32.40:144][734]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital_BuiltData.uasset
+[2018.03.12-20.32.40:224][734]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.12-20.32.40:502][735]Cmd: QUIT_EDITOR
+[2018.03.12-20.32.41:056][735]LogExit: Preparing to exit.
+[2018.03.12-20.32.41:453][735]LogDirectoryWatcher: A directory notification for 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/' was aborted.
+[2018.03.12-20.32.41:566][735]LogExit: Editor shut down
+[2018.03.12-20.32.41:599][735]LogExit: Transaction tracking system shut down
+[2018.03.12-20.32.41:845][735]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.12-20.32.41:846][735]LogDirectoryWatcher: A directory notification for '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/' was aborted.
+[2018.03.12-20.32.41:846][735]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.12-20.32.41:846][735]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.03.12-20.32.41:846][735]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.03.12-20.32.41:846][735]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.03.12-20.32.41:846][735]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.03.12-20.32.42:022][735]LogExit: Object subsystem successfully closed.
+[2018.03.12-20.32.42:055][735]LogD3D11RHI: Shutdown
+[2018.03.12-20.32.42:055][735]LogD3D11RHI: CleanupD3DDevice
+[2018.03.12-20.32.42:062][735]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.12-20.32.42:078][735]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (562)
+[2018.03.12-20.32.42:078][735]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (560)
+[2018.03.12-20.32.42:078][735]LogModuleManager: Shutting down and abandoning module SkeletonEditor (558)
+[2018.03.12-20.32.42:078][735]LogModuleManager: Shutting down and abandoning module AnimationEditor (556)
+[2018.03.12-20.32.42:078][735]LogModuleManager: Shutting down and abandoning module BlueprintGraph (554)
+[2018.03.12-20.32.42:078][735]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
+[2018.03.12-20.32.42:078][735]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
+[2018.03.12-20.32.42:078][735]LogModuleManager: Shutting down and abandoning module DesktopPlatform (548)
+[2018.03.12-20.32.42:078][735]LogModuleManager: Shutting down and abandoning module AddContentDialog (546)
+[2018.03.12-20.32.42:078][735]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.03.12-20.32.42:084][735]LogModuleManager: Shutting down and abandoning module WidgetCarousel (545)
+[2018.03.12-20.32.42:084][735]LogModuleManager: Shutting down and abandoning module EditorWidgets (542)
+[2018.03.12-20.32.42:084][735]LogModuleManager: Shutting down and abandoning module CollectionManager (540)
+[2018.03.12-20.32.42:084][735]LogDirectoryWatcher: A directory notification for 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Collections/' was aborted.
+[2018.03.12-20.32.42:084][735]LogDirectoryWatcher: A directory notification for 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Developers/samfo/Collections/' was aborted.
+[2018.03.12-20.32.42:085][735]LogDirectoryWatcher: A directory notification for 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Collections/' was aborted.
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module SceneOutliner (538)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.03.12-20.32.42:085][735]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.03.12-20.32.42:086][735]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.03.12-20.32.42:086][735]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.03.12-20.32.42:086][735]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.03.12-20.32.42:086][735]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.03.12-20.32.42:086][735]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.03.12-20.32.42:086][735]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.03.12-20.32.42:086][735]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.03.12-20.32.42:086][735]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.03.12-20.32.42:086][735]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.03.12-20.32.42:086][735]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.03.12-20.32.42:086][735]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.03.12-20.32.42:086][735]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.03.12-20.32.42:086][735]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.03.12-20.32.42:086][735]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.03.12-20.32.42:398][735]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.03.12-20.32.42:398][735]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.03.12-20.32.42:398][735]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.03.12-20.32.42:398][735]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.03.12-20.32.42:398][735]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.03.12-20.32.42:398][735]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.03.12-20.32.42:398][735]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.03.12-20.32.42:398][735]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.03.12-20.32.42:398][735]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.03.12-20.32.42:399][735]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.03.12-20.32.42:399][735]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.03.12-20.32.42:399][735]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.03.12-20.32.42:399][735]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.03.12-20.32.42:399][735]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.03.12-20.32.42:399][735]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.03.12-20.32.42:399][735]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.03.12-20.32.42:399][735]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.03.12-20.32.42:399][735]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.03.12-20.32.42:400][735]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.03.12-20.32.42:400][735]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.03.12-20.32.42:400][735]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.03.12-20.32.42:400][735]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.03.12-20.32.42:400][735]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.03.12-20.32.42:400][735]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.03.12-20.32.42:465][735]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.03.12-20.32.42:465][735]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.03.12-20.32.42:465][735]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.03.12-20.32.42:465][735]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.03.12-20.32.42:465][735]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.03.12-20.32.42:465][735]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.03.12-20.32.42:465][735]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.03.12-20.32.42:465][735]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.03.12-20.32.42:465][735]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.03.12-20.32.42:465][735]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.03.12-20.32.42:475][735]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.03.12-20.32.42:476][735]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.03.12-20.32.42:476][735]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.03.12-20.32.42:476][735]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.03.12-20.32.42:476][735]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.03.12-20.32.42:476][735]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.03.12-20.32.42:476][735]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.03.12-20.32.42:476][735]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.03.12-20.32.42:476][735]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.03.12-20.32.42:476][735]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.03.12-20.32.42:477][735]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.03.12-20.32.42:477][735]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.03.12-20.32.42:477][735]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.03.12-20.32.42:477][735]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.03.12-20.32.42:477][735]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.03.12-20.32.42:477][735]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.03.12-20.32.42:477][735]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.03.12-20.32.42:477][735]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.03.12-20.32.42:477][735]LogModuleManager: Shutting down and abandoning module ProfilerService (350)
+[2018.03.12-20.32.42:613][735]LogModuleManager: Shutting down and abandoning module TaskGraph (348)
+[2018.03.12-20.32.42:613][735]LogModuleManager: Shutting down and abandoning module SteamVRController (346)
+[2018.03.12-20.32.42:613][735]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (344)
+[2018.03.12-20.32.42:613][735]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (342)
+[2018.03.12-20.32.42:613][735]LogModuleManager: Shutting down and abandoning module OculusInput (340)
+[2018.03.12-20.32.42:613][735]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (338)
+[2018.03.12-20.32.42:613][735]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (336)
+[2018.03.12-20.32.42:613][735]LogModuleManager: Shutting down and abandoning module CableComponent (334)
+[2018.03.12-20.32.42:613][735]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (332)
+[2018.03.12-20.32.42:613][735]LogModuleManager: Shutting down and abandoning module AndroidPermission (330)
+[2018.03.12-20.32.42:613][735]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
+[2018.03.12-20.32.42:613][735]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (324)
+[2018.03.12-20.32.42:613][735]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (322)
+[2018.03.12-20.32.42:613][735]LogModuleManager: Shutting down and abandoning module MediaCompositing (320)
+[2018.03.12-20.32.42:613][735]LogModuleManager: Shutting down and abandoning module HTML5Networking (318)
+[2018.03.12-20.32.42:613][735]LogModuleManager: Shutting down and abandoning module AlembicImporter (316)
+[2018.03.12-20.32.42:614][735]LogModuleManager: Shutting down and abandoning module AlembicLibrary (315)
+[2018.03.12-20.32.42:614][735]LogModuleManager: Shutting down and abandoning module GeometryCache (314)
+[2018.03.12-20.32.42:614][735]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (313)
+[2018.03.12-20.32.42:614][735]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (308)
+[2018.03.12-20.32.42:614][735]LogModuleManager: Shutting down and abandoning module PluginBrowser (306)
+[2018.03.12-20.32.42:614][735]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (304)
+[2018.03.12-20.32.42:614][735]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (302)
+[2018.03.12-20.32.42:614][735]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (300)
+[2018.03.12-20.32.42:614][735]LogModuleManager: Shutting down and abandoning module UObjectPlugin (298)
+[2018.03.12-20.32.42:614][735]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (296)
+[2018.03.12-20.32.42:614][735]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (294)
+[2018.03.12-20.32.42:614][735]LogModuleManager: Shutting down and abandoning module GitSourceControl (292)
+[2018.03.12-20.32.42:614][735]LogModuleManager: Shutting down and abandoning module SourceControl (291)
+[2018.03.12-20.32.42:614][735]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (288)
+[2018.03.12-20.32.42:614][735]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (286)
+[2018.03.12-20.32.42:614][735]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (284)
+[2018.03.12-20.32.42:614][735]LogModuleManager: Shutting down and abandoning module Paper2DEditor (282)
+[2018.03.12-20.32.42:614][735]LogModuleManager: Shutting down and abandoning module MeshPaint (281)
+[2018.03.12-20.32.42:614][735]LogModuleManager: Shutting down and abandoning module LevelEditor (279)
+[2018.03.12-20.32.42:616][735]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (278)
+[2018.03.12-20.32.42:616][735]LogModuleManager: Shutting down and abandoning module MainFrame (276)
+[2018.03.12-20.32.42:616][735]LogModuleManager: Shutting down and abandoning module HotReload (275)
+[2018.03.12-20.32.42:616][735]LogDirectoryWatcher: A directory notification for 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Binaries/Win64' was aborted.
+[2018.03.12-20.32.42:617][735]LogModuleManager: Shutting down and abandoning module EscapeVR (270)
+[2018.03.12-20.32.42:617][735]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.03.12-20.32.42:617][735]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.03.12-20.32.42:617][735]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.03.12-20.32.42:617][735]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.03.12-20.32.42:617][735]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.03.12-20.32.42:617][735]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.03.12-20.32.42:617][735]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.03.12-20.32.42:617][735]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.03.12-20.32.42:718][735]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.03.12-20.32.42:819][735]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.03.12-20.32.42:819][735]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.03.12-20.32.42:819][735]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.03.12-20.32.42:819][735]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.03.12-20.32.42:819][735]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.03.12-20.32.42:819][735]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.03.12-20.32.42:822][735]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.03.12-20.32.42:822][735]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.03.12-20.32.42:822][735]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.03.12-20.32.42:822][735]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.03.12-20.32.42:825][735]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.03.12-20.32.42:825][735]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.03.12-20.32.42:826][735]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.03.12-20.32.42:826][735]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.03.12-20.32.42:826][735]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.03.12-20.32.42:826][735]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.03.12-20.32.42:832][735]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.03.12-20.32.42:832][735]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.03.12-20.32.42:832][735]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.03.12-20.32.42:832][735]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.03.12-20.32.42:832][735]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.03.12-20.32.42:832][735]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.03.12-20.32.42:832][735]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.03.12-20.32.42:832][735]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.03.12-20.32.42:832][735]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.03.12-20.32.42:833][735]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.03.12-20.32.42:833][735]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.03.12-20.32.42:833][735]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.03.12-20.32.42:833][735]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.03.12-20.32.42:833][735]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.03.12-20.32.42:833][735]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.03.12-20.32.42:833][735]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.03.12-20.32.42:836][735]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.03.12-20.32.42:836][735]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.03.12-20.32.42:836][735]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.03.12-20.32.42:836][735]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.03.12-20.32.42:836][735]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.03.12-20.32.42:836][735]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.03.12-20.32.42:836][735]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.03.12-20.32.42:836][735]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.03.12-20.32.42:845][735]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.03.12-20.32.42:846][735]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.03.12-20.32.42:846][735]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.03.12-20.32.42:846][735]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.03.12-20.32.42:846][735]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.03.12-20.32.42:846][735]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.03.12-20.32.42:846][735]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.03.12-20.32.42:846][735]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.03.12-20.32.42:846][735]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.03.12-20.32.42:914][735]LogDerivedDataCache: Shutdown
+[2018.03.12-20.32.42:914][735]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.03.12-20.32.42:914][735]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.03.12-20.32.42:914][735]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.03.12-20.32.42:914][735]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.03.12-20.32.42:914][735]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.03.12-20.32.42:915][735]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.03.12-20.32.42:916][735]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.03.12-20.32.42:916][735]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.03.12-20.32.42:916][735]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.03.12-20.32.42:916][735]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.03.12-20.32.42:916][735]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.03.12-20.32.42:916][735]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.03.12-20.32.42:916][735]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.03.12-20.32.42:916][735]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.03.12-20.32.42:916][735]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.03.12-20.32.42:916][735]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.03.12-20.32.42:916][735]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.03.12-20.32.42:916][735]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.03.12-20.32.42:916][735]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.03.12-20.32.42:916][735]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.03.12-20.32.42:916][735]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.12-20.32.42:916][735]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.12-20.32.42:916][735]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.12-20.32.42:916][735]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B80875AAE-49E9-BE20-940A-BBBE5989938D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=01d90524478d952f79bf15a0fb3ee477%7Cb6d55d87dad24922993b4a6bdcd07814%7C92cdc455-e147-4615-961d-a7f60375b392&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.12-20.32.42:939][735]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.12-20.32.42:941][735]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.03.12-20.32.42:942][735]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.03.12-20.32.42:942][735]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.03.12-20.32.42:942][735]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.03.12-20.32.42:942][735]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.03.12-20.32.42:942][735]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.03.12-20.32.42:942][735]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.03.12-20.32.42:946][735]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.03.12-20.32.42:946][735]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.03.12-20.32.42:946][735]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.03.12-20.32.42:946][735]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.03.12-20.32.42:946][735]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.03.12-20.32.42:946][735]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.03.12-20.32.42:946][735]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.03.12-20.32.42:946][735]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.03.12-20.32.42:946][735]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.12-20.32.42:946][735]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.12-20.32.42:946][735]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.12-20.32.42:951][735]LogExit: Exiting.
+[2018.03.12-20.32.42:969][735]Log file closed, 03/12/18 15:32:42
