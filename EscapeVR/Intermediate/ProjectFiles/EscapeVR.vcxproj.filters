@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\EscapeVR.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{4A6FFE1A-C7BD-4497-89F0-AA5EC1716BA9}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\EscapeVR.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\EscapeVREditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{D401ABA3-2C55-4724-ABF7-271791528CA2}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\EscapeVR">
+			<UniqueIdentifier>{08740F59-9962-4E9F-8D56-1925B32D77B8}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\EscapeVR\EscapeVR.Build.cs">
+			<Filter>Source\EscapeVR</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\EscapeVR\EscapeVR.cpp">
+			<Filter>Source\EscapeVR</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\EscapeVR\EscapeVR.h">
+			<Filter>Source\EscapeVR</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\EscapeVR\EscapeVRGameModeBase.cpp">
+			<Filter>Source\EscapeVR</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\EscapeVR\EscapeVRGameModeBase.h">
+			<Filter>Source\EscapeVR</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
