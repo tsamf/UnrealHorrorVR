@@ -1,3 +1,3 @@
-C:\Users\samfo\Documents\Unreal Projects\EscapeVR\Source\EscapeVR\EscapeVR.Build.cs
-C:\Users\samfo\Documents\Unreal Projects\EscapeVR\Source\EscapeVR.Target.cs
-C:\Users\samfo\Documents\Unreal Projects\EscapeVR\Source\EscapeVREditor.Target.cs
+C:\Users\samfo\Documents\GitHub\UnrealHorrorVR\EscapeVR\Source\EscapeVR\EscapeVR.Build.cs
+C:\Users\samfo\Documents\GitHub\UnrealHorrorVR\EscapeVR\Source\EscapeVR.Target.cs
+C:\Users\samfo\Documents\GitHub\UnrealHorrorVR\EscapeVR\Source\EscapeVREditor.Target.cs

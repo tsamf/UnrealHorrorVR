@@ -24,9 +24,9 @@
 /wd4838
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source"
-/I "C:\Users\samfo\Documents\Unreal Projects\EscapeVR\Source"
-/I "C:\Users\samfo\Documents\Unreal Projects\EscapeVR\Intermediate\Build\Win64\UE4Editor\Inc\EscapeVR"
-/I "C:\Users\samfo\Documents\Unreal Projects\EscapeVR\Source\EscapeVR"
+/I C:\Users\samfo\Documents\GitHub\UnrealHorrorVR\EscapeVR\Source
+/I C:\Users\samfo\Documents\GitHub\UnrealHorrorVR\EscapeVR\Intermediate\Build\Win64\UE4Editor\Inc\EscapeVR
+/I C:\Users\samfo\Documents\GitHub\UnrealHorrorVR\EscapeVR\Source\EscapeVR
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Async"
@@ -359,9 +359,9 @@
 /FI"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\samfo\Documents\Unreal Projects\EscapeVR\Source\EscapeVR\EscapeVRGameModeBase.cpp"
-/FI"C:\Users\samfo\Documents\Unreal Projects\EscapeVR\Intermediate\Build\Win64\UE4Editor\Development\EscapeVR\Definitions.EscapeVR.h"
-/Fo"C:\Users\samfo\Documents\Unreal Projects\EscapeVR\Intermediate\Build\Win64\UE4Editor\Development\EscapeVR\EscapeVRGameModeBase.cpp.obj"
+"C:\Users\samfo\Documents\GitHub\UnrealHorrorVR\EscapeVR\Source\EscapeVR\EscapeVRGameModeBase.cpp"
+/FI"C:\Users\samfo\Documents\GitHub\UnrealHorrorVR\EscapeVR\Intermediate\Build\Win64\UE4Editor\Development\EscapeVR\Definitions.EscapeVR.h"
+/Fo"C:\Users\samfo\Documents\GitHub\UnrealHorrorVR\EscapeVR\Intermediate\Build\Win64\UE4Editor\Development\EscapeVR\EscapeVRGameModeBase.cpp.obj"
 /TP
 /GR-
 /W4
