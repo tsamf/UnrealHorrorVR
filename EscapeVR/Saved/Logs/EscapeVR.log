@@ -1,4 +1,4 @@
-﻿Log file open, 03/12/18 15:42:46
+﻿Log file open, 03/13/18 12:19:12
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: EscapeVR
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-597767801) SRandInit(-597767801).
+LogInit: Display: RandInit(1042527478) SRandInit(1042527478).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.195351
+LogStats: Stats thread started at 0.193247
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -197,650 +197,810 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.03.12-20.42.48:998][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.12-20.42.48:998][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.03.12-20.42.49:013][  0]LogInit: Computer: DESKTOP-5EK2DIL
-[2018.03.12-20.42.49:013][  0]LogInit: User: samfo
-[2018.03.12-20.42.49:013][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.03.12-20.42.49:013][  0]LogInit: High frequency timer resolution =2.742186 MHz
-[2018.03.12-20.42.49:014][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.03.12-20.42.49:014][  0]LogMemory: Platform Memory Stats for Windows
-[2018.03.12-20.42.49:014][  0]LogMemory: Process Physical Memory: 281.20 MB used, 281.20 MB peak
-[2018.03.12-20.42.49:014][  0]LogMemory: Process Virtual Memory: 276.62 MB used, 276.62 MB peak
-[2018.03.12-20.42.49:014][  0]LogMemory: Physical Memory: 11764.90 MB used,  4492.06 MB free, 16256.96 MB total
-[2018.03.12-20.42.49:014][  0]LogMemory: Virtual Memory: 741.31 MB used,  4492.06 MB free, 134217728.00 MB total
-[2018.03.12-20.42.49:644][  0]LogInit: Using OS detected language (en-US).
-[2018.03.12-20.42.49:644][  0]LogInit: Using OS detected locale (en-US).
-[2018.03.12-20.42.49:647][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.03.12-20.42.50:082][  0]LogInit: Setting process to per monitor DPI aware
-[2018.03.12-20.42.50:376][  0]LogD3D11RHI: D3D11 adapters:
-[2018.03.12-20.42.50:427][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.03.12-20.42.50:427][  0]LogD3D11RHI:       8081/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.03.12-20.42.50:437][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.03.12-20.42.50:437][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.03.12-20.42.50:439][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.03.12-20.42.50:439][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.03.12-20.42.50:439][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.03.12-20.42.50:449][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.03.12-20.42.50:449][  0]LogD3D11RHI:     GPU DeviceId: 0x1ba1 (for the marketing name, search the web for "GPU Device Id")
-[2018.03.12-20.42.50:449][  0]LogWindows: EnumDisplayDevices:
-[2018.03.12-20.42.50:449][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2018.03.12-20.42.50:449][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.03.12-20.42.50:450][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.03.12-20.42.50:450][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.03.12-20.42.50:450][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2018.03.12-20.42.50:450][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.03.12-20.42.50:450][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.03.12-20.42.50:450][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.03.12-20.42.50:450][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.03.12-20.42.50:450][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.03.12-20.42.50:450][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.03.12-20.42.50:450][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
-[2018.03.12-20.42.50:489][  0]LogD3D11RHI: Async texture creation enabled
-[2018.03.12-20.42.50:549][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.03.12-20.42.50:598][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Intermediate/Shaders/WorkingDirectory/5724/).
-[2018.03.12-20.42.50:598][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/samfo/AppData/Local/Temp/UnrealShaderWorkingDir/CB9C96AE490624FB138AAEBA1E1E8644/'.
-[2018.03.12-20.42.50:599][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.03.12-20.42.51:582][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.03.12-20.42.51:639][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.03.12-20.42.51:699][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.03.12-20.42.51:761][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.03.12-20.42.51:820][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.03.12-20.42.51:883][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.03.12-20.42.51:941][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.03.12-20.42.52:004][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.03.12-20.42.52:055][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.03.12-20.42.52:111][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.03.12-20.42.52:167][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.03.12-20.42.52:224][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.03.12-20.42.52:277][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.03.12-20.42.52:330][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.03.12-20.42.52:436][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.03.12-20.42.52:436][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.03.12-20.42.52:491][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.03.12-20.42.52:532][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.03.12-20.42.52:625][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.03.12-20.42.52:654][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.03.12-20.42.52:708][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.03.12-20.42.52:764][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.03.12-20.42.52:817][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.03.12-20.42.52:876][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.03.12-20.42.52:876][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.03.12-20.42.53:429][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.03.12-20.42.53:509][  0]LogDerivedDataCache: Loaded boot cache 0.08s 78MB C:/Users/samfo/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.12-20.42.53:509][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/samfo/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.03.12-20.42.53:509][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.03.12-20.42.53:509][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.03.12-20.42.53:509][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.03.12-20.42.53:509][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.03.12-20.42.53:527][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.03.12-20.42.53:539][  0]LogDerivedDataCache: Using Local data cache path C:/Users/samfo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.03.12-20.42.53:550][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.03.12-20.42.53:550][  0]LogSlate: Using Freetype 2.6.0
-[2018.03.12-20.42.53:551][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.12-20.42.53:551][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.12-20.42.53:933][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.12-20.42.54:300][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.03.12-20.42.54:345][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.03.12-20.42.54:345][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.03.12-20.42.54:345][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.03.12-20.42.54:345][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.03.12-20.42.54:346][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.03.12-20.42.54:384][  0]LogNetVersion: EscapeVR , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1782577536)
-[2018.03.12-20.42.54:588][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
-[2018.03.12-20.42.55:228][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.077607 seconds
-[2018.03.12-20.42.55:233][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.03.12-20.42.55:233][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2018.03.12-20.42.55:233][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.03.12-20.42.55:292][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.03.12-20.42.58:556][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.03.12-20.42.58:604][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.03.12-20.42.59:461][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.03.12-20.42.59:957][  0]SourceControl: Source control is disabled
-[2018.03.12-20.42.59:957][  0]SourceControl: Source control is disabled
-[2018.03.12-20.43.00:035][  0]SourceControl: Source control is disabled
-[2018.03.12-20.43.00:094][  0]SourceControl: Source control is disabled
-[2018.03.12-20.43.01:085][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.03.12-20.43.01:408][  0]LogOcInput: OculusInput pre-init called
-[2018.03.12-20.43.01:700][  0]LogEngine: Initializing Engine...
-[2018.03.12-20.43.01:703][  0]LogHMD: Oculus plugin initialized. Version: 4.18.3-3832480+++UE4+Release-4.18, OVRPlugin: 1.19.0
-[2018.03.12-20.43.01:935][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.03.12-20.43.01:935][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.03.12-20.43.02:102][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.03.12-20.43.02:139][  0]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.03.12-20.43.02:151][  0]LogInit: FAudioDevice initialized.
-[2018.03.12-20.43.02:222][  0]LogDerivedDataCache: Saved boot cache 0.07s 78MB C:/Users/samfo/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.12-20.43.02:242][  0]LogInit: Texture streaming: Enabled
-[2018.03.12-20.43.02:362][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.03.12-20.43.02:518][  0]LogInit: Transaction tracking system initialized
-[2018.03.12-20.43.02:897][  0]BlueprintLog: New page: Editor Load
-[2018.03.12-20.43.03:945][  0]LocalizationService: Localization service is disabled
-[2018.03.12-20.43.04:788][  0]LogConsoleResponse: Display: 
-[2018.03.12-20.43.05:009][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.03.12-20.43.05:009][  0]LogCook: Display: Mobile HDR setting 1
-[2018.03.12-20.43.05:009][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.03.12-20.43.05:880][  0]LogFileCache: Scanning file cache for directory 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/' took 0.02s
-[2018.03.12-20.43.06:413][  0]SourceControl: Source control is disabled
-[2018.03.12-20.43.06:413][  0]Cmd: MAP LOAD FILE="../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.12-20.43.06:413][  0]LightingResults: New page: Lighting Build
-[2018.03.12-20.43.06:459][  0]MapCheck: New page: Map Check
-[2018.03.12-20.43.06:459][  0]LightingResults: New page: Lighting Build
-[2018.03.12-20.43.06:895][  0]LogAIModule: Creating AISystem for world Hospital
-[2018.03.12-20.43.06:910][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.12-20.43.06:921][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.12-20.43.06:984][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.969ms to complete.
-[2018.03.12-20.43.06:985][  0]LogFileHelpers: Loading map 'Hospital' took 0.571
-[2018.03.12-20.43.07:237][  0]LogCollectionManager: Loaded 0 collections in 0.002311 seconds
-[2018.03.12-20.43.07:328][  0]LogFileCache: Scanning file cache for directory 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Collections/' took 0.01s
-[2018.03.12-20.43.07:328][  0]LogFileCache: Scanning file cache for directory 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Developers/samfo/Collections/' took 0.01s
-[2018.03.12-20.43.07:328][  0]LogFileCache: Scanning file cache for directory 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Collections/' took 0.01s
-[2018.03.12-20.43.07:328][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.03.12-20.43.07:337][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2365 classes and 523 folders.
-[2018.03.12-20.43.07:412][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.03.12-20.43.07:456][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2018.03.12-20.43.07:593][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2018.03.12-20.43.07:593][  0]LogLoad: (Engine Initialization) Total time: 21.73 seconds
-[2018.03.12-20.43.07:593][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.03.12-20.43.07:593][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.03.12-20.43.07:611][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.12-20.43.07:619][  0]LogOcInput: OculusInput is initialized
-[2018.03.12-20.43.07:637][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.03.12-20.43.07:639][  0]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.12-20.43.07:644][  0]LogSlate: Took 0.000435 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.03.12-20.43.07:647][  0]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.03.12-20.43.07:750][  0]LogSlate: Took 0.000370 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.12-20.43.07:818][  1]LogRenderer: Reallocating scene render targets to support 804x360 Format 10 NumSamples 1 (Frame:1).
-[2018.03.12-20.43.07:818][  1]LogAssetRegistry: Asset discovery search completed in 13.2505 seconds
-[2018.03.12-20.43.07:821][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.03.12-20.43.07:821][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000124 seconds (updated 0 objects)
-[2018.03.12-20.44.05:894][550]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.12-20.44.06:039][550]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2018.03.12-20.44.06:332][550]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.03.12-20.44.06:392][550]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2018.03.12-20.44.06:652][550]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.12-20.44.06:911][550]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0007 seconds. Added 1 classes and 0 folders.
-[2018.03.12-20.44.06:948][550]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2018.03.12-20.44.10:460][732]LogRenderer: Reallocating scene render targets to support 1144x548 Format 10 NumSamples 1 (Frame:196).
-[2018.03.12-20.47.35:590][ 46]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.12-20.49.05:937][228]LogSavePackage: Save=19.77ms
-[2018.03.12-20.49.05:938][228]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/ThirdPersonRun32B0E40D4EAC8DA16AECA59C1DDDB6F6.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/creepy_girl/Animation-test/ThirdPersonRun.uasset'
-[2018.03.12-20.49.05:943][228]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/creepy_girl/Animation-test/ThirdPersonRun.uasset
-[2018.03.12-20.49.34:508][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/FootTap" FILE="../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Audio/FootTap.uasset" SILENT=true
-[2018.03.12-20.49.34:527][734]LogSavePackage: Save=10.38ms
-[2018.03.12-20.49.34:527][734]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/FootTap3A8855EE4C90CEFE1F2FDD9E016E96CD.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Audio/FootTap.uasset'
-[2018.03.12-20.49.34:532][734]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Audio/FootTap.uasset
-[2018.03.12-20.49.36:249][824]LogSlate: Took 0.000442 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.03.12-20.49.40:664][ 21]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) Already registered. Aborting.
-[2018.03.12-20.49.40:720][ 21]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) - call TermArticulated first.
-[2018.03.12-20.49.41:089][ 21]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2018.03.12-20.50.13:370][836]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2018.03.12-20.50.20:859][273]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:16293).
-[2018.03.12-20.50.22:359][361]LogTemp: Repeating last play command: VR Preview
-[2018.03.12-20.50.22:414][361]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.12-20.50.22:414][361]LogHMD: Initializing OVRPlugin session
-[2018.03.12-20.50.22:450][361]PIE: New page: PIE session: Hospital (Mar 12, 2018, 10:50:22 AM)
-[2018.03.12-20.50.22:450][361]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
-[2018.03.12-20.50.22:456][361]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006520s)
-[2018.03.12-20.50.22:457][361]LogAIModule: Creating AISystem for world Hospital
-[2018.03.12-20.50.22:457][361]LogPlayLevel: PIE: World Init took: (0.000876s)
-[2018.03.12-20.50.22:458][361]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.007938s)
-[2018.03.12-20.50.22:515][361]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.03.12-20.50.22:531][361]LogInit: FAudioDevice initialized.
-[2018.03.12-20.50.22:631][361]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
-[2018.03.12-20.50.22:671][361]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/EscapeVR.EscapeVRGameMode'
-[2018.03.12-20.50.22:671][361]LogLoad: Game class is 'GameModeBase'
-[2018.03.12-20.50.22:675][361]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-15.50.22
-[2018.03.12-20.50.22:676][361]LogWorld: Bringing up level for play took: 0.003969
-[2018.03.12-20.50.22:742][361]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
-[2018.03.12-20.50.22:750][361]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 0.772
-[2018.03.12-20.50.22:755][361]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2018.03.12-20.50.22:756][361]LogHMD: Allocating Oculus 1208 x 576 depth rendertarget swapchain
-[2018.03.12-20.50.22:786][361]LogRenderer: Reallocating scene render targets to support 2720x1600 Format 10 NumSamples 1 (Frame:1).
-[2018.03.12-20.50.22:787][361]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
-[2018.03.12-20.51.05:550][998]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_2.DebugSkelMeshComponent_6) Already registered. Aborting.
-[2018.03.12-20.51.05:593][998]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.Actor_2.DebugSkelMeshComponent_6) - call TermArticulated first.
-[2018.03.12-20.51.05:944][998]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2018.03.12-20.52.41:261][670]LogSavePackage: Save=19.49ms
-[2018.03.12-20.52.41:261][670]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/ThirdPersonWalk530BEC614DEC487B2C41E389F10ED3A3.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/creepy_girl/Animation-test/ThirdPersonWalk.uasset'
-[2018.03.12-20.52.41:265][670]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/creepy_girl/Animation-test/ThirdPersonWalk.uasset
-[2018.03.12-20.52.55:044][ 92]LogTemp: Repeating last play command: VR Preview
-[2018.03.12-20.52.55:065][ 92]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.12-20.52.55:066][ 92]LogHMD: Initializing OVRPlugin session
-[2018.03.12-20.52.55:103][ 92]PIE: New page: PIE session: Hospital (Mar 12, 2018, 10:52:55 AM)
-[2018.03.12-20.52.55:104][ 92]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
-[2018.03.12-20.52.55:109][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005030s)
-[2018.03.12-20.52.55:110][ 92]LogAIModule: Creating AISystem for world Hospital
-[2018.03.12-20.52.55:110][ 92]LogPlayLevel: PIE: World Init took: (0.001170s)
-[2018.03.12-20.52.55:110][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.006950s)
-[2018.03.12-20.52.55:159][ 92]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.03.12-20.52.55:172][ 92]LogInit: FAudioDevice initialized.
-[2018.03.12-20.52.55:285][ 92]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
-[2018.03.12-20.52.55:318][ 92]LogLoad: Game class is 'GameModeBase'
-[2018.03.12-20.52.55:322][ 92]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-15.52.55
-[2018.03.12-20.52.55:323][ 92]LogWorld: Bringing up level for play took: 0.004007
-[2018.03.12-20.52.55:343][ 92]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital -0.636
-[2018.03.12-20.52.55:348][ 92]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2018.03.12-20.52.55:348][ 92]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
-[2018.03.12-20.53.53:688][823]LogSavePackage: Save=10.98ms
-[2018.03.12-20.53.53:689][823]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/ThirdPersonWalkBFD88621449C10108A8AFB8CE1D95382.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/creepy_girl/Animation-test/ThirdPersonWalk.uasset'
-[2018.03.12-20.53.53:692][823]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/creepy_girl/Animation-test/ThirdPersonWalk.uasset
-[2018.03.12-20.53.54:952][897]LogTemp: Repeating last play command: VR Preview
-[2018.03.12-20.53.54:970][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.12-20.53.54:970][897]LogHMD: Initializing OVRPlugin session
-[2018.03.12-20.53.55:006][897]PIE: New page: PIE session: Hospital (Mar 12, 2018, 10:53:55 AM)
-[2018.03.12-20.53.55:006][897]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
-[2018.03.12-20.53.55:011][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004621s)
-[2018.03.12-20.53.55:012][897]LogAIModule: Creating AISystem for world Hospital
-[2018.03.12-20.53.55:013][897]LogPlayLevel: PIE: World Init took: (0.001288s)
-[2018.03.12-20.53.55:014][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.007126s)
-[2018.03.12-20.53.55:065][897]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.03.12-20.53.55:078][897]LogInit: FAudioDevice initialized.
-[2018.03.12-20.53.55:178][897]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
-[2018.03.12-20.53.55:210][897]LogLoad: Game class is 'GameModeBase'
-[2018.03.12-20.53.55:214][897]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-15.53.55
-[2018.03.12-20.53.55:216][897]LogWorld: Bringing up level for play took: 0.004425
-[2018.03.12-20.53.55:236][897]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 1.258
-[2018.03.12-20.53.55:241][897]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2018.03.12-20.53.55:241][897]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
-[2018.03.12-20.55.24:160][348]LogTemp: Repeating last play command: VR Preview
-[2018.03.12-20.55.24:178][348]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.12-20.55.24:179][348]LogHMD: Initializing OVRPlugin session
-[2018.03.12-20.55.24:211][348]PIE: New page: PIE session: Hospital (Mar 12, 2018, 10:55:24 AM)
-[2018.03.12-20.55.24:212][348]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
-[2018.03.12-20.55.24:218][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005759s)
-[2018.03.12-20.55.24:219][348]LogAIModule: Creating AISystem for world Hospital
-[2018.03.12-20.55.24:219][348]LogPlayLevel: PIE: World Init took: (0.001162s)
-[2018.03.12-20.55.24:219][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.007703s)
-[2018.03.12-20.55.24:267][348]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.03.12-20.55.24:275][348]LogInit: FAudioDevice initialized.
-[2018.03.12-20.55.24:388][348]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
-[2018.03.12-20.55.24:420][348]LogLoad: Game class is 'GameModeBase'
-[2018.03.12-20.55.24:424][348]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-15.55.24
-[2018.03.12-20.55.24:425][348]LogWorld: Bringing up level for play took: 0.003778
-[2018.03.12-20.55.24:443][348]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 0.465
-[2018.03.12-20.55.24:451][348]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2018.03.12-20.55.24:451][348]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
-[2018.03.12-20.56.32:454][442]Cmd: TRANSACTION UNDO
-[2018.03.12-20.56.32:454][442]LogEditorTransaction: Undo Delete Animation Markers
-[2018.03.12-20.56.32:589][442]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_2.DebugSkelMeshComponent_6) Already registered. Aborting.
-[2018.03.12-20.56.33:343][483]Cmd: TRANSACTION UNDO
-[2018.03.12-20.56.33:343][483]LogEditorTransaction: Undo Delete Animation Markers
-[2018.03.12-20.56.33:467][483]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_2.DebugSkelMeshComponent_6) Already registered. Aborting.
-[2018.03.12-20.56.34:201][526]Cmd: TRANSACTION UNDO
-[2018.03.12-20.56.34:201][526]LogEditorTransaction: Undo Edit Sound
-[2018.03.12-20.56.34:323][526]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_2.DebugSkelMeshComponent_6) Already registered. Aborting.
-[2018.03.12-20.56.35:088][571]Cmd: TRANSACTION UNDO
-[2018.03.12-20.56.35:089][571]LogEditorTransaction: Undo Add Anim Notify
-[2018.03.12-20.56.35:206][571]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_2.DebugSkelMeshComponent_6) Already registered. Aborting.
-[2018.03.12-20.56.35:460][585]Cmd: TRANSACTION UNDO
-[2018.03.12-20.56.35:460][585]LogEditorTransaction: Undo Edit Sound
-[2018.03.12-20.56.35:574][585]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_2.DebugSkelMeshComponent_6) Already registered. Aborting.
-[2018.03.12-20.56.35:854][601]Cmd: TRANSACTION UNDO
-[2018.03.12-20.56.35:854][601]LogEditorTransaction: Undo Add Anim Notify
-[2018.03.12-20.56.35:974][601]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_2.DebugSkelMeshComponent_6) Already registered. Aborting.
-[2018.03.12-20.56.37:268][672]LogSavePackage: Save=15.54ms
-[2018.03.12-20.56.37:268][672]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/ThirdPersonWalk3E3198B84A5A4F6D90F13C8ADBF105C0.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/creepy_girl/Animation-test/ThirdPersonWalk.uasset'
-[2018.03.12-20.56.37:272][672]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/creepy_girl/Animation-test/ThirdPersonWalk.uasset
-[2018.03.12-21.03.59:881][297]LogTemp: Repeating last play command: VR Preview
-[2018.03.12-21.03.59:903][297]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.12-21.03.59:904][297]LogHMD: Initializing OVRPlugin session
-[2018.03.12-21.03.59:945][297]PIE: New page: PIE session: Hospital (Mar 12, 2018, 11:03:59 AM)
-[2018.03.12-21.03.59:946][297]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
-[2018.03.12-21.03.59:951][297]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005035s)
-[2018.03.12-21.03.59:952][297]LogAIModule: Creating AISystem for world Hospital
-[2018.03.12-21.03.59:952][297]LogPlayLevel: PIE: World Init took: (0.001176s)
-[2018.03.12-21.03.59:953][297]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.007076s)
-[2018.03.12-21.04.00:005][297]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.03.12-21.04.00:019][297]LogInit: FAudioDevice initialized.
-[2018.03.12-21.04.00:074][297]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
-[2018.03.12-21.04.00:107][297]LogLoad: Game class is 'GameModeBase'
-[2018.03.12-21.04.00:111][297]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-16.04.00
-[2018.03.12-21.04.00:112][297]LogWorld: Bringing up level for play took: 0.004126
-[2018.03.12-21.04.00:120][297]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 0.141
-[2018.03.12-21.04.16:010][901]LogTemp: Repeating last play command: VR Preview
-[2018.03.12-21.04.16:029][901]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.12-21.04.16:029][901]LogHMD: Initializing OVRPlugin session
-[2018.03.12-21.04.16:062][901]PIE: New page: PIE session: Hospital (Mar 12, 2018, 11:04:16 AM)
-[2018.03.12-21.04.16:062][901]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
-[2018.03.12-21.04.16:067][901]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004754s)
-[2018.03.12-21.04.16:067][901]LogAIModule: Creating AISystem for world Hospital
-[2018.03.12-21.04.16:068][901]LogPlayLevel: PIE: World Init took: (0.001029s)
-[2018.03.12-21.04.16:068][901]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.006488s)
-[2018.03.12-21.04.16:112][901]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.03.12-21.04.16:121][901]LogInit: FAudioDevice initialized.
-[2018.03.12-21.04.16:228][901]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
-[2018.03.12-21.04.16:260][901]LogLoad: Game class is 'GameModeBase'
-[2018.03.12-21.04.16:263][901]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.12-16.04.16
-[2018.03.12-21.04.16:264][901]LogWorld: Bringing up level for play took: 0.002305
-[2018.03.12-21.04.16:270][901]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 0.292
-[2018.03.12-21.04.16:273][901]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2018.03.12-21.04.16:273][901]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
-[2018.03.12-21.04.49:262][349]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_3.DebugSkelMeshComponent_9) Already registered. Aborting.
-[2018.03.12-21.04.49:318][349]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_3.DebugSkelMeshComponent_9) - call TermArticulated first.
-[2018.03.12-21.04.49:697][349]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2018.03.12-21.05.39:660][213]LogAudioDerivedData: Display: Building compressed audio format OGG wave FootTap...
-[2018.03.12-21.05.41:456][320]LogAudioDerivedData: Display: Building compressed audio format OGG wave FootTap...
-[2018.03.12-21.06.32:426][187]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Hospital' took 0.017
-[2018.03.12-21.06.32:428][187]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Audio/FootTap] ([1] browsable assets)...
-[2018.03.12-21.06.32:436][187]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Audio/FootTap.FootTap]
-[2018.03.12-21.06.32:437][187]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/FootTap]
-[2018.03.12-21.06.32:458][187]LogSavePackage: Save=12.25ms
-[2018.03.12-21.06.32:458][187]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/FootTap_Auto14B15D991484DDA43306A5DA819B9E7B2.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Autosaves/Game/Audio/FootTap_Auto1.uasset'
-[2018.03.12-21.06.32:460][187]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Autosaves/Game/Audio/FootTap_Auto1.uasset
-[2018.03.12-21.06.32:460][187]LogFileHelpers: Auto-saving content packages took 0.033
-[2018.03.12-21.09.27:318][421]LogSavePackage: Save=11.01ms
-[2018.03.12-21.09.27:318][421]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/ThirdPersonRunB5C333B94B2D2D505DB0899917EE3588.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/creepy_girl/Animation-test/ThirdPersonRun.uasset'
-[2018.03.12-21.09.27:320][421]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/creepy_girl/Animation-test/ThirdPersonRun.uasset
-[2018.03.12-21.16.01:141][562]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Hospital" FILE="../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.03.12-21.16.01:245][562]LogSavePackage: Save=70.51ms
-[2018.03.12-21.16.01:245][562]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Hospital3FB41A8B4D716216082224BECFBCB699.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital.umap'
-[2018.03.12-21.16.01:248][562]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital.umap
-[2018.03.12-21.16.01:302][562]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Hospital_BuiltData" FILE="../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital_BuiltData.uasset" SILENT=true
-[2018.03.12-21.16.01:362][562]LogSavePackage: Save=50.26ms
-[2018.03.12-21.16.01:362][562]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Hospital_BuiltData4FCF02C24E259DD02337AFA369C60FF1.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital_BuiltData.uasset'
-[2018.03.12-21.16.01:365][562]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital_BuiltData.uasset
-[2018.03.12-21.16.09:257][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/FootTap" FILE="../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Audio/FootTap.uasset" SILENT=true
-[2018.03.12-21.16.09:271][672]LogSavePackage: Save=6.87ms
-[2018.03.12-21.16.09:271][672]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/FootTap7FD061224DE021AA500FD393DDA3DC2C.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Audio/FootTap.uasset'
-[2018.03.12-21.16.09:276][672]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Audio/FootTap.uasset
-[2018.03.12-21.16.09:645][673]Cmd: QUIT_EDITOR
-[2018.03.12-21.16.09:944][673]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.12-21.16.09:965][673]LogExit: Preparing to exit.
-[2018.03.12-21.16.10:513][673]LogDirectoryWatcher: A directory notification for 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/' was aborted.
-[2018.03.12-21.16.10:552][673]LogExit: Editor shut down
-[2018.03.12-21.16.10:556][673]LogExit: Transaction tracking system shut down
-[2018.03.12-21.16.10:805][673]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.03.12-21.16.10:805][673]LogDirectoryWatcher: A directory notification for '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/' was aborted.
-[2018.03.12-21.16.10:805][673]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.03.12-21.16.10:806][673]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.03.12-21.16.10:806][673]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.03.12-21.16.10:806][673]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.03.12-21.16.10:806][673]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.03.12-21.16.11:043][673]LogExit: Object subsystem successfully closed.
-[2018.03.12-21.16.11:141][673]LogD3D11RHI: Shutdown
-[2018.03.12-21.16.11:143][673]LogD3D11RHI: CleanupD3DDevice
-[2018.03.12-21.16.11:152][673]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.03.12-21.16.11:273][673]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (558)
-[2018.03.12-21.16.11:273][673]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (556)
-[2018.03.12-21.16.11:273][673]LogModuleManager: Shutting down and abandoning module SkeletonEditor (554)
-[2018.03.12-21.16.11:273][673]LogModuleManager: Shutting down and abandoning module AnimationEditor (552)
-[2018.03.12-21.16.11:273][673]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
-[2018.03.12-21.16.11:273][673]LogModuleManager: Shutting down and abandoning module DesktopPlatform (548)
-[2018.03.12-21.16.11:278][673]LogModuleManager: Shutting down and abandoning module AddContentDialog (546)
-[2018.03.12-21.16.11:280][673]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2018.03.12-21.16.11:284][673]LogModuleManager: Shutting down and abandoning module WidgetCarousel (545)
-[2018.03.12-21.16.11:284][673]LogModuleManager: Shutting down and abandoning module EditorWidgets (542)
-[2018.03.12-21.16.11:284][673]LogModuleManager: Shutting down and abandoning module CollectionManager (540)
-[2018.03.12-21.16.11:284][673]LogDirectoryWatcher: A directory notification for 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Collections/' was aborted.
-[2018.03.12-21.16.11:284][673]LogDirectoryWatcher: A directory notification for 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Developers/samfo/Collections/' was aborted.
-[2018.03.12-21.16.11:285][673]LogDirectoryWatcher: A directory notification for 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Collections/' was aborted.
-[2018.03.12-21.16.11:285][673]LogModuleManager: Shutting down and abandoning module SceneOutliner (538)
-[2018.03.12-21.16.11:285][673]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2018.03.12-21.16.11:285][673]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2018.03.12-21.16.11:285][673]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2018.03.12-21.16.11:288][673]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2018.03.12-21.16.11:289][673]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2018.03.12-21.16.11:289][673]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2018.03.12-21.16.11:289][673]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2018.03.12-21.16.11:289][673]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2018.03.12-21.16.11:289][673]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2018.03.12-21.16.11:289][673]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2018.03.12-21.16.11:289][673]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2018.03.12-21.16.11:289][673]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2018.03.12-21.16.11:290][673]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2018.03.12-21.16.11:291][673]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2018.03.12-21.16.11:293][673]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2018.03.12-21.16.11:299][673]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2018.03.12-21.16.11:299][673]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2018.03.12-21.16.11:299][673]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2018.03.12-21.16.11:299][673]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2018.03.12-21.16.11:299][673]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2018.03.12-21.16.11:299][673]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2018.03.12-21.16.11:299][673]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2018.03.12-21.16.11:299][673]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2018.03.12-21.16.11:299][673]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2018.03.12-21.16.11:299][673]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2018.03.12-21.16.11:299][673]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2018.03.12-21.16.11:299][673]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2018.03.12-21.16.11:299][673]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2018.03.12-21.16.11:299][673]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2018.03.12-21.16.11:299][673]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2018.03.12-21.16.11:300][673]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2018.03.12-21.16.11:300][673]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2018.03.12-21.16.11:300][673]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2018.03.12-21.16.11:300][673]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2018.03.12-21.16.11:303][673]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2018.03.12-21.16.11:310][673]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2018.03.12-21.16.11:312][673]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2018.03.12-21.16.11:315][673]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2018.03.12-21.16.11:315][673]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2018.03.12-21.16.11:315][673]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2018.03.12-21.16.11:315][673]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2018.03.12-21.16.12:150][673]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2018.03.12-21.16.12:150][673]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2018.03.12-21.16.12:150][673]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2018.03.12-21.16.12:150][673]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2018.03.12-21.16.12:158][673]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2018.03.12-21.16.12:159][673]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2018.03.12-21.16.12:159][673]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2018.03.12-21.16.12:159][673]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2018.03.12-21.16.12:159][673]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2018.03.12-21.16.12:160][673]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2018.03.12-21.16.12:163][673]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2018.03.12-21.16.12:163][673]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2018.03.12-21.16.12:163][673]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2018.03.12-21.16.12:163][673]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2018.03.12-21.16.12:164][673]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2018.03.12-21.16.12:164][673]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2018.03.12-21.16.12:164][673]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2018.03.12-21.16.12:165][673]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2018.03.12-21.16.12:165][673]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2018.03.12-21.16.12:165][673]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2018.03.12-21.16.12:166][673]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2018.03.12-21.16.12:166][673]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2018.03.12-21.16.12:169][673]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2018.03.12-21.16.12:170][673]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2018.03.12-21.16.12:235][673]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2018.03.12-21.16.12:236][673]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2018.03.12-21.16.12:242][673]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2018.03.12-21.16.12:248][673]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2018.03.12-21.16.12:248][673]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2018.03.12-21.16.12:249][673]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2018.03.12-21.16.12:249][673]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2018.03.12-21.16.12:250][673]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2018.03.12-21.16.12:250][673]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2018.03.12-21.16.12:250][673]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2018.03.12-21.16.12:255][673]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2018.03.12-21.16.12:256][673]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2018.03.12-21.16.12:256][673]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2018.03.12-21.16.12:256][673]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2018.03.12-21.16.12:257][673]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2018.03.12-21.16.12:257][673]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2018.03.12-21.16.12:257][673]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2018.03.12-21.16.12:257][673]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2018.03.12-21.16.12:257][673]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2018.03.12-21.16.12:257][673]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2018.03.12-21.16.12:257][673]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2018.03.12-21.16.12:257][673]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2018.03.12-21.16.12:257][673]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2018.03.12-21.16.12:257][673]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2018.03.12-21.16.12:257][673]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2018.03.12-21.16.12:257][673]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2018.03.12-21.16.12:257][673]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2018.03.12-21.16.12:257][673]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2018.03.12-21.16.12:258][673]LogModuleManager: Shutting down and abandoning module ProfilerService (350)
-[2018.03.12-21.16.12:395][673]LogModuleManager: Shutting down and abandoning module TaskGraph (348)
-[2018.03.12-21.16.12:407][673]LogModuleManager: Shutting down and abandoning module SteamVRController (346)
-[2018.03.12-21.16.12:407][673]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (344)
-[2018.03.12-21.16.12:407][673]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (342)
-[2018.03.12-21.16.12:410][673]LogModuleManager: Shutting down and abandoning module OculusInput (340)
-[2018.03.12-21.16.12:410][673]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (338)
-[2018.03.12-21.16.12:410][673]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (336)
-[2018.03.12-21.16.12:410][673]LogModuleManager: Shutting down and abandoning module CableComponent (334)
-[2018.03.12-21.16.12:410][673]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (332)
-[2018.03.12-21.16.12:410][673]LogModuleManager: Shutting down and abandoning module AndroidPermission (330)
-[2018.03.12-21.16.12:410][673]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
-[2018.03.12-21.16.12:410][673]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (324)
-[2018.03.12-21.16.12:421][673]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (322)
-[2018.03.12-21.16.12:421][673]LogModuleManager: Shutting down and abandoning module MediaCompositing (320)
-[2018.03.12-21.16.12:421][673]LogModuleManager: Shutting down and abandoning module HTML5Networking (318)
-[2018.03.12-21.16.12:422][673]LogModuleManager: Shutting down and abandoning module AlembicImporter (316)
-[2018.03.12-21.16.12:422][673]LogModuleManager: Shutting down and abandoning module AlembicLibrary (315)
-[2018.03.12-21.16.12:422][673]LogModuleManager: Shutting down and abandoning module GeometryCache (314)
-[2018.03.12-21.16.12:422][673]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (313)
-[2018.03.12-21.16.12:422][673]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (308)
-[2018.03.12-21.16.12:422][673]LogModuleManager: Shutting down and abandoning module PluginBrowser (306)
-[2018.03.12-21.16.12:430][673]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (304)
-[2018.03.12-21.16.12:431][673]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (302)
-[2018.03.12-21.16.12:431][673]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (300)
-[2018.03.12-21.16.12:431][673]LogModuleManager: Shutting down and abandoning module UObjectPlugin (298)
-[2018.03.12-21.16.12:431][673]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (296)
-[2018.03.12-21.16.12:432][673]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (294)
-[2018.03.12-21.16.12:433][673]LogModuleManager: Shutting down and abandoning module GitSourceControl (292)
-[2018.03.12-21.16.12:433][673]LogModuleManager: Shutting down and abandoning module SourceControl (291)
-[2018.03.12-21.16.12:434][673]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (288)
-[2018.03.12-21.16.12:434][673]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (286)
-[2018.03.12-21.16.12:434][673]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (284)
-[2018.03.12-21.16.12:434][673]LogModuleManager: Shutting down and abandoning module Paper2DEditor (282)
-[2018.03.12-21.16.12:435][673]LogModuleManager: Shutting down and abandoning module MeshPaint (281)
-[2018.03.12-21.16.12:435][673]LogModuleManager: Shutting down and abandoning module LevelEditor (279)
-[2018.03.12-21.16.12:436][673]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (278)
-[2018.03.12-21.16.12:437][673]LogModuleManager: Shutting down and abandoning module MainFrame (276)
-[2018.03.12-21.16.12:437][673]LogModuleManager: Shutting down and abandoning module HotReload (275)
-[2018.03.12-21.16.12:440][673]LogDirectoryWatcher: A directory notification for 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Binaries/Win64' was aborted.
-[2018.03.12-21.16.12:441][673]LogModuleManager: Shutting down and abandoning module EscapeVR (270)
-[2018.03.12-21.16.12:441][673]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2018.03.12-21.16.12:441][673]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2018.03.12-21.16.12:441][673]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2018.03.12-21.16.12:441][673]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2018.03.12-21.16.12:441][673]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2018.03.12-21.16.12:441][673]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2018.03.12-21.16.12:441][673]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2018.03.12-21.16.12:442][673]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2018.03.12-21.16.12:542][673]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2018.03.12-21.16.12:643][673]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2018.03.12-21.16.12:643][673]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2018.03.12-21.16.12:643][673]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2018.03.12-21.16.12:643][673]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2018.03.12-21.16.12:644][673]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2018.03.12-21.16.12:650][673]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2018.03.12-21.16.12:651][673]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2018.03.12-21.16.12:651][673]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2018.03.12-21.16.12:651][673]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2018.03.12-21.16.12:652][673]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2018.03.12-21.16.12:655][673]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2018.03.12-21.16.12:655][673]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2018.03.12-21.16.12:655][673]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2018.03.12-21.16.12:655][673]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2018.03.12-21.16.12:656][673]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2018.03.12-21.16.12:656][673]LogModuleManager: Shutting down and abandoning module Media (221)
-[2018.03.12-21.16.12:662][673]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2018.03.12-21.16.12:662][673]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2018.03.12-21.16.12:662][673]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2018.03.12-21.16.12:667][673]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2018.03.12-21.16.12:667][673]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2018.03.12-21.16.12:667][673]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2018.03.12-21.16.12:674][673]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2018.03.12-21.16.12:675][673]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2018.03.12-21.16.12:679][673]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2018.03.12-21.16.12:679][673]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2018.03.12-21.16.12:680][673]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2018.03.12-21.16.12:685][673]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2018.03.12-21.16.12:686][673]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2018.03.12-21.16.12:686][673]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2018.03.12-21.16.12:697][673]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2018.03.12-21.16.12:697][673]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2018.03.12-21.16.12:701][673]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2018.03.12-21.16.12:701][673]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2018.03.12-21.16.12:701][673]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2018.03.12-21.16.12:701][673]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2018.03.12-21.16.12:701][673]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2018.03.12-21.16.12:701][673]LogModuleManager: Shutting down and abandoning module Core (172)
-[2018.03.12-21.16.12:701][673]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2018.03.12-21.16.12:702][673]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2018.03.12-21.16.12:704][673]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2018.03.12-21.16.12:705][673]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2018.03.12-21.16.12:709][673]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2018.03.12-21.16.12:710][673]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2018.03.12-21.16.12:710][673]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2018.03.12-21.16.12:710][673]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2018.03.12-21.16.12:711][673]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2018.03.12-21.16.12:711][673]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2018.03.12-21.16.12:712][673]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2018.03.12-21.16.12:801][673]LogDerivedDataCache: Shutdown
-[2018.03.12-21.16.12:801][673]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2018.03.12-21.16.12:801][673]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2018.03.12-21.16.12:802][673]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2018.03.12-21.16.12:802][673]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2018.03.12-21.16.12:802][673]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2018.03.12-21.16.12:804][673]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2018.03.12-21.16.12:807][673]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2018.03.12-21.16.12:807][673]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2018.03.12-21.16.12:807][673]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2018.03.12-21.16.12:809][673]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2018.03.12-21.16.12:809][673]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2018.03.12-21.16.12:810][673]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2018.03.12-21.16.12:811][673]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2018.03.12-21.16.12:811][673]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2018.03.12-21.16.12:811][673]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2018.03.12-21.16.12:811][673]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2018.03.12-21.16.12:811][673]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2018.03.12-21.16.12:811][673]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2018.03.12-21.16.12:811][673]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2018.03.12-21.16.12:811][673]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2018.03.12-21.16.12:813][673]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2018.03.12-21.16.12:813][673]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2018.03.12-21.16.12:813][673]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2018.03.12-21.16.12:813][673]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.03.12-21.16.12:813][673]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.03.12-21.16.12:813][673]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.03.12-21.16.12:815][673]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.03.12-21.16.12:815][673]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.03.12-21.16.12:816][673]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.03.12-21.16.12:816][673]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFB143DC9-47F6-333B-7ABB-09A4FC3825FE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=01d90524478d952f79bf15a0fb3ee477%7Cb6d55d87dad24922993b4a6bdcd07814%7C92cdc455-e147-4615-961d-a7f60375b392&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.03.12-21.16.12:827][673]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.03.12-21.16.12:832][673]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.03.12-21.16.12:833][673]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.03.12-21.16.12:833][673]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.03.12-21.16.12:834][673]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.03.12-21.16.12:838][673]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.03.12-21.16.12:838][673]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.03.12-21.16.12:838][673]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.03.12-21.16.12:841][673]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.03.12-21.16.12:842][673]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.03.12-21.16.12:842][673]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.03.12-21.16.12:843][673]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.03.12-21.16.12:843][673]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.03.12-21.16.12:843][673]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.03.12-21.16.12:843][673]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.03.12-21.16.12:844][673]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.03.12-21.16.12:844][673]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.03.12-21.16.12:844][673]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.03.12-21.16.12:844][673]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.03.12-21.16.12:850][673]LogExit: Exiting.
-[2018.03.12-21.16.12:873][673]Log file closed, 03/12/18 16:16:12
+[2018.03.13-17.19.14:639][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.13-17.19.14:639][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.13-17.19.14:660][  0]LogInit: Computer: DESKTOP-5EK2DIL
+[2018.03.13-17.19.14:660][  0]LogInit: User: samfo
+[2018.03.13-17.19.14:660][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.13-17.19.14:660][  0]LogInit: High frequency timer resolution =2.742186 MHz
+[2018.03.13-17.19.14:661][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.03.13-17.19.14:661][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.13-17.19.14:661][  0]LogMemory: Process Physical Memory: 281.21 MB used, 281.21 MB peak
+[2018.03.13-17.19.14:661][  0]LogMemory: Process Virtual Memory: 276.68 MB used, 276.68 MB peak
+[2018.03.13-17.19.14:661][  0]LogMemory: Physical Memory: 11289.00 MB used,  4967.96 MB free, 16256.96 MB total
+[2018.03.13-17.19.14:661][  0]LogMemory: Virtual Memory: 741.31 MB used,  4967.96 MB free, 134217728.00 MB total
+[2018.03.13-17.19.15:464][  0]LogInit: Using OS detected language (en-US).
+[2018.03.13-17.19.15:464][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.13-17.19.15:468][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.13-17.19.15:912][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.13-17.19.16:242][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.13-17.19.16:320][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.03.13-17.19.16:320][  0]LogD3D11RHI:       8081/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.03.13-17.19.16:329][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.03.13-17.19.16:329][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.03.13-17.19.16:334][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.13-17.19.16:334][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.13-17.19.16:334][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.13-17.19.16:354][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.13-17.19.16:354][  0]LogD3D11RHI:     GPU DeviceId: 0x1ba1 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.13-17.19.16:354][  0]LogWindows: EnumDisplayDevices:
+[2018.03.13-17.19.16:355][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.03.13-17.19.16:356][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.03.13-17.19.16:357][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.03.13-17.19.16:357][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.03.13-17.19.16:357][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.13-17.19.16:358][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.13-17.19.16:358][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.13-17.19.16:359][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.13-17.19.16:359][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.03.13-17.19.16:359][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.13-17.19.16:359][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.13-17.19.16:359][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2018.03.13-17.19.16:403][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.13-17.19.16:493][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.13-17.19.16:543][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Intermediate/Shaders/WorkingDirectory/20320/).
+[2018.03.13-17.19.16:543][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/samfo/AppData/Local/Temp/UnrealShaderWorkingDir/5506C4084B07C0663801D2BC4B37EE02/'.
+[2018.03.13-17.19.16:543][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.13-17.19.17:761][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.13-17.19.17:828][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.13-17.19.17:890][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.13-17.19.17:949][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.13-17.19.18:027][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.13-17.19.18:089][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.13-17.19.18:148][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.13-17.19.18:207][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.13-17.19.18:260][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.13-17.19.18:321][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.13-17.19.18:378][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.13-17.19.18:434][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.13-17.19.18:503][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.13-17.19.18:568][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.13-17.19.18:689][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.13-17.19.18:689][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.13-17.19.18:756][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.13-17.19.18:802][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.13-17.19.18:905][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.13-17.19.18:937][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.13-17.19.18:996][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.13-17.19.19:059][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.13-17.19.19:121][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.13-17.19.19:177][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.13-17.19.19:177][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.13-17.19.19:758][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.13-17.19.19:838][  0]LogDerivedDataCache: Loaded boot cache 0.08s 78MB C:/Users/samfo/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.13-17.19.19:838][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/samfo/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.13-17.19.19:839][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.13-17.19.19:839][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.13-17.19.19:839][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.13-17.19.19:839][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.13-17.19.19:857][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.13-17.19.19:869][  0]LogDerivedDataCache: Using Local data cache path C:/Users/samfo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.13-17.19.19:881][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.13-17.19.19:881][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.13-17.19.19:882][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.13-17.19.19:882][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.13-17.19.20:321][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.13-17.19.20:738][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.13-17.19.20:784][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.13-17.19.20:784][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.13-17.19.20:784][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.13-17.19.20:784][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.13-17.19.20:784][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.13-17.19.20:818][  0]LogNetVersion: EscapeVR , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1782577536)
+[2018.03.13-17.19.21:019][  0]LogAssetRegistry: FAssetRegistry took 0.0288 seconds to start up
+[2018.03.13-17.19.21:641][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.098500 seconds
+[2018.03.13-17.19.21:647][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.13-17.19.21:647][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.03.13-17.19.21:647][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.13-17.19.21:729][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.13-17.19.24:953][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.13-17.19.25:006][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.13-17.19.25:857][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.13-17.19.26:371][  0]SourceControl: Source control is disabled
+[2018.03.13-17.19.26:372][  0]SourceControl: Source control is disabled
+[2018.03.13-17.19.26:439][  0]SourceControl: Source control is disabled
+[2018.03.13-17.19.26:501][  0]SourceControl: Source control is disabled
+[2018.03.13-17.19.27:492][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.13-17.19.27:817][  0]LogOcInput: OculusInput pre-init called
+[2018.03.13-17.19.28:133][  0]LogEngine: Initializing Engine...
+[2018.03.13-17.19.28:134][  0]LogHMD: Oculus plugin initialized. Version: 4.18.3-3832480+++UE4+Release-4.18, OVRPlugin: 1.19.0
+[2018.03.13-17.19.28:414][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.13-17.19.28:415][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.13-17.19.28:607][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.13-17.19.28:651][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.03.13-17.19.28:715][  0]LogInit: FAudioDevice initialized.
+[2018.03.13-17.19.28:776][  0]LogDerivedDataCache: Saved boot cache 0.06s 78MB C:/Users/samfo/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.13-17.19.28:791][  0]LogInit: Texture streaming: Enabled
+[2018.03.13-17.19.28:918][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.13-17.19.29:105][  0]LogInit: Transaction tracking system initialized
+[2018.03.13-17.19.29:488][  0]BlueprintLog: New page: Editor Load
+[2018.03.13-17.19.30:538][  0]LocalizationService: Localization service is disabled
+[2018.03.13-17.19.31:478][  0]LogConsoleResponse: Display: 
+[2018.03.13-17.19.31:705][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.13-17.19.31:705][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.13-17.19.31:705][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.13-17.19.31:906][  0]LogFileCache: Scanning file cache for directory 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/' took 0.03s
+[2018.03.13-17.19.33:288][  0]SourceControl: Source control is disabled
+[2018.03.13-17.19.33:288][  0]Cmd: MAP LOAD FILE="../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.13-17.19.33:294][  0]LightingResults: New page: Lighting Build
+[2018.03.13-17.19.33:358][  0]MapCheck: New page: Map Check
+[2018.03.13-17.19.33:358][  0]LightingResults: New page: Lighting Build
+[2018.03.13-17.19.34:316][  0]LogAIModule: Creating AISystem for world Hospital
+[2018.03.13-17.19.34:340][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.13-17.19.34:352][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.13-17.19.34:418][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 65.915ms to complete.
+[2018.03.13-17.19.34:418][  0]LogFileHelpers: Loading map 'Hospital' took 1.130
+[2018.03.13-17.19.34:702][  0]LogCollectionManager: Loaded 0 collections in 0.003861 seconds
+[2018.03.13-17.19.34:819][  0]LogFileCache: Scanning file cache for directory 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Collections/' took 0.01s
+[2018.03.13-17.19.34:819][  0]LogFileCache: Scanning file cache for directory 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Developers/samfo/Collections/' took 0.01s
+[2018.03.13-17.19.34:819][  0]LogFileCache: Scanning file cache for directory 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Collections/' took 0.01s
+[2018.03.13-17.19.34:819][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.13-17.19.34:830][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2365 classes and 523 folders.
+[2018.03.13-17.19.34:923][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.03.13-17.19.35:428][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.03.13-17.19.35:609][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2018.03.13-17.19.35:609][  0]LogLoad: (Engine Initialization) Total time: 24.49 seconds
+[2018.03.13-17.19.35:609][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.13-17.19.35:609][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.13-17.19.35:956][  0]LogOcInput: OculusInput is initialized
+[2018.03.13-17.19.35:980][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.13-17.19.35:983][  0]LogSlate: Took 0.000426 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.13-17.19.35:994][  0]LogSlate: Took 0.000618 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.13-17.19.36:013][  0]LogSlate: Took 0.007973 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.13-17.19.36:195][  0]LogSlate: Took 0.005106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.13-17.19.36:611][  2]LogRenderer: Reallocating scene render targets to support 800x360 Format 10 NumSamples 1 (Frame:1).
+[2018.03.13-17.19.36:624][  2]LogAssetRegistry: Asset discovery search completed in 15.6279 seconds
+[2018.03.13-17.19.36:628][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.13-17.19.36:628][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000144 seconds (updated 0 objects)
+[2018.03.13-17.19.53:135][811]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:786).
+[2018.03.13-17.19.59:781][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cieling)
+[2018.03.13-17.20.07:829][666]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x301)
+[2018.03.13-17.20.32:341][117]LogMaterial: Missing cached shader map for material Floor_Checker_mat, compiling. 
+[2018.03.13-17.20.32:440][117]LogStaticMesh: Building static mesh Floor_checker_ruined_1_stm...
+[2018.03.13-17.20.32:450][117]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.13-17.20.32:529][117]LogStaticMesh: Built static mesh [0.09s] /Game/Horror_pack/Meshes/Floor_cheker/Floor_checker_ruined_1_stm.Floor_checker_ruined_1_stm
+[2018.03.13-17.20.35:675][241]LogSlate: Took 0.006950 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.13-17.21.23:437][ 51]LogStaticMesh: Building static mesh Floor_checker_ruined_random_3_stm...
+[2018.03.13-17.21.23:492][ 51]LogStaticMesh: Built static mesh [0.05s] /Game/Horror_pack/Models/Floor_cheker/Floor_checker_ruined_random_3_stm.Floor_checker_ruined_random_3_stm
+[2018.03.13-17.21.23:628][ 57]LogActorFactory: Actor Factory created Floor_checker_ruined_random_3_stm
+[2018.03.13-17.21.25:071][142]LogActorFactory: Actor Factory created Floor_checker_ruined_random_3_stm
+[2018.03.13-17.21.37:491][875]Cmd: DELETE
+[2018.03.13-17.21.37:491][875]Cmd: ACTOR DELETE
+[2018.03.13-17.21.37:503][875]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.13-17.21.37:513][875]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.03.13-17.21.40:100][ 29]LogStaticMesh: Building static mesh Floor_checker_normal_stm...
+[2018.03.13-17.21.40:140][ 29]LogStaticMesh: Built static mesh [0.04s] /Game/Horror_pack/Models/Floor_cheker/Floor_checker_normal_stm.Floor_checker_normal_stm
+[2018.03.13-17.21.40:194][ 31]LogActorFactory: Actor Factory created Floor_checker_normal_stm
+[2018.03.13-17.21.40:916][ 74]LogActorFactory: Actor Factory created Floor_checker_normal_stm
+[2018.03.13-17.21.43:753][239]LogStaticMesh: Building static mesh Floor_checker_ruined_normal_stm...
+[2018.03.13-17.21.43:797][239]LogStaticMesh: Built static mesh [0.04s] /Game/Horror_pack/Models/Floor_cheker/Floor_checker_ruined_normal_stm.Floor_checker_ruined_normal_stm
+[2018.03.13-17.21.43:870][242]LogActorFactory: Actor Factory created Floor_checker_ruined_normal_stm
+[2018.03.13-17.21.44:708][292]LogActorFactory: Actor Factory created Floor_checker_ruined_normal_stm
+[2018.03.13-17.21.47:206][424]LogStaticMesh: Building static mesh Floor_checker_ruined_angle_4_stm...
+[2018.03.13-17.21.47:250][424]LogStaticMesh: Built static mesh [0.05s] /Game/Horror_pack/Models/Floor_cheker/Floor_checker_ruined_angle_4_stm.Floor_checker_ruined_angle_4_stm
+[2018.03.13-17.21.47:304][426]LogActorFactory: Actor Factory created Floor_checker_ruined_angle_4_stm
+[2018.03.13-17.21.48:210][480]LogActorFactory: Actor Factory created Floor_checker_ruined_angle_4_stm
+[2018.03.13-17.21.50:266][599]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_checker_normal_stm)
+[2018.03.13-17.21.51:664][680]Cmd: DELETE
+[2018.03.13-17.21.51:664][680]Cmd: ACTOR DELETE
+[2018.03.13-17.21.51:665][680]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.13-17.21.51:675][680]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.03.13-17.21.52:414][724]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_checker_ruined_angle_4_stm)
+[2018.03.13-17.21.52:616][730]Cmd: DELETE
+[2018.03.13-17.21.52:617][730]Cmd: ACTOR DELETE
+[2018.03.13-17.21.52:618][730]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.13-17.21.52:627][730]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.03.13-17.21.53:040][755]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_checker_ruined_normal_stm)
+[2018.03.13-17.21.53:155][758]Cmd: DELETE
+[2018.03.13-17.21.53:156][758]Cmd: ACTOR DELETE
+[2018.03.13-17.21.53:158][758]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.13-17.21.53:167][758]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.03.13-17.21.56:677][964]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2018.03.13-17.22.02:522][310]Cmd: DELETE
+[2018.03.13-17.22.02:522][310]Cmd: ACTOR DELETE
+[2018.03.13-17.22.02:524][310]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.13-17.22.02:533][310]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.03.13-17.22.03:048][341]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x301)
+[2018.03.13-17.22.03:429][361]Cmd: DELETE
+[2018.03.13-17.22.03:429][361]Cmd: ACTOR DELETE
+[2018.03.13-17.22.03:430][361]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.13-17.22.03:439][361]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.03.13-17.22.03:903][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2018.03.13-17.22.04:049][395]Cmd: DELETE
+[2018.03.13-17.22.04:049][395]Cmd: ACTOR DELETE
+[2018.03.13-17.22.04:051][395]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.13-17.22.04:060][395]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.03.13-17.22.04:967][450]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x309)
+[2018.03.13-17.22.05:150][458]Cmd: DELETE
+[2018.03.13-17.22.05:150][458]Cmd: ACTOR DELETE
+[2018.03.13-17.22.05:151][458]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.13-17.22.05:160][458]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.03.13-17.22.05:851][500]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cieling)
+[2018.03.13-17.22.06:368][528]Cmd: DELETE
+[2018.03.13-17.22.06:368][528]Cmd: ACTOR DELETE
+[2018.03.13-17.22.06:369][528]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.13-17.22.06:378][528]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.03.13-17.22.07:307][584]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.03.13-17.22.07:974][621]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x306)
+[2018.03.13-17.22.08:548][651]Cmd: DELETE
+[2018.03.13-17.22.08:548][651]Cmd: ACTOR DELETE
+[2018.03.13-17.22.08:550][651]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.13-17.22.08:560][651]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.03.13-17.22.09:207][690]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x307)
+[2018.03.13-17.22.09:521][706]Cmd: DELETE
+[2018.03.13-17.22.09:521][706]Cmd: ACTOR DELETE
+[2018.03.13-17.22.09:523][706]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.13-17.22.09:533][706]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.03.13-17.22.10:213][747]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x305)
+[2018.03.13-17.22.10:584][765]Cmd: DELETE
+[2018.03.13-17.22.10:584][765]Cmd: ACTOR DELETE
+[2018.03.13-17.22.10:585][765]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.13-17.22.10:595][765]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.03.13-17.22.11:078][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x308)
+[2018.03.13-17.22.11:437][812]Cmd: DELETE
+[2018.03.13-17.22.11:438][812]Cmd: ACTOR DELETE
+[2018.03.13-17.22.11:439][812]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.13-17.22.11:448][812]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.03.13-17.22.11:845][836]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x304)
+[2018.03.13-17.22.12:080][847]Cmd: DELETE
+[2018.03.13-17.22.12:080][847]Cmd: ACTOR DELETE
+[2018.03.13-17.22.12:082][847]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.13-17.22.12:091][847]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.03.13-17.22.12:555][875]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2018.03.13-17.22.12:738][883]Cmd: DELETE
+[2018.03.13-17.22.12:738][883]Cmd: ACTOR DELETE
+[2018.03.13-17.22.12:740][883]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.13-17.22.12:750][883]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.03.13-17.22.13:314][917]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x311)
+[2018.03.13-17.22.13:463][922]Cmd: DELETE
+[2018.03.13-17.22.13:463][922]Cmd: ACTOR DELETE
+[2018.03.13-17.22.13:465][922]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.13-17.22.13:475][922]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.03.13-17.22.14:724][997]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x310)
+[2018.03.13-17.22.15:625][ 47]Cmd: DELETE
+[2018.03.13-17.22.15:625][ 47]Cmd: ACTOR DELETE
+[2018.03.13-17.22.15:627][ 47]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.13-17.22.15:636][ 47]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.03.13-17.22.28:171][795]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.13-17.22.33:869][132]Cmd: DELETE
+[2018.03.13-17.22.33:870][132]Cmd: ACTOR DELETE
+[2018.03.13-17.22.33:871][132]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.13-17.22.33:880][132]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.03.13-17.22.35:375][222]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (ThirdPersonIdle)
+[2018.03.13-17.22.36:463][282]Cmd: DELETE
+[2018.03.13-17.22.36:463][282]Cmd: ACTOR DELETE
+[2018.03.13-17.22.36:464][282]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.03.13-17.22.36:473][282]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.03.13-17.22.37:201][326]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (ThirdPersonWalk)
+[2018.03.13-17.22.37:599][346]Cmd: DELETE
+[2018.03.13-17.22.37:599][346]Cmd: ACTOR DELETE
+[2018.03.13-17.22.37:600][346]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.03.13-17.22.37:609][346]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.03.13-17.22.38:070][374]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (ThirdPersonRun)
+[2018.03.13-17.22.38:197][378]Cmd: DELETE
+[2018.03.13-17.22.38:197][378]Cmd: ACTOR DELETE
+[2018.03.13-17.22.38:199][378]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.03.13-17.22.38:209][378]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.03.13-17.23.08:984][205]LogMaterial: Missing cached shader map for material Floor_wooden_mat_1, compiling. 
+[2018.03.13-17.23.09:064][205]LogMaterial: Missing cached shader map for material Floor_wooden_mat_1, compiling. 
+[2018.03.13-17.23.09:156][205]LogMaterial: Missing cached shader map for material Door_wood_mat, compiling. 
+[2018.03.13-17.23.09:239][205]LogStaticMesh: Building static mesh Floor_wooden_1...
+[2018.03.13-17.23.09:297][205]LogStaticMesh: Built static mesh [0.06s] /Game/Horror_pack/Models/Floor_wooden/Floor_wooden_1.Floor_wooden_1
+[2018.03.13-17.23.09:331][205]LogActorFactory: Actor Factory created Floor_wooden_1
+[2018.03.13-17.23.10:140][253]LogActorFactory: Actor Factory created Floor_wooden_1
+[2018.03.13-17.23.12:293][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_wooden_1)
+[2018.03.13-17.23.24:293][ 73]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2018.03.13-17.23.25:943][166]Cmd: DELETE
+[2018.03.13-17.23.25:944][166]Cmd: ACTOR DELETE
+[2018.03.13-17.23.25:946][166]LogEditorActor: Deleted Actor: PointLight
+[2018.03.13-17.23.25:959][166]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2018.03.13-17.23.27:018][230]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2018.03.13-17.23.27:532][256]Cmd: DELETE
+[2018.03.13-17.23.27:532][256]Cmd: ACTOR DELETE
+[2018.03.13-17.23.27:534][256]LogEditorActor: Deleted Actor: PointLight
+[2018.03.13-17.23.27:545][256]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.03.13-17.23.28:908][338]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_wooden_1)
+[2018.03.13-17.23.29:949][397]Cmd: DELETE
+[2018.03.13-17.23.29:949][397]Cmd: ACTOR DELETE
+[2018.03.13-17.23.29:951][397]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.13-17.23.29:960][397]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.03.13-17.23.40:184][999]LogStaticMesh: Building static mesh Floor_parquet_ruined_stm...
+[2018.03.13-17.23.40:241][999]LogStaticMesh: Built static mesh [0.06s] /Game/Horror_pack/Models/Floor_parquet/Floor_parquet_ruined_stm.Floor_parquet_ruined_stm
+[2018.03.13-17.23.40:256][999]LogMaterial: Missing cached shader map for material Floor_parquet_mat, compiling. 
+[2018.03.13-17.23.40:322][999]LogActorFactory: Actor Factory created Floor_parquet_ruined_stm
+[2018.03.13-17.23.41:015][ 40]LogActorFactory: Actor Factory created Floor_parquet_ruined_stm
+[2018.03.13-17.23.46:714][374]Cmd: DELETE
+[2018.03.13-17.23.46:714][374]Cmd: ACTOR DELETE
+[2018.03.13-17.23.46:715][374]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.13-17.23.46:725][374]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.03.13-17.23.55:742][909]LogActorFactory: Actor Factory created Floor_checker_normal_stm
+[2018.03.13-17.23.56:362][946]LogActorFactory: Actor Factory created Floor_checker_normal_stm
+[2018.03.13-17.24.09:580][728]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_checker_normal_stm)
+[2018.03.13-17.24.30:238][954]Cmd: TRANSACTION UNDO
+[2018.03.13-17.24.30:238][954]LogEditorTransaction: Undo Move Actors
+[2018.03.13-17.24.30:250][954]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.13-17.24.52:455][268]LogTemp: Repeating last play command: VR Preview
+[2018.03.13-17.24.52:677][268]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.13-17.24.52:677][268]LogHMD: Initializing OVRPlugin session
+[2018.03.13-17.24.52:728][268]PIE: New page: PIE session: Hospital (Mar 13, 2018, 7:24:52 AM)
+[2018.03.13-17.24.52:728][268]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.13-17.24.52:733][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005337s)
+[2018.03.13-17.24.52:734][268]LogAIModule: Creating AISystem for world Hospital
+[2018.03.13-17.24.52:735][268]LogPlayLevel: PIE: World Init took: (0.001191s)
+[2018.03.13-17.24.52:735][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.007103s)
+[2018.03.13-17.24.52:796][268]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.13-17.24.52:815][268]LogInit: FAudioDevice initialized.
+[2018.03.13-17.24.52:931][268]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.13-17.24.52:973][268]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/EscapeVR.EscapeVRGameMode'
+[2018.03.13-17.24.52:973][268]LogLoad: Game class is 'GameModeBase'
+[2018.03.13-17.24.52:984][268]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.13-12.24.52
+[2018.03.13-17.24.52:985][268]LogWorld: Bringing up level for play took: 0.002249
+[2018.03.13-17.24.53:048][268]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2018.03.13-17.24.53:057][268]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 0.065
+[2018.03.13-17.24.53:059][268]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.13-17.24.53:061][268]LogHMD: Allocating Oculus 1208 x 576 depth rendertarget swapchain
+[2018.03.13-17.24.53:099][268]LogRenderer: Reallocating scene render targets to support 2720x1600 Format 10 NumSamples 1 (Frame:1).
+[2018.03.13-17.24.53:099][268]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.13-17.25.16:513][ 99]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.03.13-17.25.17:622][162]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2018.03.13-17.25.19:571][274]Cmd: DELETE
+[2018.03.13-17.25.19:571][274]Cmd: ACTOR DELETE
+[2018.03.13-17.25.19:572][274]LogEditorActor: Deleted Actor: SpotLight
+[2018.03.13-17.25.19:581][274]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.03.13-17.25.22:146][428]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Wall2)
+[2018.03.13-17.25.23:322][494]Cmd: DELETE
+[2018.03.13-17.25.23:322][494]Cmd: ACTOR DELETE
+[2018.03.13-17.25.23:323][494]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.13-17.25.23:332][494]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.03.13-17.25.28:283][790]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2018.03.13-17.25.55:070][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Hospital" FILE="../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.13-17.25.55:142][375]LogSavePackage: Save=40.65ms
+[2018.03.13-17.25.55:142][375]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/HospitalBD0D1E554B455F5A132C9CAA8EFD9C25.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital.umap'
+[2018.03.13-17.25.55:149][375]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital.umap
+[2018.03.13-17.25.55:182][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Hospital_BuiltData" FILE="../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital_BuiltData.uasset" SILENT=true
+[2018.03.13-17.25.55:238][375]LogSavePackage: Save=46.27ms
+[2018.03.13-17.25.55:238][375]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Hospital_BuiltDataF802336242DFA6670A0EB8881DE4B80B.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital_BuiltData.uasset'
+[2018.03.13-17.25.55:240][375]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital_BuiltData.uasset
+[2018.03.13-17.26.01:730][760]MapCheck: New page: Map Check
+[2018.03.13-17.26.01:757][760]LightingResults: New page: Lighting Build - Mar 13, 2018, 7:26:01 AM
+[2018.03.13-17.26.01:825][760]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.13-17.26.01:959][760]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.13-17.26.01:988][760]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.13-17.26.02:512][760]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.13-17.26.02:512][760]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20320
+[2018.03.13-17.26.05:355][760]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.13-17.26.05:355][760]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.13-17.26.05:356][760]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.13-17.26.05:356][760]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.13-17.26.05:356][760]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.13-17.26.05:356][760]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.13-17.26.05:596][760]LogEditorBuildUtils: Build time 0:03
+[2018.03.13-17.26.05:641][761]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Floor_Checker_mat, compiling. 
+[2018.03.13-17.26.05:648][761]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Floor_Checker_mat, compiling. 
+[2018.03.13-17.26.08:237][835]Job is a success!
+[2018.03.13-17.26.08:344][836]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.009s
+[2018.03.13-17.26.08:344][836]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.13-17.26.08:344][836]LogVolumetricLightmapImport:      BrickData 55x5x5 = 0.0Mb
+[2018.03.13-17.26.08:344][836]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.13-17.26.08:344][836]LogVolumetricLightmapImport:          0: 9.1% covering 100.0% of volume
+[2018.03.13-17.26.08:344][836]LogVolumetricLightmapImport:          1: 9.1% covering 1.6% of volume
+[2018.03.13-17.26.08:344][836]LogVolumetricLightmapImport:          2: 81.8% covering 0.2% of volume
+[2018.03.13-17.26.08:380][836]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2018.03.13-17.26.08:380][836]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2018.03.13-17.26.08:380][836]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.03.13-17.26.08:380][836]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.03.13-17.26.08:380][836]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 64X64)
+[2018.03.13-17.26.08:380][836]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.03.13-17.26.08:413][836]Lightmass on DESKTOP-5EK2DIL: 1.21 sec total, 203 ms importing, 19 ms setup, 381 ms photons, 389 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 2.56 sec total, 179 ms processing.
+[2018.03.13-17.26.08:442][836]LogStaticLightingSystem: Illumination: 6.65 sec (18 ms encoding lightmaps, 5 ms encoding shadowmaps)
+[2018.03.13-17.26.08:442][836]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.13-17.26.08:442][836]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.13-17.26.09:366][836]DumpUnbuiltLightIteractions
+[2018.03.13-17.26.09:366][836]Lights with unbuilt interactions: 0
+[2018.03.13-17.26.09:366][836]
+[2018.03.13-17.26.09:366][836]Primitives with unbuilt interactions: 0
+[2018.03.13-17.26.09:419][837]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.13-17.26.09:420][837]MapCheck: New page: Hospital - Mar 13, 2018, 7:26:09 AM
+[2018.03.13-17.26.09:489][837]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 69.636ms to complete.
+[2018.03.13-17.26.17:406][298]LogTemp: Repeating last play command: VR Preview
+[2018.03.13-17.26.17:426][298]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.13-17.26.17:426][298]LogHMD: Initializing OVRPlugin session
+[2018.03.13-17.26.17:467][298]PIE: New page: PIE session: Hospital (Mar 13, 2018, 7:26:17 AM)
+[2018.03.13-17.26.17:467][298]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.13-17.26.17:470][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002843s)
+[2018.03.13-17.26.17:471][298]LogAIModule: Creating AISystem for world Hospital
+[2018.03.13-17.26.17:472][298]LogPlayLevel: PIE: World Init took: (0.001015s)
+[2018.03.13-17.26.17:472][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.004479s)
+[2018.03.13-17.26.17:530][298]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.13-17.26.17:546][298]LogInit: FAudioDevice initialized.
+[2018.03.13-17.26.17:646][298]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.13-17.26.17:675][298]LogLoad: Game class is 'GameModeBase'
+[2018.03.13-17.26.17:676][298]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.13-12.26.17
+[2018.03.13-17.26.17:676][298]LogWorld: Bringing up level for play took: 0.000996
+[2018.03.13-17.26.17:691][298]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 0.699
+[2018.03.13-17.26.17:696][298]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.13-17.26.17:696][298]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.13-17.26.42:808][112]LogMaterial: Missing cached shader map for material Med_table_wheel, compiling. 
+[2018.03.13-17.26.42:849][112]LogStaticMesh: Building static mesh Med_tablel_stm...
+[2018.03.13-17.26.43:020][112]LogStaticMesh: Built static mesh [0.17s] /Game/Horror_pack/Models/Props/Med_tablel_stm.Med_tablel_stm
+[2018.03.13-17.26.43:052][112]LogMaterial: Missing cached shader map for material Shelving_mat, compiling. 
+[2018.03.13-17.26.43:092][112]LogMaterial: Missing cached shader map for material Shelving_mat, compiling. 
+[2018.03.13-17.26.43:129][112]LogMaterial: Missing cached shader map for material Shelving_mat, compiling. 
+[2018.03.13-17.26.43:177][112]LogMaterial: Missing cached shader map for material Shelving_mat, compiling. 
+[2018.03.13-17.26.43:243][112]LogActorFactory: Actor Factory created Med_tablel_stm
+[2018.03.13-17.26.44:982][216]LogActorFactory: Actor Factory created Med_tablel_stm
+[2018.03.13-17.27.08:386][583]LogEditorViewport: Clicking on Actor (LMB): Pawn_Blueprint_C (Pawn_Blueprint)
+[2018.03.13-17.27.10:517][703]LogTemp: Repeating last play command: VR Preview
+[2018.03.13-17.27.10:536][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.13-17.27.10:536][703]LogHMD: Initializing OVRPlugin session
+[2018.03.13-17.27.10:575][703]PIE: New page: PIE session: Hospital (Mar 13, 2018, 7:27:10 AM)
+[2018.03.13-17.27.10:575][703]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.13-17.27.10:579][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003214s)
+[2018.03.13-17.27.10:579][703]LogAIModule: Creating AISystem for world Hospital
+[2018.03.13-17.27.10:580][703]LogPlayLevel: PIE: World Init took: (0.001012s)
+[2018.03.13-17.27.10:580][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.004651s)
+[2018.03.13-17.27.10:656][703]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.13-17.27.10:667][703]LogInit: FAudioDevice initialized.
+[2018.03.13-17.27.10:767][703]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.13-17.27.10:801][703]LogLoad: Game class is 'GameModeBase'
+[2018.03.13-17.27.10:802][703]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.13-12.27.10
+[2018.03.13-17.27.10:803][703]LogWorld: Bringing up level for play took: 0.001153
+[2018.03.13-17.27.10:824][703]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital -0.168
+[2018.03.13-17.27.10:831][703]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.13-17.27.10:831][703]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.13-17.27.57:977][190]MapCheck: New page: Map Check
+[2018.03.13-17.27.58:001][190]LightingResults: New page: Lighting Build - Mar 13, 2018, 7:27:58 AM
+[2018.03.13-17.27.58:015][190]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.13-17.27.58:018][190]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.13-17.27.58:019][190]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.13-17.27.58:020][190]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.13-17.27.58:020][190]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20320
+[2018.03.13-17.28.02:538][190]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.13-17.28.02:539][190]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.13-17.28.02:539][190]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.13-17.28.02:539][190]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.13-17.28.02:539][190]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.13-17.28.02:539][190]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.13-17.28.02:758][190]LogEditorBuildUtils: Build time 0:04
+[2018.03.13-17.28.02:773][190]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Shelving_Inst3, compiling. 
+[2018.03.13-17.28.02:784][190]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Shelving_Inst3, compiling. 
+[2018.03.13-17.28.02:818][191]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Shelving_Inst, compiling. 
+[2018.03.13-17.28.02:831][191]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Shelving_Inst, compiling. 
+[2018.03.13-17.28.02:871][192]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Shelving_Inst_Inst2, compiling. 
+[2018.03.13-17.28.02:883][192]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Shelving_Inst_Inst2, compiling. 
+[2018.03.13-17.28.02:921][193]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Med_table_wheel, compiling. 
+[2018.03.13-17.28.02:933][193]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Med_table_wheel, compiling. 
+[2018.03.13-17.28.07:730][207]Job is a success!
+[2018.03.13-17.28.08:172][208]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.007s
+[2018.03.13-17.28.08:172][208]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.13-17.28.08:172][208]LogVolumetricLightmapImport:      BrickData 55x5x5 = 0.0Mb
+[2018.03.13-17.28.08:172][208]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.13-17.28.08:172][208]LogVolumetricLightmapImport:          0: 9.1% covering 100.0% of volume
+[2018.03.13-17.28.08:172][208]LogVolumetricLightmapImport:          1: 9.1% covering 1.6% of volume
+[2018.03.13-17.28.08:172][208]LogVolumetricLightmapImport:          2: 81.8% covering 0.2% of volume
+[2018.03.13-17.28.08:266][208]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2018.03.13-17.28.08:266][208]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2018.03.13-17.28.08:266][208]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.03.13-17.28.08:266][208]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.03.13-17.28.08:266][208]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 128X64)
+[2018.03.13-17.28.08:266][208]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2018.03.13-17.28.08:287][208]Lightmass on DESKTOP-5EK2DIL: 1.74 sec total, 191 ms importing, 26 ms setup, 384 ms photons, 1.11 sec processing, 0 ms extra exporting [3/3 mappings]. Threads: 7.62 sec total, 626 ms processing.
+[2018.03.13-17.28.08:290][208]LogStaticLightingSystem: Illumination: 9.95 sec (27 ms encoding lightmaps, 7 ms encoding shadowmaps)
+[2018.03.13-17.28.08:290][208]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.13-17.28.08:290][208]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.13-17.28.08:551][208]DumpUnbuiltLightIteractions
+[2018.03.13-17.28.08:551][208]Lights with unbuilt interactions: 0
+[2018.03.13-17.28.08:551][208]
+[2018.03.13-17.28.08:551][208]Primitives with unbuilt interactions: 0
+[2018.03.13-17.28.08:563][209]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.13-17.28.08:564][209]MapCheck: New page: Hospital - Mar 13, 2018, 7:28:08 AM
+[2018.03.13-17.28.08:678][209]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 114.893ms to complete.
+[2018.03.13-17.28.19:028][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Hospital" FILE="../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.13-17.28.19:175][342]LogSavePackage: Save=131.60ms
+[2018.03.13-17.28.19:175][342]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/HospitalBC6830B04234D902B59130A93220C119.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital.umap'
+[2018.03.13-17.28.19:181][342]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital.umap
+[2018.03.13-17.28.19:215][342]LogFileHelpers: Saving map 'Hospital' took 0.262
+[2018.03.13-17.28.19:218][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Hospital_BuiltData" FILE="../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital_BuiltData.uasset" SILENT=true
+[2018.03.13-17.28.19:250][342]LogSavePackage: Save=25.84ms
+[2018.03.13-17.28.19:250][342]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Hospital_BuiltDataCD262E2C4A6F506988537BB92FC123CA.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital_BuiltData.uasset'
+[2018.03.13-17.28.19:254][342]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital_BuiltData.uasset
+[2018.03.13-17.28.19:348][342]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.13-17.28.19:348][342]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.13-17.28.19:561][343]Cmd: QUIT_EDITOR
+[2018.03.13-17.28.19:768][343]LogExit: Preparing to exit.
+[2018.03.13-17.28.20:286][343]LogDirectoryWatcher: A directory notification for 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/' was aborted.
+[2018.03.13-17.28.20:306][343]LogExit: Editor shut down
+[2018.03.13-17.28.20:313][343]LogExit: Transaction tracking system shut down
+[2018.03.13-17.28.20:440][343]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.13-17.28.20:440][343]LogDirectoryWatcher: A directory notification for '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/' was aborted.
+[2018.03.13-17.28.20:440][343]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.13-17.28.20:440][343]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.03.13-17.28.20:440][343]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.03.13-17.28.20:440][343]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.03.13-17.28.20:440][343]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.03.13-17.28.20:493][343]LogExit: Object subsystem successfully closed.
+[2018.03.13-17.28.20:525][343]LogD3D11RHI: Shutdown
+[2018.03.13-17.28.20:525][343]LogD3D11RHI: CleanupD3DDevice
+[2018.03.13-17.28.20:529][343]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.13-17.28.20:548][343]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (554)
+[2018.03.13-17.28.20:554][343]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (552)
+[2018.03.13-17.28.20:554][343]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
+[2018.03.13-17.28.20:554][343]LogModuleManager: Shutting down and abandoning module DesktopPlatform (548)
+[2018.03.13-17.28.20:554][343]LogModuleManager: Shutting down and abandoning module AddContentDialog (546)
+[2018.03.13-17.28.20:556][343]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.03.13-17.28.20:557][343]LogModuleManager: Shutting down and abandoning module WidgetCarousel (545)
+[2018.03.13-17.28.20:557][343]LogModuleManager: Shutting down and abandoning module EditorWidgets (542)
+[2018.03.13-17.28.20:557][343]LogModuleManager: Shutting down and abandoning module CollectionManager (540)
+[2018.03.13-17.28.20:557][343]LogDirectoryWatcher: A directory notification for 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Collections/' was aborted.
+[2018.03.13-17.28.20:557][343]LogDirectoryWatcher: A directory notification for 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Developers/samfo/Collections/' was aborted.
+[2018.03.13-17.28.20:557][343]LogDirectoryWatcher: A directory notification for 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Collections/' was aborted.
+[2018.03.13-17.28.20:557][343]LogModuleManager: Shutting down and abandoning module SceneOutliner (538)
+[2018.03.13-17.28.20:557][343]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.03.13-17.28.20:557][343]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.03.13-17.28.20:557][343]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.03.13-17.28.20:557][343]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.03.13-17.28.20:557][343]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.03.13-17.28.20:557][343]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.03.13-17.28.20:557][343]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.03.13-17.28.20:557][343]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.03.13-17.28.20:557][343]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.03.13-17.28.20:557][343]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.03.13-17.28.20:557][343]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.03.13-17.28.20:557][343]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.03.13-17.28.20:557][343]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.03.13-17.28.20:557][343]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.03.13-17.28.20:557][343]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.03.13-17.28.20:557][343]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.03.13-17.28.20:558][343]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.03.13-17.28.20:558][343]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.03.13-17.28.20:558][343]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.03.13-17.28.20:558][343]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.03.13-17.28.20:558][343]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.03.13-17.28.20:558][343]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.03.13-17.28.20:558][343]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.03.13-17.28.20:558][343]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.03.13-17.28.20:558][343]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.03.13-17.28.20:558][343]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.03.13-17.28.20:558][343]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.03.13-17.28.20:558][343]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.03.13-17.28.20:558][343]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.03.13-17.28.20:558][343]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.03.13-17.28.20:558][343]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.03.13-17.28.20:558][343]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.03.13-17.28.20:558][343]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.03.13-17.28.20:558][343]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.03.13-17.28.20:558][343]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.03.13-17.28.20:558][343]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.03.13-17.28.20:558][343]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.03.13-17.28.20:559][343]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.03.13-17.28.20:559][343]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.03.13-17.28.20:559][343]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.03.13-17.28.20:559][343]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.03.13-17.28.21:226][343]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.03.13-17.28.21:226][343]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.03.13-17.28.21:226][343]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.03.13-17.28.21:226][343]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.03.13-17.28.21:226][343]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.03.13-17.28.21:226][343]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.03.13-17.28.21:226][343]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.03.13-17.28.21:226][343]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.03.13-17.28.21:226][343]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.03.13-17.28.21:227][343]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.03.13-17.28.21:227][343]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.03.13-17.28.21:227][343]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.03.13-17.28.21:227][343]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.03.13-17.28.21:227][343]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.03.13-17.28.21:227][343]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.03.13-17.28.21:227][343]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.03.13-17.28.21:227][343]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.03.13-17.28.21:227][343]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.03.13-17.28.21:227][343]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.03.13-17.28.21:227][343]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.03.13-17.28.21:227][343]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.03.13-17.28.21:227][343]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.03.13-17.28.21:227][343]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.03.13-17.28.21:227][343]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.03.13-17.28.21:291][343]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.03.13-17.28.21:291][343]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.03.13-17.28.21:291][343]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.03.13-17.28.21:291][343]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.03.13-17.28.21:291][343]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.03.13-17.28.21:291][343]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.03.13-17.28.21:292][343]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.03.13-17.28.21:292][343]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.03.13-17.28.21:292][343]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.03.13-17.28.21:292][343]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.03.13-17.28.21:293][343]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.03.13-17.28.21:293][343]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.03.13-17.28.21:293][343]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.03.13-17.28.21:293][343]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.03.13-17.28.21:293][343]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.03.13-17.28.21:293][343]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.03.13-17.28.21:293][343]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.03.13-17.28.21:293][343]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.03.13-17.28.21:293][343]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.03.13-17.28.21:293][343]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.03.13-17.28.21:293][343]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.03.13-17.28.21:293][343]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.03.13-17.28.21:294][343]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.03.13-17.28.21:294][343]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.03.13-17.28.21:294][343]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.03.13-17.28.21:294][343]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.03.13-17.28.21:294][343]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.03.13-17.28.21:294][343]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.03.13-17.28.21:294][343]LogModuleManager: Shutting down and abandoning module ProfilerService (350)
+[2018.03.13-17.28.21:300][343]LogModuleManager: Shutting down and abandoning module TaskGraph (348)
+[2018.03.13-17.28.21:300][343]LogModuleManager: Shutting down and abandoning module SteamVRController (346)
+[2018.03.13-17.28.21:300][343]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (344)
+[2018.03.13-17.28.21:300][343]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (342)
+[2018.03.13-17.28.21:300][343]LogModuleManager: Shutting down and abandoning module OculusInput (340)
+[2018.03.13-17.28.21:300][343]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (338)
+[2018.03.13-17.28.21:300][343]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (336)
+[2018.03.13-17.28.21:300][343]LogModuleManager: Shutting down and abandoning module CableComponent (334)
+[2018.03.13-17.28.21:300][343]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (332)
+[2018.03.13-17.28.21:300][343]LogModuleManager: Shutting down and abandoning module AndroidPermission (330)
+[2018.03.13-17.28.21:300][343]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
+[2018.03.13-17.28.21:300][343]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (324)
+[2018.03.13-17.28.21:301][343]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (322)
+[2018.03.13-17.28.21:301][343]LogModuleManager: Shutting down and abandoning module MediaCompositing (320)
+[2018.03.13-17.28.21:301][343]LogModuleManager: Shutting down and abandoning module HTML5Networking (318)
+[2018.03.13-17.28.21:301][343]LogModuleManager: Shutting down and abandoning module AlembicImporter (316)
+[2018.03.13-17.28.21:301][343]LogModuleManager: Shutting down and abandoning module AlembicLibrary (315)
+[2018.03.13-17.28.21:301][343]LogModuleManager: Shutting down and abandoning module GeometryCache (314)
+[2018.03.13-17.28.21:301][343]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (313)
+[2018.03.13-17.28.21:301][343]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (308)
+[2018.03.13-17.28.21:301][343]LogModuleManager: Shutting down and abandoning module PluginBrowser (306)
+[2018.03.13-17.28.21:301][343]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (304)
+[2018.03.13-17.28.21:301][343]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (302)
+[2018.03.13-17.28.21:301][343]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (300)
+[2018.03.13-17.28.21:301][343]LogModuleManager: Shutting down and abandoning module UObjectPlugin (298)
+[2018.03.13-17.28.21:301][343]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (296)
+[2018.03.13-17.28.21:301][343]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (294)
+[2018.03.13-17.28.21:301][343]LogModuleManager: Shutting down and abandoning module GitSourceControl (292)
+[2018.03.13-17.28.21:301][343]LogModuleManager: Shutting down and abandoning module SourceControl (291)
+[2018.03.13-17.28.21:301][343]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (288)
+[2018.03.13-17.28.21:301][343]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (286)
+[2018.03.13-17.28.21:301][343]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (284)
+[2018.03.13-17.28.21:301][343]LogModuleManager: Shutting down and abandoning module Paper2DEditor (282)
+[2018.03.13-17.28.21:301][343]LogModuleManager: Shutting down and abandoning module MeshPaint (281)
+[2018.03.13-17.28.21:301][343]LogModuleManager: Shutting down and abandoning module LevelEditor (279)
+[2018.03.13-17.28.21:302][343]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (278)
+[2018.03.13-17.28.21:302][343]LogModuleManager: Shutting down and abandoning module MainFrame (276)
+[2018.03.13-17.28.21:302][343]LogModuleManager: Shutting down and abandoning module HotReload (275)
+[2018.03.13-17.28.21:302][343]LogDirectoryWatcher: A directory notification for 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Binaries/Win64' was aborted.
+[2018.03.13-17.28.21:303][343]LogModuleManager: Shutting down and abandoning module EscapeVR (270)
+[2018.03.13-17.28.21:303][343]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.03.13-17.28.21:303][343]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.03.13-17.28.21:303][343]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.03.13-17.28.21:303][343]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.03.13-17.28.21:303][343]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.03.13-17.28.21:303][343]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.03.13-17.28.21:303][343]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.03.13-17.28.21:303][343]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.03.13-17.28.21:404][343]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.03.13-17.28.21:504][343]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.03.13-17.28.21:504][343]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.03.13-17.28.21:504][343]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.03.13-17.28.21:504][343]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.03.13-17.28.21:504][343]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.03.13-17.28.21:504][343]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.03.13-17.28.21:505][343]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.03.13-17.28.21:505][343]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.03.13-17.28.21:505][343]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.03.13-17.28.21:505][343]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.03.13-17.28.21:507][343]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.03.13-17.28.21:507][343]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.03.13-17.28.21:507][343]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.03.13-17.28.21:507][343]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.03.13-17.28.21:507][343]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.03.13-17.28.21:507][343]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.03.13-17.28.21:513][343]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.03.13-17.28.21:513][343]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.03.13-17.28.21:513][343]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.03.13-17.28.21:513][343]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.03.13-17.28.21:513][343]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.03.13-17.28.21:513][343]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.03.13-17.28.21:513][343]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.03.13-17.28.21:513][343]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.03.13-17.28.21:514][343]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.03.13-17.28.21:514][343]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.03.13-17.28.21:514][343]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.03.13-17.28.21:514][343]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.03.13-17.28.21:514][343]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.03.13-17.28.21:514][343]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.03.13-17.28.21:514][343]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.03.13-17.28.21:514][343]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.03.13-17.28.21:517][343]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.03.13-17.28.21:517][343]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.03.13-17.28.21:517][343]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.03.13-17.28.21:517][343]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.03.13-17.28.21:517][343]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.03.13-17.28.21:517][343]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.03.13-17.28.21:517][343]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.03.13-17.28.21:517][343]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.03.13-17.28.21:517][343]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.03.13-17.28.21:517][343]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.03.13-17.28.21:518][343]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.03.13-17.28.21:518][343]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.03.13-17.28.21:518][343]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.03.13-17.28.21:518][343]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.03.13-17.28.21:518][343]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.03.13-17.28.21:518][343]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.03.13-17.28.21:518][343]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.03.13-17.28.21:524][343]LogDerivedDataCache: Shutdown
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.03.13-17.28.21:524][343]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.13-17.28.21:525][343]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.13-17.28.21:525][343]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.13-17.28.21:525][343]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB91C2FC4-4778-4D2C-3AA1-D2B07FA798C9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=01d90524478d952f79bf15a0fb3ee477%7Cb6d55d87dad24922993b4a6bdcd07814%7C92cdc455-e147-4615-961d-a7f60375b392&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.13-17.28.21:550][343]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.13-17.28.21:552][343]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.03.13-17.28.21:552][343]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.03.13-17.28.21:552][343]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.03.13-17.28.21:552][343]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.03.13-17.28.21:552][343]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.03.13-17.28.21:552][343]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.03.13-17.28.21:552][343]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.03.13-17.28.21:553][343]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.03.13-17.28.21:553][343]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.03.13-17.28.21:553][343]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.03.13-17.28.21:553][343]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.03.13-17.28.21:553][343]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.03.13-17.28.21:553][343]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.03.13-17.28.21:553][343]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.03.13-17.28.21:554][343]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.03.13-17.28.21:554][343]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.13-17.28.21:554][343]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.13-17.28.21:554][343]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.13-17.28.21:557][343]LogExit: Exiting.
+[2018.03.13-17.28.21:576][343]Log file closed, 03/13/18 12:28:21
