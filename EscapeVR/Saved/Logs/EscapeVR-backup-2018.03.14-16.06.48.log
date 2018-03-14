@@ -1,0 +1,864 @@
+﻿Log file open, 03/14/18 15:47:01
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: EscapeVR
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1618222998) SRandInit(1618222998).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.180272
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogModuleManager: Warning: Module file ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Binaries/Win64/UE4Editor-EscapeVR.dll is missing. This is likely a stale module that must be recompiled.
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogInit: Warning: Incompatible or missing module: UE4Editor-EscapeVR.dll
+Running C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe EscapeVR Development Win64 -project="C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/EscapeVR.uproject" -editorrecompile -progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build.
+Creating makefile for EscapeVR (game project files are newer)
+@progress push 5%
+Parsing headers for EscapeVREditor
+  Running UnrealHeaderTool "C:\Users\samfo\Documents\GitHub\UnrealHorrorVR\EscapeVR\EscapeVR.uproject" "C:\Users\samfo\Documents\GitHub\UnrealHorrorVR\EscapeVR\Intermediate\Build\Win64\EscapeVREditor\Development\EscapeVREditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for EscapeVREditor in 10.7695965 seconds
+@progress pop
+Performing 6 actions (4 in parallel)
+EscapeVR.cpp
+EscapeVRGameModeBase.cpp
+EscapeVRGameModeBase.gen.cpp
+EscapeVR.init.gen.cpp
+[5/6] Link UE4Editor-EscapeVR.dll
+[6/6] Link UE4Editor-EscapeVR.lib
+   Creating library C:\Users\samfo\Documents\GitHub\UnrealHorrorVR\EscapeVR\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeVR.lib and object C:\Users\samfo\Documents\GitHub\UnrealHorrorVR\EscapeVR\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeVR.exp
+   Creating library C:\Users\samfo\Documents\GitHub\UnrealHorrorVR\EscapeVR\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeVR.suppressed.lib and object C:\Users\samfo\Documents\GitHub\UnrealHorrorVR\EscapeVR\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeVR.suppressed.exp
+Total build time: 49.84 seconds (Local executor: 3.84 seconds)
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Binaries/Win64/UE4Editor-EscapeVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.14-20.48.02:368][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.14-20.48.02:368][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.14-20.48.02:379][  0]LogInit: Computer: DESKTOP-5EK2DIL
+[2018.03.14-20.48.02:380][  0]LogInit: User: samfo
+[2018.03.14-20.48.02:380][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.14-20.48.02:380][  0]LogInit: High frequency timer resolution =2.742186 MHz
+[2018.03.14-20.48.02:380][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.03.14-20.48.02:380][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.14-20.48.02:380][  0]LogMemory: Process Physical Memory: 287.84 MB used, 287.84 MB peak
+[2018.03.14-20.48.02:380][  0]LogMemory: Process Virtual Memory: 278.13 MB used, 278.13 MB peak
+[2018.03.14-20.48.02:380][  0]LogMemory: Physical Memory: 7722.46 MB used,  8534.50 MB free, 16256.96 MB total
+[2018.03.14-20.48.02:380][  0]LogMemory: Virtual Memory: 801.65 MB used,  8534.50 MB free, 134217728.00 MB total
+[2018.03.14-20.48.02:546][  0]LogInit: Using OS detected language (en-US).
+[2018.03.14-20.48.02:546][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.14-20.48.02:549][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.14-20.48.02:976][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.14-20.48.03:258][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.14-20.48.03:324][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.03.14-20.48.03:324][  0]LogD3D11RHI:       8081/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.03.14-20.48.03:335][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.03.14-20.48.03:335][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.03.14-20.48.03:338][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.14-20.48.03:338][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.14-20.48.03:338][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.14-20.48.03:347][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.14-20.48.03:347][  0]LogD3D11RHI:     GPU DeviceId: 0x1ba1 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.14-20.48.03:347][  0]LogWindows: EnumDisplayDevices:
+[2018.03.14-20.48.03:347][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.03.14-20.48.03:347][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.03.14-20.48.03:348][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.03.14-20.48.03:348][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.03.14-20.48.03:348][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.14-20.48.03:349][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.14-20.48.03:349][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.14-20.48.03:349][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.14-20.48.03:349][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.03.14-20.48.03:349][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.14-20.48.03:349][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.14-20.48.03:349][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2018.03.14-20.48.03:387][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.14-20.48.03:469][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.14-20.48.03:522][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Intermediate/Shaders/WorkingDirectory/2924/).
+[2018.03.14-20.48.03:522][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/samfo/AppData/Local/Temp/UnrealShaderWorkingDir/78E7BF144F76AE79842A9E8FFED2A2F7/'.
+[2018.03.14-20.48.03:522][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.14-20.48.04:505][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.14-20.48.04:568][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.14-20.48.04:640][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.14-20.48.04:706][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.14-20.48.04:764][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.14-20.48.04:822][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.14-20.48.04:882][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.14-20.48.04:939][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.14-20.48.04:997][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.14-20.48.05:056][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.14-20.48.05:110][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.14-20.48.05:168][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.14-20.48.05:238][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.14-20.48.05:291][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.14-20.48.05:398][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.14-20.48.05:401][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.14-20.48.05:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.14-20.48.05:507][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.14-20.48.05:607][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.14-20.48.05:640][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.14-20.48.05:703][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.14-20.48.05:762][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.14-20.48.05:817][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.14-20.48.05:872][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.14-20.48.05:872][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.14-20.48.06:392][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.14-20.48.06:471][  0]LogDerivedDataCache: Loaded boot cache 0.08s 78MB C:/Users/samfo/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.14-20.48.06:471][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/samfo/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.14-20.48.06:471][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.14-20.48.06:471][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.14-20.48.06:471][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.14-20.48.06:471][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.14-20.48.06:487][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.14-20.48.06:499][  0]LogDerivedDataCache: Using Local data cache path C:/Users/samfo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.14-20.48.06:510][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.14-20.48.06:511][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.14-20.48.06:511][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.14-20.48.06:512][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.14-20.48.06:904][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.14-20.48.07:276][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.14-20.48.07:322][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.14-20.48.07:322][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.14-20.48.07:322][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.14-20.48.07:322][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.14-20.48.07:322][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.14-20.48.07:361][  0]LogNetVersion: EscapeVR , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1782577536)
+[2018.03.14-20.48.07:582][  0]LogAssetRegistry: FAssetRegistry took 0.0272 seconds to start up
+[2018.03.14-20.48.08:232][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.085633 seconds
+[2018.03.14-20.48.08:239][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.14-20.48.08:239][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.03.14-20.48.08:239][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.14-20.48.08:296][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.14-20.48.11:504][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.14-20.48.11:549][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.14-20.48.12:375][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.14-20.48.12:873][  0]SourceControl: Source control is disabled
+[2018.03.14-20.48.12:873][  0]SourceControl: Source control is disabled
+[2018.03.14-20.48.12:934][  0]SourceControl: Source control is disabled
+[2018.03.14-20.48.13:004][  0]SourceControl: Source control is disabled
+[2018.03.14-20.48.13:941][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.14-20.48.14:264][  0]LogOcInput: OculusInput pre-init called
+[2018.03.14-20.48.14:576][  0]LogEngine: Initializing Engine...
+[2018.03.14-20.48.14:578][  0]LogHMD: Oculus plugin initialized. Version: 4.18.3-3832480+++UE4+Release-4.18, OVRPlugin: 1.19.0
+[2018.03.14-20.48.14:809][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.14-20.48.14:809][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.14-20.48.14:962][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.14-20.48.15:007][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.03.14-20.48.15:066][  0]LogInit: FAudioDevice initialized.
+[2018.03.14-20.48.15:126][  0]LogDerivedDataCache: Saved boot cache 0.06s 78MB C:/Users/samfo/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.14-20.48.15:143][  0]LogInit: Texture streaming: Enabled
+[2018.03.14-20.48.15:259][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.14-20.48.15:443][  0]LogInit: Transaction tracking system initialized
+[2018.03.14-20.48.15:890][  0]BlueprintLog: New page: Editor Load
+[2018.03.14-20.48.17:075][  0]LocalizationService: Localization service is disabled
+[2018.03.14-20.48.17:902][  0]LogConsoleResponse: Display: 
+[2018.03.14-20.48.18:136][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.14-20.48.18:136][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.14-20.48.18:136][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.14-20.48.18:775][  0]LogFileCache: Scanning file cache for directory 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/' took 0.03s
+[2018.03.14-20.48.19:503][  0]SourceControl: Source control is disabled
+[2018.03.14-20.48.19:504][  0]Cmd: MAP LOAD FILE="../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.14-20.48.19:504][  0]LightingResults: New page: Lighting Build
+[2018.03.14-20.48.19:549][  0]MapCheck: New page: Map Check
+[2018.03.14-20.48.19:549][  0]LightingResults: New page: Lighting Build
+[2018.03.14-20.48.19:774][  0]LogLinker: Warning: Can't find file '/Game/Maps/Hospital_BuiltData'
+[2018.03.14-20.48.19:774][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/Hospital_BuiltData' while loading ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital.umap.
+[2018.03.14-20.48.19:774][  0]LoadErrors: Error: /Game/Maps/Hospital : Can't find file for asset. /Game/Maps/Hospital_BuiltData
+[2018.03.14-20.48.20:217][  0]LogLinker: Warning: Can't find file '/Game/Maps/Hospital_BuiltData'
+[2018.03.14-20.48.20:218][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/Hospital_BuiltData' while loading ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital.umap.
+[2018.03.14-20.48.20:218][  0]LoadErrors: Error: /Game/Maps/Hospital : Can't find file for asset. /Game/Maps/Hospital_BuiltData
+[2018.03.14-20.48.20:263][  0]LogLinker: Warning: Can't find file '/Game/Maps/Hospital_BuiltData'
+[2018.03.14-20.48.20:263][  0]LoadErrors: Failed to load /Game/Maps/Hospital_BuiltData.Hospital_BuiltData Referenced by PersistentLevel
+[2018.03.14-20.48.20:263][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/Hospital_BuiltData' while loading NULL.
+[2018.03.14-20.48.20:263][  0]LoadErrors: Failed to load /Game/Maps/Hospital_BuiltData.Hospital_BuiltData Referenced by PersistentLevel
+[2018.03.14-20.48.20:681][  0]LogAIModule: Creating AISystem for world Hospital
+[2018.03.14-20.48.20:710][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.14-20.48.20:726][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.14-20.48.20:815][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 88.068ms to complete.
+[2018.03.14-20.48.20:815][  0]LogFileHelpers: Loading map 'Hospital' took 1.311
+[2018.03.14-20.48.20:889][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.14-20.48.20:889][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.14-20.48.21:045][  0]LogCollectionManager: Loaded 0 collections in 0.001551 seconds
+[2018.03.14-20.48.21:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Collections/' took 0.01s
+[2018.03.14-20.48.21:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Developers/samfo/Collections/' took 0.01s
+[2018.03.14-20.48.21:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Collections/' took 0.01s
+[2018.03.14-20.48.21:129][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.14-20.48.21:138][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2365 classes and 523 folders.
+[2018.03.14-20.48.21:212][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.03.14-20.48.21:255][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.03.14-20.48.21:356][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.03.14-20.48.21:356][  0]LogLoad: (Engine Initialization) Total time: 81.15 seconds
+[2018.03.14-20.48.21:356][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.14-20.48.21:357][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.14-20.48.21:385][  0]LogOcInput: OculusInput is initialized
+[2018.03.14-20.48.21:404][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.14-20.48.21:421][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.14-20.48.21:426][  0]LogSlate: Took 0.000338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.14-20.48.21:428][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.14-20.48.21:546][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.14-20.48.21:588][  1]LogAssetRegistry: Asset discovery search completed in 14.0281 seconds
+[2018.03.14-20.48.21:590][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.14-20.48.21:590][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000073 seconds (updated 0 objects)
+[2018.03.14-20.48.21:615][  2]LogRenderer: Reallocating scene render targets to support 860x360 Format 10 NumSamples 1 (Frame:1).
+[2018.03.14-20.48.22:395][ 39]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.14-20.48.47:033][774]LogRenderer: Reallocating scene render targets to support 1296x576 Format 10 NumSamples 1 (Frame:722).
+[2018.03.14-20.48.58:159][430]MapCheck: New page: Map Check
+[2018.03.14-20.48.58:177][430]LightingResults: New page: Lighting Build - Mar 14, 2018, 10:48:58 AM
+[2018.03.14-20.48.58:230][430]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.14-20.48.58:362][430]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.14-20.48.58:390][430]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.14-20.48.58:904][430]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.14-20.48.58:904][430]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2924
+[2018.03.14-20.49.01:588][430]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.14-20.49.01:589][430]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.14-20.49.01:589][430]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.14-20.49.01:589][430]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.14-20.49.01:589][430]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.14-20.49.01:589][430]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.14-20.49.01:761][430]LogEditorBuildUtils: Build time 0:03
+[2018.03.14-20.49.02:890][466]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.14-20.49.03:239][466]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 116 classes and 0 folders.
+[2018.03.14-20.49.13:293][967]Job is a success!
+[2018.03.14-20.49.13:376][968]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.010s
+[2018.03.14-20.49.13:376][968]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.14-20.49.13:376][968]LogVolumetricLightmapImport:      BrickData 10x5x5 = 0.0Mb
+[2018.03.14-20.49.13:376][968]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.14-20.49.13:376][968]LogVolumetricLightmapImport:          0: 50.0% covering 100.0% of volume
+[2018.03.14-20.49.13:376][968]LogVolumetricLightmapImport:          1: 50.0% covering 1.6% of volume
+[2018.03.14-20.49.13:376][968]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2018.03.14-20.49.14:248][968]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.03.14-20.49.14:248][968]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.03.14-20.49.14:248][968]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.03.14-20.49.14:248][968]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2018.03.14-20.49.14:248][968]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2018.03.14-20.49.14:248][968]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2018.03.14-20.49.14:248][968]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2018.03.14-20.49.14:248][968]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2018.03.14-20.49.14:248][968]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2018.03.14-20.49.14:509][968]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X1024)
+[2018.03.14-20.49.14:536][968]Lightmass on DESKTOP-5EK2DIL: 11.9 sec total, 603 ms importing, 160 ms setup, 1.69 sec photons, 9.48 sec processing, 0 ms extra exporting [194/194 mappings]. Threads: 1:06 min total, 47.8 sec processing.
+[2018.03.14-20.49.14:569][968]LogStaticLightingSystem: Illumination: 16.3 sec (763 ms encoding lightmaps, 253 ms encoding shadowmaps)
+[2018.03.14-20.49.14:569][968]LogStaticLightingSystem: Lightmap texture memory:  5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2018.03.14-20.49.14:569][968]LogStaticLightingSystem: Shadowmap texture memory: 5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 1 textures
+[2018.03.14-20.49.14:591][968]DumpUnbuiltLightIteractions
+[2018.03.14-20.49.14:591][968]Lights with unbuilt interactions: 0
+[2018.03.14-20.49.14:591][968]
+[2018.03.14-20.49.14:591][968]Primitives with unbuilt interactions: 0
+[2018.03.14-20.49.14:601][969]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.14-20.49.14:601][969]MapCheck: New page: Hospital - Mar 14, 2018, 10:49:14 AM
+[2018.03.14-20.49.14:694][969]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 92.25ms to complete.
+[2018.03.14-20.49.18:245][174]LogTemp: Repeating last play command: VR Preview
+[2018.03.14-20.49.18:510][174]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.14-20.49.18:510][174]LogHMD: Initializing OVRPlugin session
+[2018.03.14-20.49.20:046][174]PIE: New page: PIE session: Hospital (Mar 14, 2018, 10:49:20 AM)
+[2018.03.14-20.49.20:046][174]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.14-20.49.20:069][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023022s)
+[2018.03.14-20.49.20:070][174]LogAIModule: Creating AISystem for world Hospital
+[2018.03.14-20.49.20:070][174]LogPlayLevel: PIE: World Init took: (0.001392s)
+[2018.03.14-20.49.20:071][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.025484s)
+[2018.03.14-20.49.20:152][174]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.14-20.49.20:169][174]LogInit: FAudioDevice initialized.
+[2018.03.14-20.49.20:282][174]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.14-20.49.20:329][174]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/EscapeVR.EscapeVRGameMode'
+[2018.03.14-20.49.20:329][174]LogLoad: Game class is 'GameModeBase'
+[2018.03.14-20.49.20:345][174]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.14-15.49.20
+[2018.03.14-20.49.20:347][174]LogWorld: Bringing up level for play took: 0.016224
+[2018.03.14-20.49.20:421][174]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2018.03.14-20.49.20:442][174]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 2.484
+[2018.03.14-20.49.20:453][174]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.14-20.49.20:453][174]LogHMD: Allocating Oculus 1296 x 576 depth rendertarget swapchain
+[2018.03.14-20.49.20:545][174]LogRenderer: Reallocating scene render targets to support 2720x1600 Format 10 NumSamples 1 (Frame:1).
+[2018.03.14-20.49.20:545][174]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.14-20.49.34:130][758]LogTemp: Repeating last play command: VR Preview
+[2018.03.14-20.49.34:153][758]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.14-20.49.34:153][758]LogHMD: Initializing OVRPlugin session
+[2018.03.14-20.49.34:187][758]PIE: New page: PIE session: Hospital (Mar 14, 2018, 10:49:34 AM)
+[2018.03.14-20.49.34:187][758]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.14-20.49.34:206][758]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018808s)
+[2018.03.14-20.49.34:207][758]LogAIModule: Creating AISystem for world Hospital
+[2018.03.14-20.49.34:207][758]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2018.03.14-20.49.34:208][758]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.020196s)
+[2018.03.14-20.49.34:267][758]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.14-20.49.34:278][758]LogInit: FAudioDevice initialized.
+[2018.03.14-20.49.34:385][758]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.14-20.49.34:417][758]LogLoad: Game class is 'GameModeBase'
+[2018.03.14-20.49.34:424][758]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.14-15.49.34
+[2018.03.14-20.49.34:424][758]LogWorld: Bringing up level for play took: 0.006932
+[2018.03.14-20.49.34:435][758]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 0.478
+[2018.03.14-20.49.34:451][758]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.14-20.49.34:451][758]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.14-20.49.46:527][241]LogTemp: Repeating last play command: VR Preview
+[2018.03.14-20.49.46:560][241]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.14-20.49.46:560][241]LogHMD: Initializing OVRPlugin session
+[2018.03.14-20.49.46:603][241]PIE: New page: PIE session: Hospital (Mar 14, 2018, 10:49:46 AM)
+[2018.03.14-20.49.46:604][241]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.14-20.49.46:624][241]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020874s)
+[2018.03.14-20.49.46:625][241]LogAIModule: Creating AISystem for world Hospital
+[2018.03.14-20.49.46:626][241]LogPlayLevel: PIE: World Init took: (0.000975s)
+[2018.03.14-20.49.46:626][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.022385s)
+[2018.03.14-20.49.46:696][241]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.14-20.49.46:705][241]LogInit: FAudioDevice initialized.
+[2018.03.14-20.49.46:819][241]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.14-20.49.46:853][241]LogLoad: Game class is 'GameModeBase'
+[2018.03.14-20.49.46:860][241]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.14-15.49.46
+[2018.03.14-20.49.46:861][241]LogWorld: Bringing up level for play took: 0.006449
+[2018.03.14-20.49.46:882][241]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 0.925
+[2018.03.14-20.49.46:894][241]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.14-20.49.46:894][241]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.14-20.50.01:733][717]LogTemp: Repeating last play command: VR Preview
+[2018.03.14-20.50.01:753][717]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.14-20.50.01:753][717]LogHMD: Initializing OVRPlugin session
+[2018.03.14-20.50.01:786][717]PIE: New page: PIE session: Hospital (Mar 14, 2018, 10:50:01 AM)
+[2018.03.14-20.50.01:786][717]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.14-20.50.01:805][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018282s)
+[2018.03.14-20.50.01:806][717]LogAIModule: Creating AISystem for world Hospital
+[2018.03.14-20.50.01:806][717]LogPlayLevel: PIE: World Init took: (0.001337s)
+[2018.03.14-20.50.01:807][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.020494s)
+[2018.03.14-20.50.01:880][717]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.14-20.50.01:890][717]LogInit: FAudioDevice initialized.
+[2018.03.14-20.50.01:995][717]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.14-20.50.02:033][717]LogLoad: Game class is 'GameModeBase'
+[2018.03.14-20.50.02:041][717]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.14-15.50.02
+[2018.03.14-20.50.02:042][717]LogWorld: Bringing up level for play took: 0.007837
+[2018.03.14-20.50.02:074][717]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 0.117
+[2018.03.14-20.50.02:091][717]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.14-20.50.02:091][717]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.14-20.51.51:411][ 18]LogSlate: Took 0.000368 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.14-20.52.20:045][701]LogTemp: Repeating last play command: VR Preview
+[2018.03.14-20.52.20:067][701]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.14-20.52.20:067][701]LogHMD: Initializing OVRPlugin session
+[2018.03.14-20.52.20:099][701]PIE: New page: PIE session: Hospital (Mar 14, 2018, 10:52:20 AM)
+[2018.03.14-20.52.20:099][701]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.14-20.52.20:116][701]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016947s)
+[2018.03.14-20.52.20:117][701]LogAIModule: Creating AISystem for world Hospital
+[2018.03.14-20.52.20:117][701]LogPlayLevel: PIE: World Init took: (0.001470s)
+[2018.03.14-20.52.20:118][701]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.018999s)
+[2018.03.14-20.52.20:174][701]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.14-20.52.20:186][701]LogInit: FAudioDevice initialized.
+[2018.03.14-20.52.20:284][701]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.14-20.52.20:316][701]LogLoad: Game class is 'GameModeBase'
+[2018.03.14-20.52.20:322][701]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.14-15.52.20
+[2018.03.14-20.52.20:323][701]LogWorld: Bringing up level for play took: 0.005769
+[2018.03.14-20.52.20:349][701]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 0.392
+[2018.03.14-20.52.20:360][701]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.14-20.52.20:360][701]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.14-20.52.29:905][209]LogEditorViewport: Clicking on Actor (LMB): Floor_lamp_2_Blueprint_C (Floor_lamp_2_Blueprint)
+[2018.03.14-20.52.46:646][167]MapCheck: New page: Map Check
+[2018.03.14-20.52.46:666][167]LightingResults: New page: Lighting Build - Mar 14, 2018, 10:52:46 AM
+[2018.03.14-20.52.46:683][167]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.14-20.52.46:691][167]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.14-20.52.46:691][167]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.14-20.52.46:700][167]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.14-20.52.46:700][167]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2924
+[2018.03.14-20.52.51:220][167]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.14-20.52.51:221][167]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.14-20.52.51:221][167]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.14-20.52.51:221][167]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.14-20.52.51:221][167]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.14-20.52.51:221][167]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.14-20.52.51:389][167]LogEditorBuildUtils: Build time 0:04
+[2018.03.14-20.52.51:404][167]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Tv_old_Panel_Ruined_mat2, compiling. 
+[2018.03.14-20.52.51:416][167]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Tv_old_Panel_Ruined_mat2, compiling. 
+[2018.03.14-20.52.51:446][168]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Lamp_light_mat_Inst222, compiling. 
+[2018.03.14-20.52.51:454][168]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Lamp_light_mat_Inst222, compiling. 
+[2018.03.14-20.52.51:509][169]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Unique_metal_paint_mat_Inst2, compiling. 
+[2018.03.14-20.52.51:518][169]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Unique_metal_paint_mat_Inst2, compiling. 
+[2018.03.14-20.53.12:108][562]Job is a success!
+[2018.03.14-20.53.12:532][563]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.005s
+[2018.03.14-20.53.12:532][563]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.14-20.53.12:532][563]LogVolumetricLightmapImport:      BrickData 10x5x5 = 0.0Mb
+[2018.03.14-20.53.12:532][563]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.14-20.53.12:532][563]LogVolumetricLightmapImport:          0: 50.0% covering 100.0% of volume
+[2018.03.14-20.53.12:532][563]LogVolumetricLightmapImport:          1: 50.0% covering 1.6% of volume
+[2018.03.14-20.53.12:532][563]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2018.03.14-20.53.14:214][563]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2018.03.14-20.53.14:214][563]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.03.14-20.53.14:214][563]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.03.14-20.53.14:214][563]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
+[2018.03.14-20.53.14:214][563]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2018.03.14-20.53.14:214][563]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2018.03.14-20.53.14:214][563]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 64X32)
+[2018.03.14-20.53.14:214][563]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2018.03.14-20.53.14:214][563]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2018.03.14-20.53.14:508][563]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X1024)
+[2018.03.14-20.53.14:560][563]Lightmass on DESKTOP-5EK2DIL: 19.6 sec total, 351 ms importing, 208 ms setup, 1.75 sec photons, 17.2 sec processing, 0 ms extra exporting [195/195 mappings]. Threads: 2:00 min total, 1:24 min processing.
+[2018.03.14-20.53.14:569][563]LogStaticLightingSystem: Illumination: 27.5 sec (1.49 sec encoding lightmaps, 291 ms encoding shadowmaps)
+[2018.03.14-20.53.14:569][563]LogStaticLightingSystem: Lightmap texture memory:  5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2018.03.14-20.53.14:570][563]LogStaticLightingSystem: Shadowmap texture memory: 5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 1 textures
+[2018.03.14-20.53.15:241][563]DumpUnbuiltLightIteractions
+[2018.03.14-20.53.15:241][563]Lights with unbuilt interactions: 0
+[2018.03.14-20.53.15:241][563]
+[2018.03.14-20.53.15:241][563]Primitives with unbuilt interactions: 0
+[2018.03.14-20.53.15:253][564]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.14-20.53.15:254][564]MapCheck: New page: Hospital - Mar 14, 2018, 10:53:15 AM
+[2018.03.14-20.53.15:385][564]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 130.683ms to complete.
+[2018.03.14-20.55.57:065][ 49]LogTemp: Repeating last play command: VR Preview
+[2018.03.14-20.55.57:094][ 49]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.14-20.55.57:094][ 49]LogHMD: Initializing OVRPlugin session
+[2018.03.14-20.55.57:130][ 49]PIE: New page: PIE session: Hospital (Mar 14, 2018, 10:55:57 AM)
+[2018.03.14-20.55.57:130][ 49]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.14-20.55.57:149][ 49]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018800s)
+[2018.03.14-20.55.57:150][ 49]LogAIModule: Creating AISystem for world Hospital
+[2018.03.14-20.55.57:150][ 49]LogPlayLevel: PIE: World Init took: (0.001343s)
+[2018.03.14-20.55.57:151][ 49]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.020834s)
+[2018.03.14-20.55.57:220][ 49]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.14-20.55.57:234][ 49]LogInit: FAudioDevice initialized.
+[2018.03.14-20.55.57:342][ 49]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.14-20.55.57:442][ 49]LogLoad: Game class is 'GameModeBase'
+[2018.03.14-20.55.57:451][ 49]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.14-15.55.57
+[2018.03.14-20.55.57:452][ 49]LogWorld: Bringing up level for play took: 0.008726
+[2018.03.14-20.55.57:463][ 49]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital -0.494
+[2018.03.14-20.55.57:475][ 49]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.14-20.55.57:475][ 49]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.14-20.56.14:712][909]LogEditorViewport: Clicking on Actor (LMB): Floor_lamp_2_Blueprint_C (Floor_lamp_2_Blueprint)
+[2018.03.14-20.56.15:721][965]LogEditorViewport: Clicking on Actor (LMB): Floor_lamp_2_Blueprint_C (Floor_lamp_2_Blueprint)
+[2018.03.14-20.56.17:856][ 92]LogEditorViewport: Clicking on Actor (LMB): Floor_lamp_2_Blueprint_C (Floor_lamp_2_Blueprint)
+[2018.03.14-20.56.18:458][127]LogEditorViewport: Clicking on Actor (LMB): Floor_lamp_2_Blueprint_C (Floor_lamp_2_Blueprint)
+[2018.03.14-20.56.27:018][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Hospital" FILE="../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.14-20.56.27:468][611]LogSavePackage: Save=415.17ms
+[2018.03.14-20.56.27:469][611]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Hospital4804C0EB4AB9ED095C7B98A10E41EA98.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital.umap'
+[2018.03.14-20.56.27:477][611]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital.umap
+[2018.03.14-20.56.27:532][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Hospital_BuiltData" FILE="../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital_BuiltData.uasset" SILENT=true
+[2018.03.14-20.56.28:196][611]LogSavePackage: Save=660.84ms
+[2018.03.14-20.56.28:197][611]LogSavePackage: Moving '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Saved/Hospital_BuiltData40A1D1BB43F485DD56CBE7A54834D236.tmp' to '../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital_BuiltData.uasset'
+[2018.03.14-20.56.28:201][611]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/samfo/Documents/GitHub/UnrealHorrorVR/EscapeVR/Content/Maps/Hospital_BuiltData.uasset
+[2018.03.14-20.56.28:202][611]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.14-20.57.31:645][388]MapCheck: New page: Map Check
+[2018.03.14-20.57.31:674][388]LightingResults: New page: Lighting Build - Mar 14, 2018, 10:57:31 AM
+[2018.03.14-20.57.31:693][388]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.14-20.57.31:700][388]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.14-20.57.31:700][388]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.14-20.57.31:701][388]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.14-20.57.31:701][388]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2924
+[2018.03.14-20.57.36:212][388]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.14-20.57.36:212][388]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.14-20.57.36:213][388]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.14-20.57.36:213][388]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.14-20.57.36:213][388]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.14-20.57.36:213][388]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.14-20.57.36:363][388]LogEditorBuildUtils: Build time 0:04
+[2018.03.14-20.58.02:003][440]Job is a success!
+[2018.03.14-20.58.02:108][441]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.006s
+[2018.03.14-20.58.02:108][441]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.14-20.58.02:108][441]LogVolumetricLightmapImport:      BrickData 10x5x5 = 0.0Mb
+[2018.03.14-20.58.02:108][441]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.14-20.58.02:108][441]LogVolumetricLightmapImport:          0: 50.0% covering 100.0% of volume
+[2018.03.14-20.58.02:108][441]LogVolumetricLightmapImport:          1: 50.0% covering 1.6% of volume
+[2018.03.14-20.58.02:108][441]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2018.03.14-20.58.03:263][441]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.03.14-20.58.03:263][441]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.03.14-20.58.03:263][441]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2018.03.14-20.58.03:264][441]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2018.03.14-20.58.03:264][441]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.03.14-20.58.03:264][441]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2018.03.14-20.58.03:264][441]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2018.03.14-20.58.03:264][441]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2018.03.14-20.58.03:264][441]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2018.03.14-20.58.03:595][441]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 1024X1024)
+[2018.03.14-20.58.03:633][441]Lightmass on DESKTOP-5EK2DIL: 26.5 sec total, 530 ms importing, 369 ms setup, 3.41 sec photons, 22.1 sec processing, 0 ms extra exporting [195/195 mappings]. Threads: 2:35 min total, 1:57 min processing.
+[2018.03.14-20.58.03:644][441]LogStaticLightingSystem: Illumination: 31.9 sec (1.03 sec encoding lightmaps, 325 ms encoding shadowmaps)
+[2018.03.14-20.58.03:644][441]LogStaticLightingSystem: Lightmap texture memory:  5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2018.03.14-20.58.03:644][441]LogStaticLightingSystem: Shadowmap texture memory: 5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 1 textures
+[2018.03.14-20.58.04:235][441]DumpUnbuiltLightIteractions
+[2018.03.14-20.58.04:235][441]Lights with unbuilt interactions: 0
+[2018.03.14-20.58.04:235][441]
+[2018.03.14-20.58.04:235][441]Primitives with unbuilt interactions: 0
+[2018.03.14-20.58.04:249][442]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.14-20.58.04:249][442]MapCheck: New page: Hospital - Mar 14, 2018, 10:58:04 AM
+[2018.03.14-20.58.04:363][442]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 114.157ms to complete.
+[2018.03.14-20.58.04:752][464]LogTemp: Repeating last play command: VR Preview
+[2018.03.14-20.58.04:775][464]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.14-20.58.04:776][464]LogHMD: Initializing OVRPlugin session
+[2018.03.14-20.58.04:812][464]PIE: New page: PIE session: Hospital (Mar 14, 2018, 10:58:04 AM)
+[2018.03.14-20.58.04:813][464]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.14-20.58.04:834][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021114s)
+[2018.03.14-20.58.04:835][464]LogAIModule: Creating AISystem for world Hospital
+[2018.03.14-20.58.04:835][464]LogPlayLevel: PIE: World Init took: (0.001151s)
+[2018.03.14-20.58.04:835][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.022852s)
+[2018.03.14-20.58.04:910][464]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.14-20.58.04:924][464]LogInit: FAudioDevice initialized.
+[2018.03.14-20.58.05:047][464]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.14-20.58.05:082][464]LogLoad: Game class is 'GameModeBase'
+[2018.03.14-20.58.05:089][464]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.14-15.58.05
+[2018.03.14-20.58.05:090][464]LogWorld: Bringing up level for play took: 0.006710
+[2018.03.14-20.58.05:107][464]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 1.15
+[2018.03.14-20.58.05:119][464]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.14-20.58.05:119][464]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.14-20.58.19:722][123]LogEditorViewport: Clicking on Actor (LMB): Floor_lamp_2_Blueprint_C (Floor_lamp_2_Blueprint)
+[2018.03.14-20.58.24:699][417]Cmd: DELETE
+[2018.03.14-20.58.24:699][417]Cmd: ACTOR DELETE
+[2018.03.14-20.58.24:705][417]LogEditorActor: Deleted Actor: Floor_lamp_2_Blueprint_C
+[2018.03.14-20.58.24:722][417]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2018.03.14-20.59.13:092][189]LogTemp: Repeating last play command: VR Preview
+[2018.03.14-20.59.13:113][189]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.14-20.59.13:113][189]LogHMD: Initializing OVRPlugin session
+[2018.03.14-20.59.13:144][189]PIE: New page: PIE session: Hospital (Mar 14, 2018, 10:59:13 AM)
+[2018.03.14-20.59.13:144][189]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.14-20.59.13:162][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017371s)
+[2018.03.14-20.59.13:162][189]LogAIModule: Creating AISystem for world Hospital
+[2018.03.14-20.59.13:163][189]LogPlayLevel: PIE: World Init took: (0.000962s)
+[2018.03.14-20.59.13:164][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.018813s)
+[2018.03.14-20.59.13:220][189]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.14-20.59.13:231][189]LogInit: FAudioDevice initialized.
+[2018.03.14-20.59.13:337][189]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.14-20.59.13:371][189]LogLoad: Game class is 'GameModeBase'
+[2018.03.14-20.59.13:380][189]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.14-15.59.13
+[2018.03.14-20.59.13:381][189]LogWorld: Bringing up level for play took: 0.008882
+[2018.03.14-20.59.13:398][189]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital -0.559
+[2018.03.14-20.59.13:412][189]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.14-20.59.13:412][189]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.14-20.59.23:391][684]LogEditorViewport: Clicking on Actor (LMB): Floor_lamp_3_Blueprint_C (Floor_lamp_3_Blueprint4)
+[2018.03.14-20.59.31:996][164]LogEditorViewport: Clicking on Actor (LMB): Floor_lamp_2_Blueprint_C (Floor_lamp_2_Blueprint)
+[2018.03.14-20.59.33:231][233]LogEditorViewport: Clicking on Actor (LMB): Floor_lamp_2_Blueprint_C (Floor_lamp_2_Blueprint)
+[2018.03.14-20.59.33:803][266]LogEditorViewport: Clicking on Actor (LMB): Floor_lamp_2_Blueprint_C (Floor_lamp_2_Blueprint)
+[2018.03.14-20.59.34:318][296]LogEditorViewport: Clicking on Actor (LMB): Floor_lamp_2_Blueprint_C (Floor_lamp_2_Blueprint)
+[2018.03.14-20.59.34:718][319]LogEditorViewport: Clicking on Actor (LMB): Floor_lamp_2_Blueprint_C (Floor_lamp_2_Blueprint)
+[2018.03.14-21.01.43:133][158]LogTemp: Repeating last play command: VR Preview
+[2018.03.14-21.01.43:160][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.14-21.01.43:160][158]LogHMD: Initializing OVRPlugin session
+[2018.03.14-21.01.43:194][158]PIE: New page: PIE session: Hospital (Mar 14, 2018, 11:01:43 AM)
+[2018.03.14-21.01.43:194][158]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.14-21.01.43:216][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021622s)
+[2018.03.14-21.01.43:217][158]LogAIModule: Creating AISystem for world Hospital
+[2018.03.14-21.01.43:217][158]LogPlayLevel: PIE: World Init took: (0.001184s)
+[2018.03.14-21.01.43:217][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.023476s)
+[2018.03.14-21.01.43:293][158]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.14-21.01.43:311][158]LogInit: FAudioDevice initialized.
+[2018.03.14-21.01.43:423][158]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.14-21.01.43:457][158]LogLoad: Game class is 'GameModeBase'
+[2018.03.14-21.01.43:466][158]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.14-16.01.43
+[2018.03.14-21.01.43:466][158]LogWorld: Bringing up level for play took: 0.008454
+[2018.03.14-21.01.43:488][158]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital -0.469
+[2018.03.14-21.01.43:500][158]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.14-21.01.43:500][158]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.14-21.02.58:243][927]LogTemp: Repeating last play command: VR Preview
+[2018.03.14-21.02.58:262][927]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.14-21.02.58:263][927]LogHMD: Initializing OVRPlugin session
+[2018.03.14-21.02.58:297][927]PIE: New page: PIE session: Hospital (Mar 14, 2018, 11:02:58 AM)
+[2018.03.14-21.02.58:297][927]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.14-21.02.58:318][927]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021026s)
+[2018.03.14-21.02.58:320][927]LogAIModule: Creating AISystem for world Hospital
+[2018.03.14-21.02.58:320][927]LogPlayLevel: PIE: World Init took: (0.001659s)
+[2018.03.14-21.02.58:320][927]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.023370s)
+[2018.03.14-21.02.58:391][927]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.14-21.02.58:405][927]LogInit: FAudioDevice initialized.
+[2018.03.14-21.02.58:517][927]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.14-21.02.58:555][927]LogLoad: Game class is 'GameModeBase'
+[2018.03.14-21.02.58:564][927]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.14-16.02.58
+[2018.03.14-21.02.58:566][927]LogWorld: Bringing up level for play took: 0.009469
+[2018.03.14-21.02.58:584][927]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital 0.627
+[2018.03.14-21.02.58:596][927]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.14-21.02.58:596][927]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.14-21.05.49:545][345]LogTemp: Repeating last play command: VR Preview
+[2018.03.14-21.05.49:567][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.14-21.05.49:567][345]LogHMD: Initializing OVRPlugin session
+[2018.03.14-21.05.49:599][345]PIE: New page: PIE session: Hospital (Mar 14, 2018, 11:05:49 AM)
+[2018.03.14-21.05.49:600][345]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Hospital
+[2018.03.14-21.05.49:614][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014681s)
+[2018.03.14-21.05.49:615][345]LogAIModule: Creating AISystem for world Hospital
+[2018.03.14-21.05.49:616][345]LogPlayLevel: PIE: World Init took: (0.001286s)
+[2018.03.14-21.05.49:616][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Hospital.Hospital to /Game/Maps/UEDPIE_0_Hospital.Hospital (0.016535s)
+[2018.03.14-21.05.49:670][345]LogInit: XAudio2 using 'Headphones (2- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.14-21.05.49:681][345]LogInit: FAudioDevice initialized.
+[2018.03.14-21.05.49:787][345]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.14-21.05.49:823][345]LogLoad: Game class is 'GameModeBase'
+[2018.03.14-21.05.49:830][345]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Hospital.Hospital up for play (max tick rate 0) at 2018.03.14-16.05.49
+[2018.03.14-21.05.49:831][345]LogWorld: Bringing up level for play took: 0.007387
+[2018.03.14-21.05.49:839][345]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Hospital -0.118
+[2018.03.14-21.05.49:856][345]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.14-21.05.49:856][345]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.14-21.05.55:283][614]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2018.03.14-21.05.56:090][614]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2018.03.14-21.05.56:095][614]LogWindows: Error: === Critical error: ===
+[2018.03.14-21.05.56:095][614]LogWindows: Error: 
+[2018.03.14-21.05.56:095][614]LogWindows: Error: Fatal error: [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\RenderCore\Private\RenderingThread.cpp] [Line: 813] 
+[2018.03.14-21.05.56:095][614]LogWindows: Error: Rendering thread exception:
+[2018.03.14-21.05.56:095][614]LogWindows: Error: Assertion failed: TargetRect.Area() != 0 [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\HeadMountedDisplay\Private\DefaultSpectatorScreenController.cpp] [Line: 361] 
+[2018.03.14-21.05.56:095][614]LogWindows: Error: 
+[2018.03.14-21.05.56:095][614]LogWindows: Error: 
+[2018.03.14-21.05.56:095][614]LogWindows: Error: 
+[2018.03.14-21.05.56:095][614]LogWindows: Error: [Callstack] 0x00000000D35F4008 KERNELBASE.dll!UnknownFunction []
+[2018.03.14-21.05.56:095][614]LogWindows: Error: [Callstack] 0x00000000C51B76D4 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.03.14-21.05.56:095][614]LogWindows: Error: [Callstack] 0x00000000738F330B UE4Editor-Core.dll!UnknownFunction []
+[2018.03.14-21.05.56:095][614]LogWindows: Error: [Callstack] 0x00000000738847F9 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.14-21.05.56:095][614]LogWindows: Error: [Callstack] 0x00000000A1426A0A UE4Editor-HeadMountedDisplay.dll!UnknownFunction []
+[2018.03.14-21.05.56:095][614]LogWindows: Error: [Callstack] 0x00000000A143152A UE4Editor-HeadMountedDisplay.dll!UnknownFunction []
+[2018.03.14-21.05.56:095][614]LogWindows: Error: [Callstack] 0x00000000A1424D15 UE4Editor-HeadMountedDisplay.dll!UnknownFunction []
+[2018.03.14-21.05.56:095][614]LogWindows: Error: [Callstack] 0x00000000A1431AEB UE4Editor-HeadMountedDisplay.dll!UnknownFunction []
+[2018.03.14-21.05.56:095][614]LogWindows: Error: [Callstack] 0x00000000A2F229CF UE4Editor-OculusHMD.dll!UnknownFunction []
+[2018.03.14-21.05.56:095][614]LogWindows: Error: [Callstack] 0x00000000A2F22B05 UE4Editor-OculusHMD.dll!UnknownFunction []
+[2018.03.14-21.05.56:095][614]LogWindows: Error: [Callstack] 0x000000006C6108B3 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2018.03.14-21.05.56:095][614]LogWindows: Error: [Callstack] 0x000000006C6160A9 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2018.03.14-21.05.56:095][614]LogWindows: Error: [Callstack] 0x0000000073754845 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.14-21.05.56:095][614]LogWindows: Error: [Callstack] 0x0000000073754E2A UE4Editor-Core.dll!UnknownFunction []
+[2018.03.14-21.05.56:095][614]LogWindows: Error: [Callstack] 0x00000000C52322C4 UE4Editor-RenderCore.dll!UnknownFunction []
+[2018.03.14-21.05.56:095][614]LogWindows: Error: [Callstack] 0x00000000C52332F6 UE4Editor-RenderCore.dll!UnknownFunction []
+[2018.03.14-21.05.56:095][614]LogWindows: Error: [Callstack] 0x0000000073AF092C UE4Editor-Core.dll!UnknownFunction []
+[2018.03.14-21.05.56:095][614]LogWindows: Error: [Callstack] 0x0000000073AE2563 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.14-21.05.56:095][614]LogWindows: Error: [Callstack] 0x00000000D56E1FE4 KERNEL32.DLL!UnknownFunction []
+[2018.03.14-21.05.56:096][614]LogWindows: Error: [Callstack] 0x00000000D6DEEFC1 ntdll.dll!UnknownFunction []
+[2018.03.14-21.05.56:096][614]LogWindows: Error: [Callstack] 0x00000000D6DEEFC1 ntdll.dll!UnknownFunction []
+[2018.03.14-21.05.56:096][614]LogWindows: Error: 
+[2018.03.14-21.05.56:096][614]LogWindows: Error: 
+[2018.03.14-21.05.56:096][614]LogWindows: Error: 
+[2018.03.14-21.05.56:096][614]LogWindows: Error: 
+[2018.03.14-21.05.56:121][614]LogExit: Executing StaticShutdownAfterError
+[2018.03.14-21.05.56:128][614]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.03.14-21.05.56:129][614]Log file closed, 03/14/18 16:05:56
